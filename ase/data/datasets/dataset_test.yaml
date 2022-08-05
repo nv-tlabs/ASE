@@ -1,5 +1,0 @@
-motions:
-  - file: "amp_humanoid_walk.npy"
-    weight: 1.0
-  - file: "table_walk_72fps.npy"
-    weight: 1.0

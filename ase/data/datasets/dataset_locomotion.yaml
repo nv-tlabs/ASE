@@ -1,7 +1,0 @@
-motions:
-  - file: "amp_humanoid_walk.npy"
-    weight: 1.0
-  - file: "amp_humanoid_jog.npy"
-    weight: 1.0
-  - file: "amp_humanoid_run.npy"
-    weight: 1.0
