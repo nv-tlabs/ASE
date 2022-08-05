@@ -76,7 +76,7 @@ class HumanoidStrike(humanoid_amp_task.HumanoidAMPTask):
         return
 
     def _load_target_asset(self):
-        asset_root = "amp/data/assets/mjcf/"
+        asset_root = "ase/data/assets/mjcf/"
         asset_file = "strike_target.urdf"
 
         asset_options = gymapi.AssetOptions()

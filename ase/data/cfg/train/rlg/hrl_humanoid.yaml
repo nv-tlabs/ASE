@@ -72,5 +72,5 @@ params:
     disc_reward_w: 0.1
 
     llc_steps: 5
-    llc_config: amp/data/cfg/train/rlg/ase_humanoid_hrl.yaml
+    llc_config: ase/data/cfg/train/rlg/ase_humanoid_hrl.yaml
 

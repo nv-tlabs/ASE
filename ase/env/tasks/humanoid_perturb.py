@@ -90,7 +90,7 @@ class HumanoidPerturb(humanoid_amp.HumanoidAMP):
         return
 
     def _load_proj_asset(self):
-        asset_root = "amp/data/assets/mjcf/"
+        asset_root = "ase/data/assets/mjcf/"
 
         small_asset_file = "block_projectile.urdf"
         small_asset_options = gymapi.AssetOptions()

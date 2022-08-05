@@ -23,7 +23,7 @@ env:
   enableEarlyTermination: True
 
   asset:
-    assetRoot: "amp/data/assets"
+    assetRoot: "ase/data/assets"
     assetFileName: "mjcf/amp_humanoid.xml"
 
   plane:
