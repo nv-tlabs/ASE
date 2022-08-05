@@ -1,0 +1,1275 @@
+motions:
+  - file: "02/02_01.npy"
+    weight: 0.00009091
+  - file: "02/02_02.npy"
+    weight: 0.00009091
+  - file: "07/07_01.npy"
+    weight: 0.00009091
+  - file: "07/07_02.npy"
+    weight: 0.00009091
+  - file: "07/07_03.npy"
+    weight: 0.00009091
+  - file: "07/07_06.npy"
+    weight: 0.00009091
+  - file: "07/07_07.npy"
+    weight: 0.00009091
+  - file: "07/07_08.npy"
+    weight: 0.00009091
+  - file: "07/07_09.npy"
+    weight: 0.00009091
+  - file: "07/07_10.npy"
+    weight: 0.00009091
+  - file: "07/07_11.npy"
+    weight: 0.00009091
+  - file: "08/08_01.npy"
+    weight: 0.00009091
+  - file: "08/08_02.npy"
+    weight: 0.00009091
+  - file: "08/08_03.npy"
+    weight: 0.00009091
+  - file: "08/08_06.npy"
+    weight: 0.00009091
+  - file: "08/08_08.npy"
+    weight: 0.00009091
+  - file: "08/08_09.npy"
+    weight: 0.00009091
+  - file: "08/08_10.npy"
+    weight: 0.00009091
+  - file: "16/16_15.npy"
+    weight: 0.00009091
+  - file: "16/16_16.npy"
+    weight: 0.00009091
+  - file: "16/16_21.npy"
+    weight: 0.00009091
+  - file: "16/16_22.npy"
+    weight: 0.00009091
+  - file: "16/16_31.npy"
+    weight: 0.00009091
+  - file: "16/16_32.npy"
+    weight: 0.00009091
+  - file: "16/16_47.npy"
+    weight: 0.00009091
+  - file: "16/16_58.npy"
+    weight: 0.00009091
+  - file: "29/29_01.npy"
+    weight: 0.00009091
+  - file: "32/32_01.npy"
+    weight: 0.00009091
+  - file: "32/32_02.npy"
+    weight: 0.00009091
+  - file: "35/35_01.npy"
+    weight: 0.00009091
+  - file: "35/35_02.npy"
+    weight: 0.00009091
+  - file: "35/35_03.npy"
+    weight: 0.00009091
+  - file: "35/35_04.npy"
+    weight: 0.00009091
+  - file: "35/35_05.npy"
+    weight: 0.00009091
+  - file: "35/35_06.npy"
+    weight: 0.00009091
+  - file: "35/35_07.npy"
+    weight: 0.00009091
+  - file: "35/35_08.npy"
+    weight: 0.00009091
+  - file: "35/35_09.npy"
+    weight: 0.00009091
+  - file: "35/35_10.npy"
+    weight: 0.00009091
+  - file: "35/35_11.npy"
+    weight: 0.00009091
+  - file: "35/35_12.npy"
+    weight: 0.00009091
+  - file: "35/35_13.npy"
+    weight: 0.00009091
+  - file: "35/35_14.npy"
+    weight: 0.00009091
+  - file: "35/35_15.npy"
+    weight: 0.00009091
+  - file: "35/35_16.npy"
+    weight: 0.00009091
+  - file: "35/35_28.npy"
+    weight: 0.00009091
+  - file: "35/35_29.npy"
+    weight: 0.00009091
+  - file: "35/35_30.npy"
+    weight: 0.00009091
+  - file: "35/35_31.npy"
+    weight: 0.00009091
+  - file: "35/35_32.npy"
+    weight: 0.00009091
+  - file: "35/35_33.npy"
+    weight: 0.00009091
+  - file: "35/35_34.npy"
+    weight: 0.00009091
+  - file: "38/38_01.npy"
+    weight: 0.00009091
+  - file: "38/38_02.npy"
+    weight: 0.00009091
+  - file: "39/39_01.npy"
+    weight: 0.00009091
+  - file: "39/39_02.npy"
+    weight: 0.00009091
+  - file: "39/39_03.npy"
+    weight: 0.00009091
+  - file: "39/39_04.npy"
+    weight: 0.00009091
+  - file: "39/39_05.npy"
+    weight: 0.00009091
+  - file: "39/39_06.npy"
+    weight: 0.00009091
+  - file: "39/39_07.npy"
+    weight: 0.00009091
+  - file: "39/39_08.npy"
+    weight: 0.00009091
+  - file: "39/39_09.npy"
+    weight: 0.00009091
+  - file: "39/39_10.npy"
+    weight: 0.00009091
+  - file: "39/39_12.npy"
+    weight: 0.00009091
+  - file: "39/39_13.npy"
+    weight: 0.00009091
+  - file: "39/39_14.npy"
+    weight: 0.00009091
+  - file: "43/43_01.npy"
+    weight: 0.00009091
+  - file: "45/45_01.npy"
+    weight: 0.00009091
+  - file: "46/46_01.npy"
+    weight: 0.00009091
+  - file: "49/49_01.npy"
+    weight: 0.00009091
+  - file: "55/55_04.npy"
+    weight: 0.00009091
+  - file: "69/69_01.npy"
+    weight: 0.00009091
+  - file: "69/69_02.npy"
+    weight: 0.00009091
+  - file: "69/69_03.npy"
+    weight: 0.00009091
+  - file: "69/69_04.npy"
+    weight: 0.00009091
+  - file: "69/69_05.npy"
+    weight: 0.00009091
+  - file: "81/81_02.npy"
+    weight: 0.00009091
+  - file: "81/81_03.npy"
+    weight: 0.00009091
+  - file: "81/81_17.npy"
+    weight: 0.00009091
+  - file: "82/82_11.npy"
+    weight: 0.00009091
+  - file: "82/82_13.npy"
+    weight: 0.00009091
+  - file: "82/82_14.npy"
+    weight: 0.00009091
+  - file: "91/91_04.npy"
+    weight: 0.00009091
+  - file: "91/91_29.npy"
+    weight: 0.00009091
+  - file: "91/91_31.npy"
+    weight: 0.00009091
+  - file: "91/91_34.npy"
+    weight: 0.00009091
+  - file: "91/91_57.npy"
+    weight: 0.00009091
+  - file: "104/104_20.npy"
+    weight: 0.00009091
+  - file: "105/105_29.npy"
+    weight: 0.00009091
+  - file: "105/105_31.npy"
+    weight: 0.00009091
+  - file: "105/105_34.npy"
+    weight: 0.00009091
+  - file: "105/105_57.npy"
+    weight: 0.00009091
+  - file: "111/111_34.npy"
+    weight: 0.00009091
+  - file: "111/111_35.npy"
+    weight: 0.00009091
+  - file: "113/113_25.npy"
+    weight: 0.00009091
+  - file: "114/114_13.npy"
+    weight: 0.00009091
+  - file: "114/114_14.npy"
+    weight: 0.00009091
+  - file: "114/114_15.npy"
+    weight: 0.00009091
+  - file: "136/136_20.npy"
+    weight: 0.00009091
+  - file: "136/136_21.npy"
+    weight: 0.00009091
+  - file: "136/136_22.npy"
+    weight: 0.00009091
+  - file: "136/136_23.npy"
+    weight: 0.00009091
+  - file: "136/136_24.npy"
+    weight: 0.00009091
+  - file: "137/137_29.npy"
+    weight: 0.00009091
+  - file: "139/139_28.npy"
+    weight: 0.00009091
+  - file: "139/139_30.npy"
+    weight: 0.00009091
+  - file: "141/141_19.npy"
+    weight: 0.00009091
+  - file: "141/141_25.npy"
+    weight: 0.00009091
+  - file: "143/143_32.npy"
+    weight: 0.00009091
+  - file: "91/91_36.npy"
+    weight: 0.01000000
+  - file: "07/07_04.npy"
+    weight: 0.00004566
+  - file: "07/07_05.npy"
+    weight: 0.00004566
+  - file: "08/08_04.npy"
+    weight: 0.00004566
+  - file: "07/07_12.npy"
+    weight: 0.00006849
+  - file: "81/81_04.npy"
+    weight: 0.00006849
+  - file: "08/08_05.npy"
+    weight: 0.00013699
+  - file: "08/08_07.npy"
+    weight: 0.00013699
+  - file: "08/08_11.npy"
+    weight: 0.00013699
+  - file: "17/17_01.npy"
+    weight: 0.00006849
+  - file: "17/17_02.npy"
+    weight: 0.00006849
+  - file: "17/17_03.npy"
+    weight: 0.00006849
+  - file: "17/17_04.npy"
+    weight: 0.00006849
+  - file: "17/17_05.npy"
+    weight: 0.00013699
+  - file: "17/17_06.npy"
+    weight: 0.00006849
+  - file: "17/17_07.npy"
+    weight: 0.00006849
+  - file: "17/17_08.npy"
+    weight: 0.00006849
+  - file: "17/17_09.npy"
+    weight: 0.00006849
+  - file: "76/76_08.npy"
+    weight: 0.00013699
+  - file: "77/77_14.npy"
+    weight: 0.00002740
+  - file: "77/77_15.npy"
+    weight: 0.00002740
+  - file: "77/77_29.npy"
+    weight: 0.00002740
+  - file: "77/77_30.npy"
+    weight: 0.00002740
+  - file: "77/77_32.npy"
+    weight: 0.00002740
+  - file: "77/77_19.npy"
+    weight: 0.00002740
+  - file: "77/77_20.npy"
+    weight: 0.00002740
+  - file: "77/77_22.npy"
+    weight: 0.00002740
+  - file: "77/77_23.npy"
+    weight: 0.00002740
+  - file: "77/77_24.npy"
+    weight: 0.00002740
+  - file: "77/77_25.npy"
+    weight: 0.00004566
+  - file: "77/77_26.npy"
+    weight: 0.00004566
+  - file: "77/77_27.npy"
+    weight: 0.00004566
+  - file: "77/77_31.npy"
+    weight: 0.00013699
+  - file: "77/77_33.npy"
+    weight: 0.00013699
+  - file: "77/77_34.npy"
+    weight: 0.00013699
+  - file: "81/81_01.npy"
+    weight: 0.00006849
+  - file: "81/81_18.npy"
+    weight: 0.00006849
+  - file: "82/82_08.npy"
+    weight: 0.00013699
+  - file: "82/82_09.npy"
+    weight: 0.00013699
+  - file: "82/82_10.npy"
+    weight: 0.00013699
+  - file: "82/82_12.npy"
+    weight: 0.00013699
+  - file: "91/91_01.npy"
+    weight: 0.00013699
+  - file: "91/91_02.npy"
+    weight: 0.00004566
+  - file: "105/105_02.npy"
+    weight: 0.00004566
+  - file: "105/105_36.npy"
+    weight: 0.00004566
+  - file: "91/91_03.npy"
+    weight: 0.00013699
+  - file: "91/91_05.npy"
+    weight: 0.00013699
+  - file: "91/91_07.npy"
+    weight: 0.00006849
+  - file: "105/105_07.npy"
+    weight: 0.00006849
+  - file: "91/91_08.npy"
+    weight: 0.00006849
+  - file: "105/105_08.npy"
+    weight: 0.00006849
+  - file: "91/91_09.npy"
+    weight: 0.00006849
+  - file: "105/105_09.npy"
+    weight: 0.00006849
+  - file: "91/91_10.npy"
+    weight: 0.00002740
+  - file: "91/91_27.npy"
+    weight: 0.00002740
+  - file: "104/104_35.npy"
+    weight: 0.00002740
+  - file: "105/105_10.npy"
+    weight: 0.00002740
+  - file: "105/105_27.npy"
+    weight: 0.00002740
+  - file: "91/91_11.npy"
+    weight: 0.00006849
+  - file: "105/105_11.npy"
+    weight: 0.00006849
+  - file: "91/91_12.npy"
+    weight: 0.00006849
+  - file: "105/105_12.npy"
+    weight: 0.00006849
+  - file: "91/91_13.npy"
+    weight: 0.00006849
+  - file: "105/105_13.npy"
+    weight: 0.00006849
+  - file: "91/91_14.npy"
+    weight: 0.00006849
+  - file: "105/105_14.npy"
+    weight: 0.00006849
+  - file: "91/91_15.npy"
+    weight: 0.00006849
+  - file: "105/105_15.npy"
+    weight: 0.00006849
+  - file: "91/91_16.npy"
+    weight: 0.00006849
+  - file: "105/105_16.npy"
+    weight: 0.00006849
+  - file: "91/91_17.npy"
+    weight: 0.00006849
+  - file: "105/105_17.npy"
+    weight: 0.00006849
+  - file: "91/91_18.npy"
+    weight: 0.00006849
+  - file: "105/105_18.npy"
+    weight: 0.00006849
+  - file: "91/91_19.npy"
+    weight: 0.00004566
+  - file: "105/105_19.npy"
+    weight: 0.00004566
+  - file: "111/111_13.npy"
+    weight: 0.00004566
+  - file: "91/91_20.npy"
+    weight: 0.00006849
+  - file: "105/105_20.npy"
+    weight: 0.00006849
+  - file: "91/91_21.npy"
+    weight: 0.00006849
+  - file: "105/105_21.npy"
+    weight: 0.00006849
+  - file: "91/91_22.npy"
+    weight: 0.00006849
+  - file: "105/105_22.npy"
+    weight: 0.00006849
+  - file: "91/91_23.npy"
+    weight: 0.00006849
+  - file: "105/105_23.npy"
+    weight: 0.00006849
+  - file: "91/91_24.npy"
+    weight: 0.00006849
+  - file: "105/105_24.npy"
+    weight: 0.00006849
+  - file: "91/91_25.npy"
+    weight: 0.00006849
+  - file: "105/105_25.npy"
+    weight: 0.00006849
+  - file: "91/91_26.npy"
+    weight: 0.00006849
+  - file: "105/105_26.npy"
+    weight: 0.00006849
+  - file: "91/91_28.npy"
+    weight: 0.00006849
+  - file: "105/105_28.npy"
+    weight: 0.00006849
+  - file: "91/91_30.npy"
+    weight: 0.00006849
+  - file: "105/105_30.npy"
+    weight: 0.00006849
+  - file: "91/91_32.npy"
+    weight: 0.00006849
+  - file: "105/105_32.npy"
+    weight: 0.00006849
+  - file: "91/91_33.npy"
+    weight: 0.00006849
+  - file: "105/105_33.npy"
+    weight: 0.00006849
+  - file: "91/91_35.npy"
+    weight: 0.00006849
+  - file: "105/105_35.npy"
+    weight: 0.00006849
+  - file: "91/91_62.npy"
+    weight: 0.00006849
+  - file: "105/105_62.npy"
+    weight: 0.00006849
+  - file: "104/104_01.npy"
+    weight: 0.00006849
+  - file: "104/104_04.npy"
+    weight: 0.00006849
+  - file: "104/104_02.npy"
+    weight: 0.00013699
+  - file: "104/104_03.npy"
+    weight: 0.00013699
+  - file: "104/104_05.npy"
+    weight: 0.00013699
+  - file: "104/104_06.npy"
+    weight: 0.00006849
+  - file: "104/104_08.npy"
+    weight: 0.00006849
+  - file: "104/104_09.npy"
+    weight: 0.00006849
+  - file: "104/104_10.npy"
+    weight: 0.00006849
+  - file: "104/104_11.npy"
+    weight: 0.00013699
+  - file: "104/104_12.npy"
+    weight: 0.00013699
+  - file: "104/104_13.npy"
+    weight: 0.00013699
+  - file: "104/104_14.npy"
+    weight: 0.00013699
+  - file: "104/104_16.npy"
+    weight: 0.00013699
+  - file: "104/104_17.npy"
+    weight: 0.00006849
+  - file: "104/104_18.npy"
+    weight: 0.00006849
+  - file: "104/104_19.npy"
+    weight: 0.00013699
+  - file: "104/104_22.npy"
+    weight: 0.00013699
+  - file: "104/104_27.npy"
+    weight: 0.00013699
+  - file: "104/104_28.npy"
+    weight: 0.00006849
+  - file: "104/104_29.npy"
+    weight: 0.00006849
+  - file: "104/104_30.npy"
+    weight: 0.00013699
+  - file: "104/104_32.npy"
+    weight: 0.00013699
+  - file: "104/104_34.npy"
+    weight: 0.00013699
+  - file: "104/104_36.npy"
+    weight: 0.00013699
+  - file: "104/104_39.npy"
+    weight: 0.00013699
+  - file: "104/104_41.npy"
+    weight: 0.00013699
+  - file: "104/104_42.npy"
+    weight: 0.00013699
+  - file: "104/104_43.npy"
+    weight: 0.00013699
+  - file: "104/104_44.npy"
+    weight: 0.00013699
+  - file: "104/104_45.npy"
+    weight: 0.00013699
+  - file: "104/104_46.npy"
+    weight: 0.00013699
+  - file: "104/104_47.npy"
+    weight: 0.00004566
+  - file: "104/104_49.npy"
+    weight: 0.00004566
+  - file: "104/104_50.npy"
+    weight: 0.00004566
+  - file: "104/104_51.npy"
+    weight: 0.00006849
+  - file: "104/104_52.npy"
+    weight: 0.00006849
+  - file: "105/105_01.npy"
+    weight: 0.00013699
+  - file: "105/105_03.npy"
+    weight: 0.00013699
+  - file: "105/105_04.npy"
+    weight: 0.00013699
+  - file: "105/105_05.npy"
+    weight: 0.00013699
+  - file: "111/111_14.npy"
+    weight: 0.00006849
+  - file: "141/141_27.npy"
+    weight: 0.00006849
+  - file: "111/111_36.npy"
+    weight: 0.00006849
+  - file: "113/113_26.npy"
+    weight: 0.00006849
+  - file: "111/111_29.npy"
+    weight: 0.00006849
+  - file: "111/111_30.npy"
+    weight: 0.00006849
+  - file: "113/113_05.npy"
+    weight: 0.00013699
+  - file: "113/113_06.npy"
+    weight: 0.00013699
+  - file: "113/113_10.npy"
+    weight: 0.00013699
+  - file: "113/113_22.npy"
+    weight: 0.00013699
+  - file: "132/132_01.npy"
+    weight: 0.00001142
+  - file: "132/132_02.npy"
+    weight: 0.00001142
+  - file: "132/132_03.npy"
+    weight: 0.00001142
+  - file: "132/132_04.npy"
+    weight: 0.00001142
+  - file: "132/132_05.npy"
+    weight: 0.00001142
+  - file: "132/132_06.npy"
+    weight: 0.00001142
+  - file: "132/132_07.npy"
+    weight: 0.00001142
+  - file: "132/132_08.npy"
+    weight: 0.00001142
+  - file: "132/132_09.npy"
+    weight: 0.00001142
+  - file: "132/132_10.npy"
+    weight: 0.00001142
+  - file: "132/132_11.npy"
+    weight: 0.00001142
+  - file: "132/132_12.npy"
+    weight: 0.00001142
+  - file: "132/132_14.npy"
+    weight: 0.00013699
+  - file: "132/132_15.npy"
+    weight: 0.00013699
+  - file: "132/132_16.npy"
+    weight: 0.00013699
+  - file: "132/132_17.npy"
+    weight: 0.00002283
+  - file: "132/132_18.npy"
+    weight: 0.00002283
+  - file: "132/132_19.npy"
+    weight: 0.00002283
+  - file: "132/132_20.npy"
+    weight: 0.00002283
+  - file: "132/132_21.npy"
+    weight: 0.00002283
+  - file: "132/132_22.npy"
+    weight: 0.00002283
+  - file: "132/132_29.npy"
+    weight: 0.00002283
+  - file: "132/132_30.npy"
+    weight: 0.00002283
+  - file: "132/132_31.npy"
+    weight: 0.00002283
+  - file: "132/132_32.npy"
+    weight: 0.00002283
+  - file: "132/132_33.npy"
+    weight: 0.00002283
+  - file: "132/132_34.npy"
+    weight: 0.00002283
+  - file: "132/132_35.npy"
+    weight: 0.00006849
+  - file: "132/132_36.npy"
+    weight: 0.00006849
+  - file: "132/132_37.npy"
+    weight: 0.00001142
+  - file: "138/138_01.npy"
+    weight: 0.00001142
+  - file: "138/138_02.npy"
+    weight: 0.00001142
+  - file: "138/138_03.npy"
+    weight: 0.00001142
+  - file: "138/138_04.npy"
+    weight: 0.00001142
+  - file: "138/138_05.npy"
+    weight: 0.00001142
+  - file: "138/138_06.npy"
+    weight: 0.00001142
+  - file: "138/138_07.npy"
+    weight: 0.00001142
+  - file: "138/138_08.npy"
+    weight: 0.00001142
+  - file: "138/138_09.npy"
+    weight: 0.00001142
+  - file: "138/138_10.npy"
+    weight: 0.00001142
+  - file: "142/142_11.npy"
+    weight: 0.00001142
+  - file: "132/132_39.npy"
+    weight: 0.00013699
+  - file: "132/132_40.npy"
+    weight: 0.00006849
+  - file: "132/132_41.npy"
+    weight: 0.00006849
+  - file: "132/132_42.npy"
+    weight: 0.00004566
+  - file: "132/132_43.npy"
+    weight: 0.00004566
+  - file: "132/132_44.npy"
+    weight: 0.00004566
+  - file: "132/132_45.npy"
+    weight: 0.00002283
+  - file: "132/132_46.npy"
+    weight: 0.00002283
+  - file: "132/132_47.npy"
+    weight: 0.00002283
+  - file: "132/132_48.npy"
+    weight: 0.00002283
+  - file: "132/132_49.npy"
+    weight: 0.00002283
+  - file: "132/132_50.npy"
+    weight: 0.00002283
+  - file: "132/132_53.npy"
+    weight: 0.00013699
+  - file: "132/132_54.npy"
+    weight: 0.00013699
+  - file: "132/132_55.npy"
+    weight: 0.00006849
+  - file: "132/132_56.npy"
+    weight: 0.00006849
+  - file: "136/136_01.npy"
+    weight: 0.00006849
+  - file: "136/136_02.npy"
+    weight: 0.00006849
+  - file: "136/136_05.npy"
+    weight: 0.00006849
+  - file: "136/136_06.npy"
+    weight: 0.00006849
+  - file: "136/136_09.npy"
+    weight: 0.00006849
+  - file: "136/136_10.npy"
+    weight: 0.00006849
+  - file: "136/136_13.npy"
+    weight: 0.00006849
+  - file: "136/136_14.npy"
+    weight: 0.00006849
+  - file: "136/136_17.npy"
+    weight: 0.00006849
+  - file: "136/136_18.npy"
+    weight: 0.00006849
+  - file: "136/136_27.npy"
+    weight: 0.00006849
+  - file: "136/136_28.npy"
+    weight: 0.00006849
+  - file: "136/136_29.npy"
+    weight: 0.00006849
+  - file: "136/136_30.npy"
+    weight: 0.00006849
+  - file: "136/136_31.npy"
+    weight: 0.00006849
+  - file: "136/136_32.npy"
+    weight: 0.00006849
+  - file: "137/137_16.npy"
+    weight: 0.00013699
+  - file: "137/137_20.npy"
+    weight: 0.00013699
+  - file: "137/137_24.npy"
+    weight: 0.00013699
+  - file: "137/137_33.npy"
+    weight: 0.00013699
+  - file: "137/137_38.npy"
+    weight: 0.00013699
+  - file: "137/137_42.npy"
+    weight: 0.00013699
+  - file: "138/138_11.npy"
+    weight: 0.00000304
+  - file: "138/138_12.npy"
+    weight: 0.00000304
+  - file: "138/138_13.npy"
+    weight: 0.00000304
+  - file: "138/138_14.npy"
+    weight: 0.00000304
+  - file: "138/138_15.npy"
+    weight: 0.00000304
+  - file: "138/138_16.npy"
+    weight: 0.00000304
+  - file: "138/138_17.npy"
+    weight: 0.00000304
+  - file: "138/138_18.npy"
+    weight: 0.00000304
+  - file: "138/138_19.npy"
+    weight: 0.00000304
+  - file: "138/138_20.npy"
+    weight: 0.00000304
+  - file: "138/138_21.npy"
+    weight: 0.00000304
+  - file: "138/138_22.npy"
+    weight: 0.00000304
+  - file: "138/138_23.npy"
+    weight: 0.00000304
+  - file: "138/138_24.npy"
+    weight: 0.00000304
+  - file: "138/138_25.npy"
+    weight: 0.00000304
+  - file: "138/138_26.npy"
+    weight: 0.00000304
+  - file: "138/138_27.npy"
+    weight: 0.00000304
+  - file: "138/138_28.npy"
+    weight: 0.00000304
+  - file: "138/138_29.npy"
+    weight: 0.00000304
+  - file: "138/138_30.npy"
+    weight: 0.00000304
+  - file: "138/138_31.npy"
+    weight: 0.00000304
+  - file: "138/138_32.npy"
+    weight: 0.00000304
+  - file: "138/138_33.npy"
+    weight: 0.00000304
+  - file: "138/138_34.npy"
+    weight: 0.00000304
+  - file: "138/138_35.npy"
+    weight: 0.00000304
+  - file: "138/138_36.npy"
+    weight: 0.00000304
+  - file: "138/138_37.npy"
+    weight: 0.00000304
+  - file: "138/138_38.npy"
+    weight: 0.00000304
+  - file: "138/138_39.npy"
+    weight: 0.00000304
+  - file: "138/138_40.npy"
+    weight: 0.00000304
+  - file: "138/138_41.npy"
+    weight: 0.00000304
+  - file: "138/138_42.npy"
+    weight: 0.00000304
+  - file: "138/138_43.npy"
+    weight: 0.00000304
+  - file: "138/138_44.npy"
+    weight: 0.00000304
+  - file: "138/138_45.npy"
+    weight: 0.00000304
+  - file: "138/138_46.npy"
+    weight: 0.00000304
+  - file: "138/138_47.npy"
+    weight: 0.00000304
+  - file: "138/138_48.npy"
+    weight: 0.00000304
+  - file: "138/138_49.npy"
+    weight: 0.00000304
+  - file: "138/138_50.npy"
+    weight: 0.00000304
+  - file: "138/138_51.npy"
+    weight: 0.00000304
+  - file: "138/138_52.npy"
+    weight: 0.00000304
+  - file: "138/138_53.npy"
+    weight: 0.00000304
+  - file: "138/138_54.npy"
+    weight: 0.00000304
+  - file: "138/138_55.npy"
+    weight: 0.00000304
+  - file: "139/139_19.npy"
+    weight: 0.00002740
+  - file: "139/139_20.npy"
+    weight: 0.00002740
+  - file: "139/139_22.npy"
+    weight: 0.00002740
+  - file: "139/139_23.npy"
+    weight: 0.00002740
+  - file: "139/139_24.npy"
+    weight: 0.00002740
+  - file: "139/139_29.npy"
+    weight: 0.00002740
+  - file: "139/139_31.npy"
+    weight: 0.00002740
+  - file: "139/139_32.npy"
+    weight: 0.00002740
+  - file: "139/139_33.npy"
+    weight: 0.00002740
+  - file: "139/139_34.npy"
+    weight: 0.00002740
+  - file: "141/141_24.npy"
+    weight: 0.00013699
+  - file: "142/142_01.npy"
+    weight: 0.00013699
+  - file: "142/142_02.npy"
+    weight: 0.00006849
+  - file: "142/142_03.npy"
+    weight: 0.00006849
+  - file: "142/142_04.npy"
+    weight: 0.00013699
+  - file: "142/142_05.npy"
+    weight: 0.00013699
+  - file: "142/142_06.npy"
+    weight: 0.00013699
+  - file: "142/142_07.npy"
+    weight: 0.00013699
+  - file: "142/142_08.npy"
+    weight: 0.00013699
+  - file: "142/142_09.npy"
+    weight: 0.00013699
+  - file: "142/142_10.npy"
+    weight: 0.00013699
+  - file: "142/142_12.npy"
+    weight: 0.00013699
+  - file: "142/142_13.npy"
+    weight: 0.00013699
+  - file: "142/142_14.npy"
+    weight: 0.00013699
+  - file: "142/142_15.npy"
+    weight: 0.00013699
+  - file: "142/142_16.npy"
+    weight: 0.00006849
+  - file: "142/142_17.npy"
+    weight: 0.00006849
+  - file: "142/142_18.npy"
+    weight: 0.00013699
+  - file: "142/142_19.npy"
+    weight: 0.00013699
+  - file: "142/142_20.npy"
+    weight: 0.00006849
+  - file: "142/142_21.npy"
+    weight: 0.00006849
+  - file: "142/142_22.npy"
+    weight: 0.00013699
+  - file: "143/143_36.npy"
+    weight: 0.00013699
+  - file: "143/143_38.npy"
+    weight: 0.00013699
+  - file: "143/143_41.npy"
+    weight: 0.00013699
+  - file: "16/16_33.npy"
+    weight: 0.01000000
+  - file: "16/16_34.npy"
+    weight: 0.01000000
+  - file: "37/37_01.npy"
+    weight: 0.02000000
+  - file: "122/122_44.npy"
+    weight: 0.00666667
+  - file: "122/122_63.npy"
+    weight: 0.00666667
+  - file: "122/122_67.npy"
+    weight: 0.00666667
+  - file: "09/09_12.npy"
+    weight: 0.00526316
+  - file: "15/15_01.npy"
+    weight: 0.00526316
+  - file: "15/15_03.npy"
+    weight: 0.00526316
+  - file: "15/15_09.npy"
+    weight: 0.00526316
+  - file: "15/15_14.npy"
+    weight: 0.00526316
+  - file: "35/35_27.npy"
+    weight: 0.00526316
+  - file: "39/39_11.npy"
+    weight: 0.00526316
+  - file: "40/40_02.npy"
+    weight: 0.00526316
+  - file: "40/40_03.npy"
+    weight: 0.00526316
+  - file: "40/40_04.npy"
+    weight: 0.00526316
+  - file: "40/40_05.npy"
+    weight: 0.00526316
+  - file: "41/41_02.npy"
+    weight: 0.00526316
+  - file: "41/41_03.npy"
+    weight: 0.00526316
+  - file: "41/41_04.npy"
+    weight: 0.00526316
+  - file: "41/41_05.npy"
+    weight: 0.00526316
+  - file: "41/41_06.npy"
+    weight: 0.00526316
+  - file: "47/47_01.npy"
+    weight: 0.00526316
+  - file: "82/82_15.npy"
+    weight: 0.00526316
+  - file: "127/127_04.npy"
+    weight: 0.00526316
+  - file: "16/16_11.npy"
+    weight: 0.00250000
+  - file: "16/16_12.npy"
+    weight: 0.00250000
+  - file: "16/16_13.npy"
+    weight: 0.00250000
+  - file: "16/16_14.npy"
+    weight: 0.00250000
+  - file: "69/69_28.npy"
+    weight: 0.00250000
+  - file: "69/69_29.npy"
+    weight: 0.00250000
+  - file: "69/69_30.npy"
+    weight: 0.00250000
+  - file: "69/69_31.npy"
+    weight: 0.00250000
+  - file: "69/69_32.npy"
+    weight: 0.00250000
+  - file: "69/69_33.npy"
+    weight: 0.00250000
+  - file: "16/16_17.npy"
+    weight: 0.00138889
+  - file: "16/16_18.npy"
+    weight: 0.00138889
+  - file: "16/16_19.npy"
+    weight: 0.00138889
+  - file: "16/16_20.npy"
+    weight: 0.00138889
+  - file: "69/69_16.npy"
+    weight: 0.00138889
+  - file: "69/69_17.npy"
+    weight: 0.00138889
+  - file: "69/69_18.npy"
+    weight: 0.00138889
+  - file: "69/69_19.npy"
+    weight: 0.00138889
+  - file: "69/69_20.npy"
+    weight: 0.00138889
+  - file: "69/69_21.npy"
+    weight: 0.00138889
+  - file: "69/69_22.npy"
+    weight: 0.00138889
+  - file: "69/69_23.npy"
+    weight: 0.00138889
+  - file: "69/69_24.npy"
+    weight: 0.00138889
+  - file: "69/69_25.npy"
+    weight: 0.00138889
+  - file: "69/69_26.npy"
+    weight: 0.00138889
+  - file: "69/69_27.npy"
+    weight: 0.00138889
+  - file: "141/141_29.npy"
+    weight: 0.00138889
+  - file: "141/141_30.npy"
+    weight: 0.00138889
+  - file: "69/69_42.npy"
+    weight: 0.00089286
+  - file: "69/69_43.npy"
+    weight: 0.00089286
+  - file: "69/69_44.npy"
+    weight: 0.00089286
+  - file: "69/69_45.npy"
+    weight: 0.00089286
+  - file: "69/69_46.npy"
+    weight: 0.00089286
+  - file: "69/69_47.npy"
+    weight: 0.00089286
+  - file: "69/69_48.npy"
+    weight: 0.00089286
+  - file: "69/69_49.npy"
+    weight: 0.00089286
+  - file: "69/69_56.npy"
+    weight: 0.00089286
+  - file: "69/69_57.npy"
+    weight: 0.00089286
+  - file: "69/69_58.npy"
+    weight: 0.00089286
+  - file: "69/69_59.npy"
+    weight: 0.00089286
+  - file: "69/69_60.npy"
+    weight: 0.00089286
+  - file: "69/69_61.npy"
+    weight: 0.00089286
+  - file: "69/69_62.npy"
+    weight: 0.00089286
+  - file: "69/69_63.npy"
+    weight: 0.00089286
+  - file: "69/69_64.npy"
+    weight: 0.00089286
+  - file: "69/69_65.npy"
+    weight: 0.00089286
+  - file: "69/69_66.npy"
+    weight: 0.00089286
+  - file: "69/69_67.npy"
+    weight: 0.00089286
+  - file: "111/111_26.npy"
+    weight: 0.00089286
+  - file: "113/113_17.npy"
+    weight: 0.00089286
+  - file: "113/113_18.npy"
+    weight: 0.00089286
+  - file: "122/122_55.npy"
+    weight: 0.00089286
+  - file: "122/122_66.npy"
+    weight: 0.00089286
+  - file: "141/141_32.npy"
+    weight: 0.00089286
+  - file: "141/141_33.npy"
+    weight: 0.00089286
+  - file: "143/143_40.npy"
+    weight: 0.00089286
+  - file: "139/139_14.npy"
+    weight: 0.01250000
+  - file: "139/139_15.npy"
+    weight: 0.01250000
+  - file: "16/16_23.npy"
+    weight: 0.01250000
+  - file: "16/16_24.npy"
+    weight: 0.01250000
+  - file: "16/16_25.npy"
+    weight: 0.01250000
+  - file: "16/16_26.npy"
+    weight: 0.01250000
+  - file: "16/16_27.npy"
+    weight: 0.01250000
+  - file: "16/16_28.npy"
+    weight: 0.01250000
+  - file: "16/16_29.npy"
+    weight: 0.01250000
+  - file: "16/16_30.npy"
+    weight: 0.01250000
+  - file: "69/69_06.npy"
+    weight: 0.00384615
+  - file: "69/69_07.npy"
+    weight: 0.00384615
+  - file: "69/69_08.npy"
+    weight: 0.00384615
+  - file: "69/69_09.npy"
+    weight: 0.00384615
+  - file: "69/69_10.npy"
+    weight: 0.00384615
+  - file: "69/69_11.npy"
+    weight: 0.00384615
+  - file: "69/69_12.npy"
+    weight: 0.00384615
+  - file: "77/77_28.npy"
+    weight: 0.00384615
+  - file: "104/104_23.npy"
+    weight: 0.00384615
+  - file: "104/104_24.npy"
+    weight: 0.00384615
+  - file: "104/104_31.npy"
+    weight: 0.00384615
+  - file: "104/104_38.npy"
+    weight: 0.00384615
+  - file: "104/104_40.npy"
+    weight: 0.00384615
+  - file: "69/69_13.npy"
+    weight: 0.00555556
+  - file: "69/69_14.npy"
+    weight: 0.00555556
+  - file: "69/69_15.npy"
+    weight: 0.00555556
+  - file: "104/104_25.npy"
+    weight: 0.00555556
+  - file: "104/104_33.npy"
+    weight: 0.00555556
+  - file: "122/122_36.npy"
+    weight: 0.00555556
+  - file: "122/122_37.npy"
+    weight: 0.00555556
+  - file: "122/122_38.npy"
+    weight: 0.00555556
+  - file: "122/122_39.npy"
+    weight: 0.00555556
+  - file: "02/02_03.npy"
+    weight: 0.00066489
+  - file: "09/09_01.npy"
+    weight: 0.00066489
+  - file: "09/09_02.npy"
+    weight: 0.00066489
+  - file: "09/09_03.npy"
+    weight: 0.00066489
+  - file: "09/09_04.npy"
+    weight: 0.00066489
+  - file: "09/09_05.npy"
+    weight: 0.00066489
+  - file: "09/09_06.npy"
+    weight: 0.00066489
+  - file: "09/09_07.npy"
+    weight: 0.00066489
+  - file: "09/09_08.npy"
+    weight: 0.00066489
+  - file: "09/09_09.npy"
+    weight: 0.00066489
+  - file: "09/09_10.npy"
+    weight: 0.00066489
+  - file: "09/09_11.npy"
+    weight: 0.00066489
+  - file: "16/16_35.npy"
+    weight: 0.00066489
+  - file: "16/16_36.npy"
+    weight: 0.00066489
+  - file: "16/16_45.npy"
+    weight: 0.00066489
+  - file: "16/16_46.npy"
+    weight: 0.00066489
+  - file: "16/16_55.npy"
+    weight: 0.00066489
+  - file: "16/16_56.npy"
+    weight: 0.00066489
+  - file: "35/35_17.npy"
+    weight: 0.00066489
+  - file: "35/35_18.npy"
+    weight: 0.00066489
+  - file: "35/35_19.npy"
+    weight: 0.00066489
+  - file: "35/35_20.npy"
+    weight: 0.00066489
+  - file: "35/35_21.npy"
+    weight: 0.00066489
+  - file: "35/35_22.npy"
+    weight: 0.00066489
+  - file: "35/35_23.npy"
+    weight: 0.00066489
+  - file: "35/35_24.npy"
+    weight: 0.00066489
+  - file: "35/35_25.npy"
+    weight: 0.00066489
+  - file: "35/35_26.npy"
+    weight: 0.00066489
+  - file: "104/104_37.npy"
+    weight: 0.00066489
+  - file: "104/104_48.npy"
+    weight: 0.00066489
+  - file: "104/104_53.npy"
+    weight: 0.00066489
+  - file: "104/104_54.npy"
+    weight: 0.00066489
+  - file: "104/104_55.npy"
+    weight: 0.00066489
+  - file: "111/111_23.npy"
+    weight: 0.00066489
+  - file: "111/111_24.npy"
+    weight: 0.00066489
+  - file: "113/113_07.npy"
+    weight: 0.00066489
+  - file: "127/127_03.npy"
+    weight: 0.00066489
+  - file: "127/127_06.npy"
+    weight: 0.00066489
+  - file: "127/127_07.npy"
+    weight: 0.00066489
+  - file: "127/127_08.npy"
+    weight: 0.00066489
+  - file: "141/141_01.npy"
+    weight: 0.00066489
+  - file: "141/141_02.npy"
+    weight: 0.00066489
+  - file: "141/141_03.npy"
+    weight: 0.00066489
+  - file: "141/141_34.npy"
+    weight: 0.00066489
+  - file: "143/143_01.npy"
+    weight: 0.00066489
+  - file: "143/143_03.npy"
+    weight: 0.00066489
+  - file: "143/143_42.npy"
+    weight: 0.00066489
+  - file: "16/16_08.npy"
+    weight: 0.00312500
+  - file: "16/16_57.npy"
+    weight: 0.00312500
+  - file: "104/104_56.npy"
+    weight: 0.00312500
+  - file: "104/104_57.npy"
+    weight: 0.00312500
+  - file: "127/127_05.npy"
+    weight: 0.00312500
+  - file: "127/127_17.npy"
+    weight: 0.00312500
+  - file: "127/127_18.npy"
+    weight: 0.00312500
+  - file: "127/127_19.npy"
+    weight: 0.00312500
+  - file: "127/127_20.npy"
+    weight: 0.00312500
+  - file: "143/143_02.npy"
+    weight: 0.00312500
+  - file: "75/75_04.npy"
+    weight: 0.00312500
+  - file: "75/75_05.npy"
+    weight: 0.00312500
+  - file: "77/77_10.npy"
+    weight: 0.00156250
+  - file: "77/77_11.npy"
+    weight: 0.00156250
+  - file: "113/113_09.npy"
+    weight: 0.00312500
+  - file: "127/127_13.npy"
+    weight: 0.00312500
+  - file: "127/127_14.npy"
+    weight: 0.00312500
+  - file: "139/139_10.npy"
+    weight: 0.00312500
+  - file: "139/139_11.npy"
+    weight: 0.00312500
+  - file: "143/143_04.npy"
+    weight: 0.00312500
+  - file: "143/143_05.npy"
+    weight: 0.00312500
+  - file: "127/127_21.npy"
+    weight: 0.00520833
+  - file: "127/127_22.npy"
+    weight: 0.00520833
+  - file: "127/127_25.npy"
+    weight: 0.00520833
+  - file: "127/127_26.npy"
+    weight: 0.00520833
+  - file: "127/127_27.npy"
+    weight: 0.00520833
+  - file: "127/127_28.npy"
+    weight: 0.00520833
+  - file: "16/16_37.npy"
+    weight: 0.00446429
+  - file: "16/16_38.npy"
+    weight: 0.00446429
+  - file: "16/16_39.npy"
+    weight: 0.00446429
+  - file: "16/16_40.npy"
+    weight: 0.00446429
+  - file: "16/16_48.npy"
+    weight: 0.00446429
+  - file: "16/16_49.npy"
+    weight: 0.00446429
+  - file: "16/16_50.npy"
+    weight: 0.00446429
+  - file: "38/38_03.npy"
+    weight: 0.00446429
+  - file: "127/127_09.npy"
+    weight: 0.00446429
+  - file: "127/127_10.npy"
+    weight: 0.00446429
+  - file: "127/127_11.npy"
+    weight: 0.00446429
+  - file: "127/127_12.npy"
+    weight: 0.00446429
+  - file: "139/139_12.npy"
+    weight: 0.00446429
+  - file: "139/139_13.npy"
+    weight: 0.00446429
+  - file: "16/16_41.npy"
+    weight: 0.00625000
+  - file: "16/16_42.npy"
+    weight: 0.00625000
+  - file: "16/16_43.npy"
+    weight: 0.00625000
+  - file: "16/16_44.npy"
+    weight: 0.00625000
+  - file: "16/16_51.npy"
+    weight: 0.00625000
+  - file: "16/16_52.npy"
+    weight: 0.00625000
+  - file: "16/16_53.npy"
+    weight: 0.00625000
+  - file: "16/16_54.npy"
+    weight: 0.00625000
+  - file: "127/127_15.npy"
+    weight: 0.00625000
+  - file: "127/127_16.npy"
+    weight: 0.00625000
+  - file: "38/38_04.npy"
+    weight: 0.12500000
+  - file: "77/77_12.npy"
+    weight: 0.06250000
+  - file: "77/77_13.npy"
+    weight: 0.06250000

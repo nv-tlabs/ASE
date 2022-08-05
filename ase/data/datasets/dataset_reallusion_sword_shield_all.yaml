@@ -1,0 +1,331 @@
+motions:
+  - file: "RL_Avatar_Dodge_Walk_A_Motion.npy"
+    weight: 0.00116548
+  - file: "RL_Avatar_Dodge_Walk_B_Motion.npy"
+    weight: 0.00116548
+  - file: "RL_Avatar_Dodge_Walk_C_Motion.npy"
+    weight: 0.00116548
+  - file: "RL_Avatar_Move_Greet_F_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_Greet_M_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkFast_F_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkFast_M_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkFastToRun_F_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Move_WalkFastToRun_M_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Walk_Prance01_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Walk_Prance02_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Move_WalkFastToSlow_F_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkFastToSlow_M_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkSlow_F_1S_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Move_WalkSlow_M_1S_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Walk_Refusing_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Walk_Start(0)_Motion.npy"
+    weight: 0.00087411
+  - file: "RL_Avatar_Move_WalkSlow_F_2L_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkSlow_M_2L_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkSlow_F_3E_Motion.npy"
+    weight: 0.00116548
+  - file: "RL_Avatar_Move_WalkSlow_M_3E_Motion.npy"
+    weight: 0.00116548
+  - file: "RL_Avatar_Walk_End(0)_Motion.npy"
+    weight: 0.00116548
+  - file: "RL_Avatar_Move_WalkSlowToFast_F_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_WalkSlowToFast_M_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_Wander_F_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Move_Wander_M_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Hurry_F_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Hurry_M_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Loop(0)_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Normal_F_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Normal_M_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Normal_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_NormalSwayArms_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Stroll_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Wander_F_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_Wander_M_Motion.npy"
+    weight: 0.00029137
+  - file: "RL_Avatar_Walk_BodyBalance_Motion.npy"
+    weight: 0.00000000
+  - file: "RL_Avatar_Walk_Bored_Motion.npy"
+    weight: 0.00000000
+  - file: "RL_Avatar_Walk_KickingStones_Loop_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Walk_KickingStones_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Walk_Listening_F_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Walk_Listening_M_Motion.npy"
+    weight: 0.00174822
+  - file: "RL_Avatar_Move_Run_F_Motion.npy"
+    weight: 0.00815834
+  - file: "RL_Avatar_Move_Run_M_Motion.npy"
+    weight: 0.00815834
+  - file: "RL_Avatar_Move_RunToWalkSlow_F_Motion.npy"
+    weight: 0.00815834
+  - file: "RL_Avatar_Move_RunToWalkSlow_M_Motion.npy"
+    weight: 0.00815834
+  - file: "RL_Avatar_Run_Trotting_Loop_Motion.npy"
+    weight: 0.00815834
+  - file: "RL_Avatar_Run_Trotting_Motion.npy"
+    weight: 0.00815834
+  - file: "RL_Avatar_Walk_Bounce_Loop_Motion.npy"
+    weight: 0.00000000
+  - file: "RL_Avatar_Walk_Bounce_Motion.npy"
+    weight: 0.00000000
+  - file: "RL_Avatar_Walk_Jumping_Motion.npy"
+    weight: 0.00000000
+  - file: "locomotion/Speed_Idle.npy"
+    weight: 0.00000000
+  - file: "locomotion/Speed_Jog_AC.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Jog_AP.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Jog_AS.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Jog_B.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Jog_CCW.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Jog_CW.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Jog_E.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Jog_F.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_JogRun_Tran.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Run_AC.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Run_AP.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Run_AS.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Run_B.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Run_CCW.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Run_CW.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Run_F.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_AC.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_AP.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_AS.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_B.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_CCW.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_CW.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_E1.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_Walk_F.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_WalkJog_Tran.npy"
+    weight: 0.00725186
+  - file: "locomotion/Speed_WalkRun_Tran.npy"
+    weight: 0.00725186
+  - file: "sword_shield/RL_Avatar_Atk_2xCombo01_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_2xCombo02_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_2xCombo03_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_2xCombo04_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_2xCombo05_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_3xCombo01_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_3xCombo02_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_3xCombo03_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_3xCombo04_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_3xCombo05_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_3xCombo06_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_3xCombo07_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_4xCombo01_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_4xCombo02_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_4xCombo03_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_SlashDown_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_SlashLeft_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_SlashRight_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_SlashUp_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_Spin_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_Stab_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Counter_Atk01_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Counter_Atk02_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Counter_Atk03_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Counter_Atk04_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Kill_2xCombo01_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Kill_2xCombo02_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Kill_3xCombo01_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Kill_3xCombo02_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Kill_4xCombo01_Motion.npy"
+    weight: 0.00522134
+  - file: "sword_shield/RL_Avatar_Atk_Jump_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Atk_Kick_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Atk_ShieldCharge_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Atk_ShieldSwipe01_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Atk_ShieldSwipe02_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Counter_Atk05_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Standoff_Feint_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Dodge_Backward_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_RunBackward_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_WalkBackward01_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_WalkBackward02_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_Dodgle_Left_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_RunLeft_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_WalkLeft01_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_WalkLeft02_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_Dodgle_Right_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_RunRight_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_WalkRight01_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_WalkRight02_Motion.npy"
+    weight: 0.01118858
+  - file: "sword_shield/RL_Avatar_RunForward_Motion.npy"
+    weight: 0.01491811
+  - file: "sword_shield/RL_Avatar_WalkForward01_Motion.npy"
+    weight: 0.01491811
+  - file: "sword_shield/RL_Avatar_WalkForward02_Motion.npy"
+    weight: 0.01491811
+  - file: "sword_shield/RL_Avatar_Standoff_Circle_Motion.npy"
+    weight: 0.04475432
+  - file: "sword_shield/RL_Avatar_TurnLeft90_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_TurnLeft180_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_TurnRight90_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_TurnRight180_Motion.npy"
+    weight: 0.02237716
+  - file: "sword_shield/RL_Avatar_Fall_Backward_Motion.npy"
+    weight: 0.00626560
+  - file: "sword_shield/RL_Avatar_Fall_Left_Motion.npy"
+    weight: 0.00626560
+  - file: "sword_shield/RL_Avatar_Fall_Right_Motion.npy"
+    weight: 0.00626560
+  - file: "sword_shield/RL_Avatar_Fall_SpinLeft_Motion.npy"
+    weight: 0.00626560
+  - file: "sword_shield/RL_Avatar_Fall_SpinRight_Motion.npy"
+    weight: 0.00626560
+  - file: "sword_shield/RL_Avatar_Idle_Alert(0)_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Idle_Alert_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Idle_Battle(0)_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Idle_Battle_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Idle_Ready(0)_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Idle_Ready_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Standoff_Swing_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Taunt_PoundChest_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Taunt_Roar_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Taunt_ShieldKnock_Motion.npy"
+    weight: 0.00313280
+  - file: "sword_shield/RL_Avatar_Shield_BlockBackward_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Shield_BlockCrouch_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Shield_BlockDown_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Shield_BlockLeft_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Shield_BlockRight_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Shield_BlockUp_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryBackward01_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryBackward02_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryBackward03_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryBackward04_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryCrouch_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryDown_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryLeft_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryRight_Motion.npy"
+    weight: 0.00208853
+  - file: "sword_shield/RL_Avatar_Sword_ParryUp_Motion.npy"
+    weight: 0.00208853

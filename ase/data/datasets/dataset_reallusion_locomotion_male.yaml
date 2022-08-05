@@ -1,0 +1,61 @@
+motions:
+  - file: "RL_Avatar_Dodge_Walk_A_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Dodge_Walk_B_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Dodge_Walk_C_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Move_WalkFast_M_Motion.npy"
+    weight: 0.04545455
+  - file: "RL_Avatar_Move_WalkFastToRun_M_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Walk_Prance01_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Walk_Prance02_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Move_WalkFastToSlow_M_Motion.npy"
+    weight: 0.04545455
+  - file: "RL_Avatar_Move_WalkSlow_M_1S_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Walk_Refusing_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Walk_Start(0)_Motion.npy"
+    weight: 0.01515152
+  - file: "RL_Avatar_Move_WalkSlow_M_2L_Motion.npy"
+    weight: 0.04545455
+  - file: "RL_Avatar_Move_WalkSlow_M_3E_Motion.npy"
+    weight: 0.02272727
+  - file: "RL_Avatar_Walk_End(0)_Motion.npy"
+    weight: 0.02272727
+  - file: "RL_Avatar_Move_WalkSlowToFast_M_Motion.npy"
+    weight: 0.04545455
+  - file: "RL_Avatar_Move_Wander_M_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_Hurry_M_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_Loop(0)_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_Normal_M_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_Normal_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_NormalSwayArms_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_Stroll_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_Wander_M_Motion.npy"
+    weight: 0.00568182
+  - file: "RL_Avatar_Walk_KickingStones_Loop_Motion.npy"
+    weight: 0.02272727
+  - file: "RL_Avatar_Walk_KickingStones_Motion.npy"
+    weight: 0.02272727
+  - file: "RL_Avatar_Walk_Listening_M_Motion.npy"
+    weight: 0.04545455
+  - file: "RL_Avatar_Move_Run_M_Motion.npy"
+    weight: 0.16666667
+  - file: "RL_Avatar_Move_RunToWalkSlow_M_Motion.npy"
+    weight: 0.16666667
+  - file: "RL_Avatar_Run_Trotting_Loop_Motion.npy"
+    weight: 0.08333333
+  - file: "RL_Avatar_Run_Trotting_Motion.npy"
+    weight: 0.08333333

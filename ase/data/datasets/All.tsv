@@ -1,0 +1,2056 @@
+All				
+Subject #2 (various expressions and human behaviors)				
+02_01 walk	walk	forward	walk	
+02_02 walk	walk	forward	walk	
+02_03 run/jog	run	forward	run	
+02_04 jump, balance	jump	forward	jump	
+Subject #7 (walk)				
+07_01 walk	walk	forward	walk	
+07_02 walk	walk	forward	walk	
+07_03 walk	walk	forward	walk	
+07_04 slow walk	walk	forward	style	slow
+07_05 slow walk	walk	forward	style	slow
+07_06 walk	walk	forward	walk	
+07_07 walk	walk	forward	walk	
+07_08 walk	walk	forward	walk	
+07_09 walk	walk	forward	walk	
+07_10 walk	walk	forward	walk	
+07_11 walk	walk	forward	walk	
+07_12 brisk walk	walk	forward	style	brisk
+Subject #8 (walk)				
+08_01 walk	walk	forward	walk	
+08_02 walk	walk	forward	walk	
+08_03 walk	walk	forward	walk	
+08_04 slow walk	walk	forward	style	slow
+08_05 walk/stride	walk	forward	style	stride
+08_06 walk	walk	forward	walk	
+08_07 walk, exaggerated stride	walk	forward	style	exaggerated stride
+08_08 walk	walk	forward	walk	
+08_09 walk	walk	forward	walk	
+08_10 walk	walk	forward	walk	
+08_11 slow walk/stride	walk	forward	style	slow stride
+Subject #9 (run)				
+09_01 run	run	forward	run	
+09_02 run	run	forward	run	
+09_03 run	run	forward	run	
+09_04 run	run	forward	run	
+09_05 run	run	forward	run	
+09_06 run	run	forward	run	
+09_07 run	run	forward	run	
+09_08 run	run	forward	run	
+09_09 run	run	forward	run	
+09_10 run	run	forward	run	
+09_11 run	run	forward	run	
+09_12 navigate - walk forward, backward, sideways	walk	mix	mix	
+Subject #13 (various everyday behaviors)				
+13_11 forward jump	jump	forward	jump	
+13_13 forward jump	jump	forward	jump	
+13_19 forward jump	jump	forward	jump	
+13_32 forward jump	jump	forward	jump	
+13_39 jump	jump	up	jump	
+13_40 jump	jump	up	jump	
+13_41 jump	jump	up	jump	
+13_42 jump	jump	up	jump	
+Subject #15 (various everyday behaviors, dance moves)				
+15_01 walk/wander	walk	mix	mix	
+15_03 walk/wander	walk	mix	mix	
+15_09 walk/wander	walk	mix	mix	
+15_14 walk/wander	walk	mix	mix	
+Subject #16 (run, jump, walk)				
+16_01 jump	jump	up	jump	
+16_02 jump	jump	up	jump	
+16_03 high jump	jump	up	jump	
+16_04 high jump	jump	up	jump	
+16_05 forward jump	jump	forward	jump	
+16_06 forward jump	jump	forward	jump	
+16_07 forward jump	jump	forward	jump	
+16_08 run/jog, sudden stop	run	forward	stop	
+16_09 forward jump	jump	forward	jump	
+16_10 forward jump	jump	forward	jump	
+16_11 walk, veer left	walk	side	veer	
+16_12 walk, veer left	walk	side	veer	
+16_13 walk, veer right	walk	side	veer	
+16_14 walk, veer right	walk	side	veer	
+16_15 walk	walk	forward	walk	
+16_16 walk	walk	forward	walk	
+16_17 walk, 90-degree left turn	walk	side	turn	
+16_18 walk, 90-degree left turn	walk	side	turn	
+16_19 walk, 90-degree right turn	walk	side	turn	
+16_20 walk, 90-degree right turn	walk	side	turn	
+16_21 walk	walk	forward	walk	
+16_22 walk	walk	forward	walk	
+16_23 walk, veer left	walk	walk	veer	
+16_24 walk, veer left	walk	walk	veer	
+16_25 walk, veer right	walk	walk	veer	
+16_26 walk, veer right	walk	walk	veer	
+16_27 walk, 90-degree left turn	walk	walk	turn	
+16_28 walk, 90-degree left turn	walk	walk	turn	
+16_29 walk, 90-degree right turn	walk	walk	turn	
+16_30 walk, 90-degree right turn	walk	walk	turn	
+16_31 walk	walk	forward	walk	
+16_32 walk	walk	forward	walk	
+16_33 slow walk, stop	walk	forward	stop	
+16_34 slow walk, stop	walk	forward	stop	
+16_35 run/jog	run	forward	run	
+16_36 run/jog	run	forward	run	
+16_37 run/jog, veer left	run	side	veer	
+16_38 run/jog, veer left	run	side	veer	
+16_39 run/jog, veer right	run	side	veer	
+16_40 run/jog, veer right	run	side	veer	
+16_41 run/jog, 90-degree left turn	run	side	turn	
+16_42 run/jog, 90-degree left turn	run	side	turn	
+16_43 run/jog, 90-degree right turn	run	side	turn	
+16_44 run/jog, 90-degree right turn	run	side	turn	
+16_45 run/jog	run	forward	run	
+16_46 run/jog	run	forward	run	
+16_47 walk	walk	forward	walk	
+16_48 run, veer left	run	side	veer	
+16_49 run, veer right	run	side	veer	
+16_50 run, veer right	run	side	veer	
+16_51 run, 90-degree left turn	run	side	turn	
+16_52 run, 90-degree left turn	run	side	turn	
+16_53 run, 90-degree right turn	run	side	turn	
+16_54 run, 90-degree right turn	run	side	turn	
+16_55 run	run	forward	run	
+16_56 run/jog	run	forward	run	
+16_57 run/jog, sudden stop	run	forward	stop	
+16_58 walk	walk	forward	walk	
+Subject #17 (different walking styles)				
+17_01 walk with anger, frustration	walk	forward	style	anger
+17_02 walk with anger, frustration	walk	forward	style	anger
+17_03 walk stealthily	walk	forward	style	stealthily
+17_04 walk stealthily	walk	forward	style	stealthily
+17_05 walk/hobble	walk	forward	style	hobble
+17_06 whistle, walk jauntily	walk	forward	style	jauntily
+17_07 whistle, walk jauntily	walk	forward	style	jauntily
+17_08 muscular, heavyset person's walk	walk	forward	style	muscular
+17_09 muscular, heavyset person's walk	walk	forward	style	muscular
+Subject #29 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+29_01 walk	walk	forward	walk	
+Subject #32 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+32_01 walk	walk	forward	walk	
+32_02 walk	walk	forward	walk	
+Subject #35 (walk, run)				
+35_01 walk	walk	forward	walk	
+35_02 walk	walk	forward	walk	
+35_03 walk	walk	forward	walk	
+35_04 walk	walk	forward	walk	
+35_05 walk	walk	forward	walk	
+35_06 walk	walk	forward	walk	
+35_07 walk	walk	forward	walk	
+35_08 walk	walk	forward	walk	
+35_09 walk	walk	forward	walk	
+35_10 walk	walk	forward	walk	
+35_11 walk	walk	forward	walk	
+35_12 walk	walk	forward	walk	
+35_13 walk	walk	forward	walk	
+35_14 walk	walk	forward	walk	
+35_15 walk	walk	forward	walk	
+35_16 walk	walk	forward	walk	
+35_17 run/jog	run	forward	run	
+35_18 run/jog	run	forward	run	
+35_19 run/jog	run	forward	run	
+35_20 run/jog	run	forward	run	
+35_21 run/jog	run	forward	run	
+35_22 run/jog	run	forward	run	
+35_23 run/jog	run	forward	run	
+35_24 run/jog	run	forward	run	
+35_25 run/jog	run	forward	run	
+35_26 run/jog	run	forward	run	
+35_27 navigate around obstacles	walk	mix	mix	
+35_28 walk	walk	forward	walk	
+35_29 walk	walk	forward	walk	
+35_30 walk	walk	forward	walk	
+35_31 walk	walk	forward	walk	
+35_32 walk	walk	forward	walk	
+35_33 walk	walk	forward	walk	
+35_34 walk	walk	forward	walk	
+Subject #37 (walk)				
+37_01 slow walk	walk	forward	slow	
+Subject #38 (walk, run)				
+38_01 walk	walk	forward	walk	
+38_02 walk	walk	forward	walk	
+38_03 run around in a circle	run	side	veer	
+38_04 walk around, frequent turns, cyclic walk along a line	run	mix	mix	
+Subject #39 (climb, swing, hang on playground equipment)				
+39_01 walk	walk	forward	walk	
+39_02 walk	walk	forward	walk	
+39_03 walk	walk	forward	walk	
+39_04 walk	walk	forward	walk	
+39_05 walk	walk	forward	walk	
+39_06 walk	walk	forward	walk	
+39_07 walk	walk	forward	walk	
+39_08 walk	walk	forward	walk	
+39_09 walk	walk	forward	walk	
+39_10 walk	walk	forward	walk	
+39_11 walk forward, turn around, walk back	walk	mix	mix	
+39_12 walk	walk	forward	walk	
+39_13 walk	walk	forward	walk	
+39_14 walk	walk	forward	walk	
+Subject #40 (navigate from corner to corner, interact with stepstool)				
+40_02 navigate - walk forward, backward, on a diagonal	walk	mix	mix	
+40_03 navigate - walk forward, backward, on a diagonal	walk	mix	mix	
+40_04 navigate - walk forward, backward, on a diagonal	walk	mix	mix	
+40_05 navigate - walk forward, backward, on a diagonal	walk	mix	mix	
+Subject #41 (navigate from corner to corner, interact with stepstool)				
+41_02 navigate - walk forward, backward, sideways, on a diagonal	walk	mix	mix	
+41_03 navigate - walk forward, backward, sideways, on a diagonal	walk	mix	mix	
+41_04 navigate - walk forward, backward, on a diagonal	walk	mix	mix	
+41_05 navigate - walk forward, backward, on a diagonal	walk	mix	mix	
+41_06 navigate - walk forward, backward, on a diagonal	walk	mix	mix	
+Subject #43 (swing on playground equipment)				
+43_01 walk	walk	forward	walk	
+Subject #45 (walk)				
+45_01 walk	walk	forward	walk	
+Subject #46 (walk)				
+46_01 walk	walk	forward	walk	
+Subject #47 (walk)				
+47_01 walk forward, turn around, walk back	walk	mix	mix	
+Subject #49 (modern dance, gymnastics)				
+49_01 walk	walk	forward	walk	
+Subject #55 (animal behaviors (pantomime - human subject))				
+55_04 walk	walk	forward	walk	
+Subject #69 (walking)				
+69_01 walk forward	walk	forward	walk	
+69_02 walk forward	walk	forward	walk	
+69_03 walk forward	walk	forward	walk	
+69_04 walk forward	walk	forward	walk	
+69_05 walk forward	walk	forward	walk	
+69_06 walk and turn (repeated)	walk	round	veer	
+69_07 walk and turn (repeated)	walk	round	veer	
+69_08 walk and turn (repeated)	walk	round	veer	
+69_09 walk and turn (repeated)	walk	round	veer	
+69_10 walk and turn (repeated)	walk	round	veer	
+69_11 walk and turn (repeated)	walk	round	veer	
+69_12 walk and turn both directions (repeated)	walk	round	veer	
+69_13 walk, turn in place (repeated)	walk	round	turn	
+69_14 walk, turn in place (repeated)	walk	round	turn	
+69_15 walk, turn in place (repeated)	walk	round	turn	
+69_16 turn in place	walk	side	turn	
+69_17 turn in place	walk	side	turn	
+69_18 turn in place (opposite direction)	walk	side	turn	
+69_19 turn in place (opposite direction)	walk	side	turn	
+69_20 walk forward 90 degree right turn	walk	side	turn	
+69_21 walk forward 90 degree right turn	walk	side	turn	
+69_22 walk forward 90 degree right turn	walk	side	turn	
+69_23 walk forward 90 degree right turn	walk	side	turn	
+69_24 walk forward 90 degree left turn	walk	side	turn	
+69_25 walk forward 90 degree left turn	walk	side	turn	
+69_26 walk forward 90 degree left turn	walk	side	turn	
+69_27 walk forward 90 degree left turn	walk	side	turn	
+69_28 walk forward 90 degree smooth right turn	walk	side	veer	
+69_29 walk forward 90 degree smooth right turn	walk	side	veer	
+69_30 walk forward 90 degree smooth right turn	walk	side	veer	
+69_31 walk forward 90 degree smooth left turn	walk	side	veer	
+69_32 walk forward 90 degree smooth left turn	walk	side	veer	
+69_33 walk forward 90 degree smooth left turn	walk	side	veer	
+69_34 walk backwards and turn	walk	backward	veer	
+69_35 walk backwards and turn	walk	backward	veer	
+69_36 walk backwards and turn	walk	backward	veer	
+69_37 walk backwards and turn	walk	backward	veer	
+69_38 walk backwards and turn (repeated)	walk	backward	veer	
+69_39 walk backward, turn in place	walk	backward	turn	
+69_40 walk backward, turn in place	walk	backward	turn	
+69_41 walk backward, turn in place	walk	backward	turn	
+69_42 walk sideways and turn (repeated)	walk	side	sideway	
+69_43 walk sideways and turn (repeated)	walk	side	sideway	
+69_44 walk sideways and turn (repeated)	walk	side	sideway	
+69_45 walk sideways and turn (repeated)	walk	side	sideway	
+69_46 walk sideways and turn (repeated)	walk	side	sideway	
+69_47 walk sideways and turn (repeated)	walk	side	sideway	
+69_48 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_49 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_50 walk sideways and backwards	walk	backward	veer	
+69_51 walk backwards and turn	walk	backward	veer	
+69_52 walk backwards and turn	walk	backward	veer	
+69_53 walk backwards and turn	walk	backward	veer	
+69_54 walk backwards and turn	walk	backward	veer	
+69_55 walk backwards and turn	walk	backward	veer	
+69_56 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_57 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_58 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_59 walk sideways and turn	walk	side	sideway	
+69_60 walk sideways and turn	walk	side	sideway	
+69_61 walk sideways and turn	walk	side	sideway	
+69_62 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_63 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_64 walk sideways and turn (opposite direction)	walk	side	sideway	
+69_65 walk sideways and turn	walk	side	sideway	
+69_66 walk sideways and turn	walk	side	sideway	
+69_67 walk sideways and turn	walk	side	sideway	
+Subject #75 (jumps; hopscotch; sits)				
+75_01 run jump	jump	forward	run	
+75_02 run jump	jump	forward	run	
+75_03 run jump	jump	forward	run	
+75_04 wide leg run	run	forward	style	wide
+75_05 cross leg run	run	forward	style	cross
+75_06 180 jump	jump	round	style	180
+75_07 angle jumps	jump	round	style	180
+75_08 360 jumps	jump	round	style	360
+75_09 360 jump	jump	round	style	360
+75_10 2 jump	jump	forward	jump	
+75_11 2 jump	jump	forward	jump	
+75_12 box jump	jump	forward	style	box
+75_13 hopscotch	jump	forward	style	hopscotch
+75_14 hopscotch	jump	forward	style	hopscotch
+75_15 long jumps	jump	forward	style	long
+75_16 jump kick	jump	forward	style	kick
+Subject #76 (avoidance)				
+76_08 careful stepping over things	walk	forward	style	step-over
+76_09 walking backwards	walk	backward	walk	
+76_11 quick large steps backwards	walk	backward	style	large
+Subject #77 (careful actions)				
+77_10 careful run	run	forward	style	careful
+77_11 careful run	run	forward	style	careful
+77_12 careful run in circle	run	round	veer	
+77_13 careful run in figure eight	run	round	veer	
+77_14 careful creeping	walk	forward	style	creeping
+77_15 careful creeping	walk	forward	style	creeping
+77_19 limping, hurt right leg	walk	forward	style	limping
+77_20 limping, hurt right leg	walk	forward	style	limping
+77_22 limping, hurt right leg	walk	forward	style	limping
+77_23 limping, hurt right leg	walk	forward	style	limping
+77_24 limping, hurt right leg	walk	forward	style	limping
+77_25 careful walk and search	walk	forward	style	walk and search
+77_26 careful walk and search	walk	forward	style	walk and search
+77_27 careful walk and search	walk	forward	style	walk and search
+77_28 careful walk	walk	round	veer	
+77_29 creeping walk	walk	forward	style	creeping
+77_30 creeping walk	walk	forward	style	creeping
+77_31 silent walk	walk	forward	style	silent
+77_32 creeping walk	walk	forward	style	creeping
+77_33 creeping with limp	walk	forward	style	creeping with limp
+77_34 creep and pause, repeat	walk	forward	style	creep and pause
+Subject #81 (pushing a box; jumping off a ledge; walks)				
+81_01 fix hair and walk forward	walk	forward	style	fix hair
+81_02 walk forward	walk	forward	walk	
+81_03 walk	walk	forward	walk	
+81_04 walk at a brisk pace	walk	forward	style	brisk
+81_17 walk forward	walk	forward	walk	
+81_18 adjust hair walk forward	walk	forward	style	fix hair
+Subject #82 (jumping; pushing; emotional walks)				
+82_08 stand still; casual walk forward	walk	forward	style	casual walk forward
+82_09 confident walk forward	walk	forward	style	confident
+82_10 sad walk forward	walk	forward	style	sad
+82_11 normal walk forward	walk	forward	walk	
+82_12 happy or fast walk forward	walk	forward	style	happy-fast
+82_13 normal walk forward	walk	forward	walk	
+82_14 walk forward and slow down	walk	forward	walk	
+82_15 walk forward and turn sideways	walk	mix	mix	
+Subject #91 (walks and turns)				
+91_01 Walk digital figure eight	walk	forward	style	Walk digital figure eight
+91_02 WalkStraight	walk	forward	style	WalkStraight
+91_03 Walk figure eight	walk	forward	style	Walk figure eight
+91_04 Walking	walk	forward	walk	
+91_05 Mummy Walk	walk	forward	style	Mummy Walk
+91_07 mummy8	walk	forward	style	mummy8
+91_08 mummyDigital8	walk	forward	style	mummyDigital8
+91_09 DrunkWalk	walk	forward	style	DrunkWalk
+91_10 SlowWalk	walk	forward	style	SlowWalk
+91_11 LavishWalk	walk	forward	style	LavishWalk
+91_12 TooCoolWalk	walk	forward	style	TooCoolWalk
+91_13 SadWalk	walk	forward	style	SadWalk
+91_14 DepressedWalk	walk	forward	style	DepressedWalk
+91_15 ClumsyWalk	walk	forward	style	ClumsyWalk
+91_16 Limp	walk	forward	style	Limp
+91_17 QuickWalk	walk	forward	style	QuickWalk
+91_18 CarefulWalk LookingAround	walk	forward	style	CarefulWalk LookingAround
+91_19 March	walk	forward	style	March
+91_20 ShyWalk	walk	forward	style	ShyWalk
+91_21 acheyWalk	walk	forward	style	acheyWalk
+91_22 CasualQuickWalk	walk	forward	style	CasualQuickWalk
+91_23 CoolWalk	walk	forward	style	CoolWalk
+91_24 HurtLegWalk	walk	forward	style	HurtLegWalk
+91_25 DragBadLegWalk	walk	forward	style	DragBadLegWalk
+91_26 HurtStomachWalk	walk	forward	style	HurtStomachWalk
+91_27 SlowWalk	walk	forward	style	SlowWalk
+91_28 GhettoWalk	walk	forward	style	GhettoWalk
+91_29 NormalWalk	walk	forward	walk	
+91_30 SexyWalk	walk	forward	style	SexyWalk
+91_31 NormalWalk	walk	forward	walk	
+91_32 ScaredWalk	walk	forward	style	ScaredWalk
+91_33 MachoWalk	walk	forward	style	MachoWalk
+91_34 NormalWalk	walk	forward	walk	
+91_35 TrafficWalk	walk	forward	style	TrafficWalk
+91_36 WalkStraight	walk	forward	walk	WalkStraight
+91_37 Forward	jump	forward	jump	
+91_38 SmallForward	jump	forward	jump	
+91_39 JumpForward	jump	forward	jump	
+91_40 JumpForward	jump	forward	jump	
+91_41 JumpForward	jump	forward	jump	
+91_42 JumpForward	jump	forward	jump	
+91_43 JumpSmallForward	jump	forward	jump	
+91_44 JumpSmallForward	jump	forward	jump	
+91_45 JumpForward	jump	forward	jump	
+91_46 Jump Turn	jump	side	turn	
+91_47 Jump Turn	jump	side	turn	
+91_48 JumpTurn	jump	side	turn	
+91_49 Jump Turn	jump	side	turn	
+91_50 JumpTurn	jump	side	turn	
+91_51 FurtherJumpTurn	jump	side	turn	
+91_52 SmallJumpTurn	jump	side	turn	
+91_53 180 degree jump	jump	round	style	180
+91_54 180	jump	round	style	180
+91_55 180	jump	round	style	180
+91_56 90	jump	round	style	90
+91_57 WalkForward	walk	forward	walk	
+91_58 270	jump	round	style	270
+91_59 360 smallStumble	jump	round	style	360
+91_60 360	jump	round	style	360
+91_61 360	jump	round	style	360
+91_62 walkFigure8	walk	forward	style	walkFigure8
+				
+				
+Subject #104 (motion)				
+				
+104_01 JogThrough	walk	forward	style	JogThrough
+104_02 neutral Male walk, exact footfalls	walk	forward	style	neutral Male walk, exact footfalls
+104_03 Frankenstein male walk, exact footfalls	walk	forward	style	Frankenstein male walk, exact footfalls
+104_04 JogThrough	walk	forward	style	JogThrough
+104_05 mascular	walk	forward	style	mascular
+104_06 StartJog	walk	forward	style	StartJog
+104_08 StartJog	walk	forward	style	StartJog
+104_09 JogStop	walk	forward	style	JogStop
+104_10 JogStop	walk	forward	style	JogStop
+104_11 HappyGoLuckWalk	walk	forward	style	HappyGoLuckWalk
+104_12 ExcitedWalk	walk	forward	style	ExcitedWalk
+104_13 StumbleWalk	walk	forward	style	StumbleWalk
+104_14 HappyStartWalk	walk	forward	style	HappyStartWalk
+104_16 SpasticWalk	walk	forward	style	SpasticWalk
+104_17 SpasticStop	walk	forward	style	SpasticStop
+104_18 SpasticStop	walk	forward	style	SpasticStop
+104_19 CasualWalk	walk	forward	style	CasualWalk
+104_20 Normal	walk	forward	walk	
+104_22 RegularWalk8	walk	forward	style	RegularWalk8
+104_23 walkround	walk	round	veer	
+104_24 walkround	walk	round	veer	
+104_25 walkround	walk	round	turn	
+104_27 RegularWalkRightAngleTurns	walk	forward	style	RegularWalkRightAngleTurns
+104_28 SternWalk	walk	forward	style	SternWalk
+104_29 SternWalk	walk	forward	style	SternWalk
+104_30 SternWalk8	walk	forward	style	SternWalk8
+104_31 walkround	walk	round	veer	
+104_32 SternWalkRightAngleTurns	walk	forward	style	SternWalkRightAngleTurns
+104_33 walkround	walk	round	turn	
+104_34 forward_relax	walk	forward	style	relaxed
+104_35 SlowWalk	walk	forward	style	SlowWalk
+104_36 SlowWalk8	walk	forward	style	SlowWalk8
+104_37 RunThrough	run	forward	run	
+104_38 walkaround	walk	round	veer	
+104_39 SlowWalkRightAngleTurns	walk	forward	style	SlowWalkRightAngleTurns
+104_40 walkround	walk	round	veer	
+104_41 ZombieWalk	walk	forward	style	ZombieWalk
+104_42 ZombieWalk8	walk	forward	style	ZombieWalk8
+104_43 ZombieWalkRightAngleTurns	walk	forward	style	ZombieWalkRightAngleTurns
+104_44 AttitudeWalk	walk	forward	style	AttitudeWalk
+104_45 AttitudeWalk8	walk	forward	style	AttitudeWalk8
+104_46 AttitudeWalkRightAngleTurns	walk	forward	style	AttitudeWalkRightAngleTurns
+104_47 drunk	walk	forward	style	drunk
+104_48 RunThrough	run	forward	run	
+104_49 drunk	walk	forward	style	drunk
+104_50 drunk	walk	forward	style	drunk
+104_51 wounded	walk	forward	style	wounded
+104_52 wounded	walk	forward	style	wounded
+104_53 StartRun	run	forward	run	
+104_54 StartRun	run	forward	run	
+104_55 StartRun	run	forward	run	
+104_56 RunStop	run	forward	stop	
+104_57 RunStop	run	forward	stop	
+				
+Subject #105 (motion)				
+				
+105_01 WalkDigital8	walk	forward	style	WalkDigital8
+105_02 WalkStraight	walk	forward	style	WalkStraight
+105_03 Walk8	walk	forward	style	Walk8
+105_04 Digital8	walk	forward	style	Digital8
+105_05 mummyWalk	walk	forward	style	mummyWalk
+105_07 mummy8	walk	forward	style	mummy8
+105_08 mummyDigital8	walk	forward	style	mummyDigital8
+105_09 DrunkWalk	walk	forward	style	DrunkWalk
+105_10 SlowWalk	walk	forward	style	SlowWalk
+105_11 LavishWalk	walk	forward	style	LavishWalk
+105_12 TooCoolWalk	walk	forward	style	TooCoolWalk
+105_13 SadWalk	walk	forward	style	SadWalk
+105_14 DepressedWalk	walk	forward	style	DepressedWalk
+105_15 ClumsyWalk	walk	forward	style	ClumsyWalk
+105_16 Limp	walk	forward	style	Limp
+105_17 QuickWalk	walk	forward	style	QuickWalk
+105_18 CarefulWalk LookingAround	walk	forward	style	CarefulWalk LookingAround
+105_19 March	walk	forward	style	March
+105_20 ShyWalk	walk	forward	style	ShyWalk
+105_21 acheyWalk	walk	forward	style	acheyWalk
+105_22 CasualQuickWalk	walk	forward	style	CasualQuickWalk
+105_23 CoolWalk	walk	forward	style	CoolWalk
+105_24 HurtLegWalk	walk	forward	style	HurtLegWalk
+105_25 DragBadLegWalk	walk	forward	style	DragBadLegWalk
+105_26 HurtStomachWalk	walk	forward	style	HurtStomachWalk
+105_27 SlowWalk	walk	forward	style	SlowWalk
+105_28 GhettoWalk	walk	forward	style	GhettoWalk
+105_29 NormalWalk	walk	forward	walk	
+105_30 SexyWalk	walk	forward	style	SexyWalk
+105_31 NormalWalk	walk	forward	walk	
+105_32 ScaredWalk	walk	forward	style	ScaredWalk
+105_33 MachoWalk	walk	forward	style	MachoWalk
+105_34 NormalWalk	walk	forward	walk	
+105_35 TrafficWalk	walk	forward	style	TrafficWalk
+105_36 WalkStraight	walk	forward	style	WalkStraight
+105_37 Forward	jump	forward	jump	
+105_38 SmallForward	jump	forward	style	SmallForward
+105_39 JumpForward	jump	forward	style	JumpForward
+105_40 JumpForward	jump	forward	style	JumpForward
+105_41 JumpForward	jump	forward	style	JumpForward
+105_42 JumpForward	jump	forward	style	JumpForward
+105_43 JumpSmallForward	jump	forward	style	JumpSmallForward
+105_44 JumpSmallForward	jump	forward	style	JumpSmallForward
+105_45 JumpForward	jump	forward	jump	
+105_46 Jump Turn	jump	forward	turn	
+105_47 Jump Turn	jump	forward	turn	
+105_48 JumpTurn	jump	forward	turn	
+105_49 Jump Turn	jump	forward	turn	
+105_50 JumpTurn	jump	forward	turn	
+105_51 FurtherJumpTurn	jump	forward	turn	
+105_52 SmallJumpTurn	jump	forward	turn	
+105_53 180	jump	round	style	180
+105_54 180	jump	round	style	180
+105_55 180	jump	round	style	180
+105_56 90	jump	round	style	90
+105_57 WalkForward	walk	forward	walk	
+105_58 270	jump	round	style	270
+105_59 360 smallStumble	jump	round	style	360 smallStumble
+105_60 360	jump	round	style	360
+105_61 360	jump	round	style	360
+105_62 walkFigure8	walk	forward	style	walkFigure8
+				
+				
+Subject #111 (Pregnant Woman)				
+111_01 Walk backwards	walk	backward	walk	
+111_13 March	walk	forward	style	March
+111_14 Mope	walk	forward	style	Mope
+111_23 Run	run	forward	run	
+111_24 Run	run	forward	run	
+111_26 Walk sideways	walk	side	sideway	
+111_34 Walk	walk	forward	walk	
+111_35 Walk	walk	forward	walk	
+111_36 Walk and carry	walk	forward	style	Walk and carry
+111_29 Stepping over	walk	forward	style	Stepping over
+111_30 Stepping over	walk	forward	style	Stepping over
+				
+Subject #113 (Post pregnant woman)				
+113_01 Walk backwards	walk	backward	walk	
+113_05 Walk digital 8	walk	forward	style	Walk digital 8
+113_06 Walk figure 8	walk	forward	style	Walk figure 8
+113_07 Run	run	forward	run	
+113_09 March	run	forward	style	March
+113_10 Walk, mope around	walk	forward	style	Walk, mope around
+113_17 Walk sideway	walk	side	sideway	
+113_18 Walk sideways	walk	side	sideway	
+113_22 Step over	walk	forward	style	Step over
+113_25 Walk	walk	forward	walk	
+113_26 Walk and carry	walk	forward	style	Walk and carry
+				
+Subject #114 (Pregnant Woman)				
+114_13 Walk	walk	forward	walk	
+114_14 Walk	walk	forward	walk	
+114_15 Walk	walk	forward	walk	
+				
+				
+				
+Subject #118 (Jumping)				
+				
+118_01 Jump	jump	forward	jump	
+118_02 Jump	jump	forward	jump	
+118_03 Jump	jump	forward	jump	
+118_04 Jump	jump	forward	jump	
+118_05 Jump	jump	forward	jump	
+118_06 Jump	jump	forward	jump	
+118_07 Jump	jump	forward	jump	
+118_08 Jump	jump	forward	jump	
+118_09 Jump	jump	forward	jump	
+118_10 Jump	jump	forward	jump	
+118_11 Jump	jump	forward	jump	
+118_12 Jump	jump	forward	jump	
+118_13 Jump	jump	forward	jump	
+118_14 Jump	jump	forward	jump	
+118_15 Jump	jump	forward	jump	
+118_16 Jump	jump	forward	jump	
+118_17 Jump	jump	forward	jump	
+118_18 Jump	jump	forward	jump	
+118_19 Jump	jump	forward	jump	
+118_20 Jump	jump	forward	jump	
+118_21 Jump	jump	forward	jump	
+118_22 Jump	jump	forward	jump	
+118_23 Jump	jump	forward	jump	
+118_24 Jump	jump	forward	jump	
+118_25 Jump	jump	forward	jump	
+118_26 Jump	jump	forward	jump	
+118_27 Jump	jump	forward	jump	
+118_28 Jump	jump	forward	jump	
+118_29 Jump	jump	forward	jump	
+118_30 Jump	jump	forward	jump	
+				
+Subject #122 (Varying Height and Length Steps)				
+				
+122_36 clean	walk	round	turn	
+122_37 clean	walk	round	turn	
+122_38 clean	walk	round	turn	
+122_39 clean	walk	round	turn	
+122_40 clean	jump	forward	jump	
+122_41 clean	jump	forward	jump	
+122_42 clean	jump	forward	jump	
+122_43 clean	jump	forward	jump	
+122_44 clean	walk	forward	sideway	
+122_45 clean	jump	forward	jump	
+122_46 clean	jump	forward	jump	
+122_47 clean	jump	forward	jump	
+122_48 clean	jump	forward	jump	
+122_49 clean	jump	forward	jump	
+122_50 clean	jump	forward	jump	
+122_51 clean	jump	round	style	90
+122_52 clean	jump	round	style	90
+122_53 clean	jump	round	style	90
+122_54 clean	jump	round	style	180
+122_55 clean	walk	side	sideway	
+122_56 clean	jump	round	style	180
+122_57 clean	jump	round	style	180
+122_58 cleaned	jump	round	style	270
+122_59 clean	jump	round	style	270
+122_60 clean	jump	round	style	270
+122_61 clean	jump	round	style	360
+122_62 clean	jump	round	style	360
+122_63 clean	walk	forward	sideway	
+122_64 clean	jump	round	style	360
+122_65 clean	jump	round	style	360
+122_66 clean	walk	side	sideway	
+122_67 clean	walk	forward	sideway	
+				
+Subject #127 (Action Adventure Obstacles, running, jumping, ducking, rolling)				
+				
+127_03 Run	run	forward	run	
+127_04 Walk to Run	walk	mix	mix	
+127_05 Run to Quick Stop	run	forward	stop	
+127_06 Run	run	forward	run	
+127_07 Run	run	forward	run	
+127_08 Run	run	forward	run	
+127_09 Run Right	run	side	veer	
+127_10 Run Right	run	side	veer	
+127_11 Run Left	run	side	veer	
+127_12 Run Left	run	side	veer	
+127_13 Run Side Step Left	run	forward	style	Run Side Step Left
+127_14 Run Side Step Right	run	forward	style	Run Side Step Right
+127_15 Run Turn Left	run	side	turn	
+127_16 Run Turn Right	run	side	turn	
+127_17 Run Stop Run	run	forward	stop	
+127_18 Run Stop Run	run	forward	stop	
+127_19 Run Quick Stop Run	run	forward	stop	
+127_20 Run Quick Stop Run	run	forward	stop	
+127_21 Run Jump Stop Run	run	forward	jump	
+127_22 Run Jump Stop Run	run	forward	jump	
+127_25 Run Jump Over	run	forward	jump	
+127_26 Run Jump Over	run	forward	jump	
+127_27 Run Jump Over	run	forward	jump	
+127_28 Run Jump Over	run	forward	jump	
+				
+				
+Subject #132 (Varying Weird Walks)				
+				
+132_01 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_02 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_03 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_04 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_05 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_06 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_07 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_08 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_09 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_10 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_11 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_12 Walk With Arms Out, balancing	walk	forward	style	balancing
+132_13 Walk Backwards	walk	backward	walk	
+132_14 Walk Duck Footed	walk	forward	style	Walk Duck Footed
+132_15 Walk With Knees Bent	walk	forward	style	Walk With Knees Bent
+132_16 Walk Crossover	walk	forward	style	Walk Crossover
+132_17 Walk Fast	walk	forward	style	Walk Fast
+132_18 Walk Fast	walk	forward	style	Walk Fast
+132_19 Walk Fast	walk	forward	style	Walk Fast
+132_20 Walk Fast	walk	forward	style	Walk Fast
+132_21 Walk Fast	walk	forward	style	Walk Fast
+132_22 Walk Fast	walk	forward	style	Walk Fast
+132_23 Hop on left foot	jump	forward	hop	
+132_24 Hop on left foot	jump	forward	hop	
+132_25 Hop on left foot	jump	forward	hop	
+132_26 Hop on left foot	jump	forward	hop	
+132_27 Hop on left foot	jump	forward	hop	
+132_28 Hop on left foot	jump	forward	hop	
+132_29 Bouncy Walk	walk	forward	style	Bouncy Walk
+132_30 Bouncy Walk	walk	forward	style	Bouncy Walk
+132_31 Bouncy Walk	walk	forward	style	Bouncy Walk
+132_32 Bouncy Walk	walk	forward	style	Bouncy Walk
+132_33 Bouncy Walk	walk	forward	style	Bouncy Walk
+132_34 Bouncy Walk	walk	forward	style	Bouncy Walk
+132_35 Walk Leaning To The Right	walk	forward	style	Walk Leaning To The Right
+132_36 Walk Leaning To The Right	walk	forward	style	Walk Leaning To The Right
+132_37 Marching	walk	forward	style	Marching
+132_39 Pigeon Toed Walking	walk	forward	style	Pigeon Toed Walking
+132_40 Walk With Stiff Arms	walk	forward	style	Walk With Stiff Arms
+132_41 Walk With Stiff Arms	walk	forward	style	Walk With Stiff Arms
+132_42 Walk Swinging Shoulders	walk	forward	style	Walk Swinging Shoulders
+132_43 Walk Swinging Shoulders	walk	forward	style	Walk Swinging Shoulders
+132_44 Walk Swinging Shoulders	walk	forward	style	Walk Swinging Shoulders
+132_45 Walk Slow	walk	forward	style	Walk Slow
+132_46 Walk Slow	walk	forward	style	Walk Slow
+132_47 Walk Slow	walk	forward	style	Walk Slow
+132_48 Walk Slow	walk	forward	style	Walk Slow
+132_49 Walk Slow	walk	forward	style	Walk Slow
+132_50 Walk Slow	walk	forward	style	Walk Slow
+132_53 Walk With Legs Apart	walk	forward	style	Walk With Legs Apart
+132_54 Walk With Wild Arms	walk	forward	style	Walk With Wild Arms
+132_55 Walk With Wild Legs	walk	forward	style	Walk With Wild Legs
+132_56 Walk With Wild Legs	walk	forward	style	Walk With Wild Legs
+				
+				
+Subject #136 (Weird Walks)				
+				
+136_01 Walk Bent Forward	walk	forward	style	Walk Bent Forward
+136_02 Walk Bent Forward	walk	forward	style	Walk Bent Forward
+136_05 Walk on Toes Bent Forward	walk	forward	style	Walk on Toes Bent Forward
+136_06 Walk on Toes Bent Forward	walk	forward	style	Walk on Toes Bent Forward
+136_09 Walk Crouched	walk	forward	style	Walk Crouched
+136_10 Walk Crouched	walk	forward	style	Walk Crouched
+136_13 Walk on Toes Crouched	walk	forward	style	Walk on Toes Crouched
+136_14 Walk on Toes Crouched	walk	forward	style	Walk on Toes Crouched
+136_17 Flamingo, lift legs high	walk	forward	style	Flamingo, lift legs high
+136_18 Flamingo, lift legs high	walk	forward	style	Flamingo, lift legs high
+136_20 Normal Walk	walk	forward	walk	
+136_21 Normal Walk	walk	forward	walk	
+136_22 Normal Walk	walk	forward	walk	
+136_23 Normal Walk	walk	forward	walk	
+136_24 Normal Walk	walk	forward	walk	
+136_25 Normal Walk Backwards	walk	backward	walk	
+136_26 Normal Walk Backwards	walk	backward	walk	
+136_27 Walk on Toes	walk	forward	style	Walk on Toes
+136_28 Walk on Toes	walk	forward	style	Walk on Toes
+136_29 Walk Backwards on Toes	walk	forward	style	Walk Backwards on Toes
+136_30 Walk Backwards on Toes	walk	forward	style	Walk Backwards on Toes
+136_31 Quail, quick little steps	walk	forward	style	Quail, quick little steps
+136_32 Quail, quick little steps	walk	forward	style	Quail, quick little steps
+				
+Subject #137 (Stylized Motions)				
+				
+137_16 Drunk Walk	walk	forward	style	Drunk Walk
+137_20 Gangly Teen Walk	walk	forward	style	Gangly Teen Walk
+137_24 Graceful Lady Walk	walk	forward	style	Graceful Lady Walk
+137_29 Normal Walk	walk	forward	walk	
+137_33 Old Man Walk	walk	forward	style	Old Man Walk
+137_38 Sexy Lady Walk	walk	forward	style	Sexy Lady Walk
+137_42 Strong Man Walk	walk	forward	style	Strong Man Walk
+				
+				
+Subject #138 (Marching, Walking and Talking)				
+				
+138_01 Marching	walk	forward	style	Marching
+138_02 Marching	walk	forward	style	Marching
+138_03 Marching	walk	forward	style	Marching
+138_04 Marching	walk	forward	style	Marching
+138_05 Marching	walk	forward	style	Marching
+138_06 Marching	walk	forward	style	Marching
+138_07 Marching	walk	forward	style	Marching
+138_08 Marching	walk	forward	style	Marching
+138_09 Marching	walk	forward	style	Marching
+138_10 Marching	walk	forward	style	Marching
+138_11 Story	walk	forward	style	Story
+138_12 Story	walk	forward	style	Story
+138_13 Story	walk	forward	style	Story
+138_14 Story	walk	forward	style	Story
+138_15 Story	walk	forward	style	Story
+138_16 Story	walk	forward	style	Story
+138_17 Story	walk	forward	style	Story
+138_18 Story	walk	forward	style	Story
+138_19 Story	walk	forward	style	Story
+138_20 Story	walk	forward	style	Story
+138_21 Story	walk	forward	style	Story
+138_22 Story	walk	forward	style	Story
+138_23 Story	walk	forward	style	Story
+138_24 Story	walk	forward	style	Story
+138_25 Story	walk	forward	style	Story
+138_26 Story	walk	forward	style	Story
+138_27 Story	walk	forward	style	Story
+138_28 Story	walk	forward	style	Story
+138_29 Story	walk	forward	style	Story
+138_30 Story	walk	forward	style	Story
+138_31 Story	walk	forward	style	Story
+138_32 Story	walk	forward	style	Story
+138_33 Story	walk	forward	style	Story
+138_34 Story	walk	forward	style	Story
+138_35 Story	walk	forward	style	Story
+138_36 Story	walk	forward	style	Story
+138_37 Story	walk	forward	style	Story
+138_38 Story	walk	forward	style	Story
+138_39 Story	walk	forward	style	Story
+138_40 Story	walk	forward	style	Story
+138_41 Story	walk	forward	style	Story
+138_42 Story	walk	forward	style	Story
+138_43 Story	walk	forward	style	Story
+138_44 Story	walk	forward	style	Story
+138_45 Story	walk	forward	style	Story
+138_46 Story	walk	forward	style	Story
+138_47 Story	walk	forward	style	Story
+138_48 Story	walk	forward	style	Story
+138_49 Story	walk	forward	style	Story
+138_50 Story	walk	forward	style	Story
+138_51 Story	walk	forward	style	Story
+138_52 Story	walk	forward	style	Story
+138_53 Story	walk	forward	style	Story
+138_54 Story	walk	forward	style	Story
+138_55 Story	walk	forward	style	Story
+				
+				
+Subject #139 (Action Walks, sneaking, wounded, looking around)				
+				
+139_10 Run Sneak	run	forward	style	Run Sneak
+139_11 Run To Sneak	run	forward	style	Run To Sneak
+139_12 Run in Circles	run	side	veer	
+139_13 Run in Circles	run	side	veer	
+139_14 Sneak Sideways	walk	side	style	Sneak Sideways
+139_15 Sneak Sideways	walk	side	style	Sneak Sideways
+139_19 Walk Wounded Leg	walk	forward	style	Walk Wounded Leg
+139_20 Walk Wounded Leg	walk	forward	style	Walk Wounded Leg
+139_22 Walk Wounded Leg	walk	forward	style	Walk Wounded Leg
+139_23 Walk Wounded Leg	walk	forward	style	Walk Wounded Leg
+139_24 Walk Wounded Leg	walk	forward	style	Walk Wounded Leg
+139_28 Walking	walk	forward	walk	
+139_29 Sneaking	walk	forward	style	Sneaking
+139_30 Walking	walk	forward	walk	
+139_31 Sneaking	walk	forward	style	Sneaking
+139_32 Sneaking	walk	forward	style	Sneaking
+139_33 Sneaking	walk	forward	style	Sneaking
+139_34 Sneaking	walk	forward	style	Sneaking
+				
+Subject #141 (General Subject Capture)				
+				
+141_01 Run	run	forward	run	
+141_02 Run	run	forward	run	
+141_03 Run	run	forward	run	
+141_04 Jump Distances	jump	forward	jump	
+141_05 Jump Sideways	jump	side	sideway	
+141_06 Jump Twist	jump	round	style	twist
+141_19 Walk	walk	forward	walk	
+141_24 Around the world High Five Low	walk	forward	style	Around the world High Five Low
+141_25 Walk	walk	forward	walk	
+141_27 Mope	walk	forward	style	Mope
+141_29 Random Walk	walk	side	turn	
+141_30 Random Walk	walk	side	turn	
+141_31 Walk Backwards	walk	backward	walk	
+141_32 Walk Sideways, Cross Legs	walk	side	sideway	
+141_33 Walk Sideways, Foot to Foot	walk	side	sideway	
+141_34 Run	run	forward	run	
+				
+Subject #142 (Stylized Walks)				
+				
+142_01 Childish	walk	forward	style	Childish
+142_02 Clumsy	walk	forward	style	Clumsy
+142_03 Clumsy	walk	forward	style	Clumsy
+142_04 Cool	walk	forward	style	Cool
+142_05 Depressed	walk	forward	style	Depressed
+142_06 Elated	walk	forward	style	Elated
+142_07 Elderlyman	walk	forward	style	Elderlyman
+142_08 Happy	walk	forward	style	Happy
+142_09 Joy	walk	forward	style	Joy
+142_10 Lavish	walk	forward	style	Lavish
+142_11 Marching	walk	forward	style	Marching
+142_12 Painfulleftknee	walk	forward	style	Painfulleftknee
+142_13 Relaxed	walk	forward	style	Relaxed
+142_14 Rushed	walk	forward	style	Rushed
+142_15 Sad	walk	forward	style	Sad
+142_16 Scared	walk	forward	style	Scared
+142_17 Scared	walk	forward	style	Scared
+142_18 Sexy	walk	forward	style	Sexy
+142_19 Shy	walk	forward	style	Shy
+142_20 Singing in the rain jump	walk	forward	style	Singing in the rain jump
+142_21 Singing in the rain jump	walk	forward	style	Singing in the rain jump
+142_22 Sneaky	walk	forward	style	Sneaky
+				
+Subject #143 (General Subject Capture)				
+				
+143_01 Run	run	forward	run	
+143_02 Run to Stop	run	forward	stop	
+143_03 Start to Run	run	forward	run	
+143_04 Run Figure 8	run	forward	style	Run Figure 8
+143_05 Jumping Distances	run	forward	style	Jumping Distances
+143_06 Jumping Heights	jump	up	jump	
+143_07 Jumping Sideways	jump	side	sideway	
+143_08 Jumping Twists	jump	round	style	twist
+143_09 Jumping Twists	jump	round	style	twist
+143_31 Hopscotch	jump	forward	style	hopscotch
+143_32 Walk	walk	forward	walk	
+143_36 Airplane	walk	forward	style	Airplane
+143_38 Walk Digital 8	walk	forward	style	Walk Digital 8
+143_39 Walk Backwards	walk	backward	walk	
+143_40 Walk Sideways	walk	side	sideway	
+143_41 Sneak	walk	forward	style	Sneak
+143_42 Run	run	forward	run	
+				
+Subject #85 (jumps; flips; breakdance)				
+				
+85_01 JumpTwist	jump	round	style	twist
+85_02 JumpTwist	jump	round	style	twist
+				
+Subject #2 (various expressions and human behaviors)				
+02_06 bend over, scoop up, rise, lift arm	standing	bend over, scoop up, rise, lift arm	default	
+02_07 swordplay	standing	swordplay	default	
+02_08 swordplay	standing	swordplay	default	
+02_09 swordplay	standing	swordplay	default	
+02_10 wash self	standing	wash self	default	
+				
+Subject #13 (various everyday behaviors)				
+13_07 unscrew bottlecap, drink soda	standing	unscrew bottlecap, drink soda	default	
+13_08 unscrew bottlecap, drink soda, screw on bottlecap	standing	unscrew bottlecap, drink soda, screw on bottlecap	default	
+13_09 drink soda	standing	drink soda	default	
+13_14 laugh	moving	laugh	default	
+13_15 laugh	moving	laugh	default	
+13_16 laugh	moving	laugh	default	
+13_20 wash windows	standing	wash windows	default	
+13_21 wash windows	standing	wash windows	default	
+13_22 wash windows	standing	wash windows	default	
+13_23 sweep floor	moving	sweep floor	default	
+13_24 sweep floor	moving	sweep floor	default	
+13_25 sweep floor	moving	sweep floor	default	
+13_26 direct traffic, wave	standing	direct traffic, wave	default	
+13_27 direct traffic, wave, point	standing	direct traffic, wave, point	default	
+13_28 direct traffic, wave, point	standing	direct traffic, wave, point	default	
+				
+				
+Subject #14 (various everyday behaviors)				
+				
+14_04 drink soda, screw on bottlecap	standing	drink soda, screw on bottlecap	default	
+14_05 unscrew bottlecap, drink soda	standing	unscrew bottlecap, drink soda	default	
+14_10 wash windows	standing	wash windows	default	
+14_11 wash windows	standing	wash windows	default	
+14_12 wash windows	standing	wash windows	default	
+14_13 mop floor	moving	mop floor	default	
+14_15 mop floor	moving	mop floor	default	
+14_16 sweep floor	moving	sweep floor	default	
+14_17 laugh	moving	laugh	default	
+14_18 laugh	moving	laugh	default	
+14_19 laugh	moving	laugh	default	
+14_24 direct traffic, wave, point	standing	direct traffic, wave, point	default	
+14_25 direct traffic, wave, point	standing	direct traffic, wave, point	default	
+14_26 direct traffic, wave, point	standing	direct traffic, wave, point	default	
+14_37 drink soda	standing	drink soda	default	
+				
+Subject #15 (various everyday behaviors, dance moves)				
+15_06 lean forward, reach for	standing	lean forward, reach for	default	
+15_07 lean forward, tiptoe, reach for	standing	lean forward, tiptoe, reach for	default	
+15_08 hand signals - horizontally revolve forearms	standing	hand signals - horizontally revolve forearms	default	
+15_11 wash windows, paint figure eights; hand signals	standing	wash windows, paint figure eights; hand signals	default	
+				
+				
+Subject #26 (nursery rhymes, basketball, bending)				
+				
+26_02 basketball signals	standing	basketball signals	default	
+26_05 Alaska vacation	standing	Alaska vacation	default	
+26_06 Alaska vacation	standing	Alaska vacation	default	
+26_09 bend, pick up	standing	bend, pick up	default	
+26_10 bend, lift	standing	bend, lift	default	
+26_11 bend, lift	standing	bend, lift	default	
+				
+				
+				
+Subject #27 (recreation, nursery rhymes)				
+				
+27_02 basketball signals	standing	basketball signals	default	
+27_04 Alaskan vacation	standing	Alaskan vacation	default	
+27_06 basketball signals	standing	basketball signals	default	
+27_08 Alaskan vacation	standing	Alaskan vacation	default	
+27_09 Alaskan vacation	standing	Alaskan vacation	default	
+				
+				
+Subject #28 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+28_01 basketball signals	standing	basketball signals	default	
+28_03 Alaskan vacation	standing	Alaskan vacation	default	
+28_05 basketball signals	standing	basketball signals	default	
+28_07 Alaskan vacation	standing	Alaskan vacation	default	
+				
+				
+Subject #29 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+29_02 basketball signals	standing	basketball signals	default	
+29_04 Alaskan vacation	standing	Alaskan vacation	default	
+29_05 Alaskan vacation	standing	Alaskan vacation	default	
+29_07 basketball signals	standing	basketball signals	default	
+29_09 Alaskan vacation	standing	Alaskan vacation	default	
+29_11 Alaskan vacation	standing	Alaskan vacation	default	
+29_12 Alaskan vacation	standing	Alaskan vacation	default	
+29_13 Alaskan vacation	standing	Alaskan vacation	default	
+				
+				
+Subject #30 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+30_01 basketball signals	standing	basketball signals	default	
+30_03 Alaskan vacation	standing	Alaskan vacation	default	
+30_04 Alaskan vacation	standing	Alaskan vacation	default	
+30_07 basketball signals	standing	basketball signals	default	
+30_09 Alaskan vacation	standing	Alaskan vacation	default	
+30_11 Alaskan vacation	standing	Alaskan vacation	default	
+30_12 Alaskan vacation	standing	Alaskan vacation	default	
+				
+				
+				
+Subject #31 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+31_01 basketball signals	standing	basketball signals	default	
+31_03 Alaskan vacation	standing	Alaskan vacation	default	
+31_05 basketball signals	standing	basketball signals	default	
+31_07 Alaskan vacation	standing	Alaskan vacation	default	
+31_09 Alaskan vacation	standing	Alaskan vacation	default	
+31_10 Alaskan vacation	standing	Alaskan vacation	default	
+				
+Subject #32 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+32_03 basketball signals	standing	basketball signals	default	
+32_05 Alaskan vacation	standing	Alaskan vacation	default	
+32_07 basketball signals	standing	basketball signals	default	
+32_09 Alaskan vacation	standing	Alaskan vacation	default	
+32_11 Alaskan vacation	standing	Alaskan vacation	default	
+32_12 Alaskan vacation	standing	Alaskan vacation	default	
+				
+				
+Subject #40 (navigate from corner to corner, interact with stepstool)				
+				
+40_10 wait for bus	moving	wait for bus	default	
+40_11 wait for bus	moving	wait for bus	default	
+40_12 basketball signals	moving	basketball signals	default	
+				
+Subject #41 (navigate from corner to corner, interact with stepstool)				
+				
+41_10 basketball signals	standing	basketball signals	default	
+41_11 basketball signals	standing	basketball signals	default	
+				
+Subject #42 (stretch)				
+				
+42_01 stretch - rotate head, shoulders, arms, legs	standing	stretch - rotate head, shoulders, arms, legs	default	
+				
+Subject #62 (construction work, random motions)				
+				
+62_01 bolt loosening, wrench	standing	bolt loosening, wrench	default	
+62_02 bolt tightening, wrench	standing	bolt tightening, wrench	default	
+62_03 sawing, hand saw	standing	sawing, hand saw	default	
+62_04 screwing	standing	screwing	default	
+62_05 screwing	standing	screwing	default	
+62_06 unscrewing	standing	unscrewing	default	
+62_07 hammering a nail	standing	hammering a nail	default	
+62_08 hammering a nail	standing	hammering a nail	default	
+62_09 pulling a nail	standing	pulling a nail	default	
+62_10 hammering sequence	standing	hammering sequence	default	
+62_11 cleaning up	moving	cleaning up	default	
+62_12 hard days drink	moving	hard days drink	default	
+62_13 moving a stool	moving	moving a stool	default	
+62_14 opening umbrella	standing	opening umbrella	default	
+62_15 opening umbrella	standing	opening umbrella	default	
+62_16 closing umbrella	standing	closing umbrella	default	
+62_17 opening and closing umbrella	standing	opening and closing umbrella	default	
+62_18 closing a box	standing	closing a box	default	
+62_19 opening a box	standing	opening a box	default	
+62_20 closing, moving and opening a box	standing	closing, moving and opening a box	default	
+62_21 coiling a rope	standing	coiling a rope	default	
+62_23 bolt tightening	standing	bolt tightening	default	
+62_24 bolt tightening, with putting bolt in	standing	bolt tightening, with putting bolt in	default	
+62_25 bolt loosening, wrench	standing	bolt loosening, wrench	default	
+				
+Subject #77 (careful actions)				
+				
+77_01 looking around	squating	looking around	default	
+77_02 standing	standing	standing	default	
+77_03 ready stance	squating	ready stance	default	
+77_04 Looking around	squating	Looking around	default	
+77_05 look around with flashlight	squating	look around with flashlight	default	
+77_06 searching ground	squating	searching ground	default	
+77_07 poking ground	squating	poking ground	default	
+77_08 investigating thing on ground with two hands	squating	investigating thing on ground with two hands	default	
+77_09 duck to avoid flying object	squating	duck to avoid flying object	default	
+77_21 stretching	standing	stretching	default	
+				
+Subject #79 (actor everyday activities)				
+				
+79_01 chopping wood	standing	chopping wood	default	
+79_02 swimming	standing	swimming	default	
+79_03 swimming	standing	swimming	default	
+79_04 digging	standing	digging	default	
+79_05 sewing	standing	sewing	default	
+79_06 hand shake	standing	hand shake	default	
+79_07 lost marker	standing	lost marker	default	
+79_09 slicing bread	standing	slicing bread	default	
+79_10 chopping onions	standing	chopping onions	default	
+79_12 eating dinner	standing	eating dinner	default	
+79_13 mixing batter	standing	mixing batter	default	
+79_14 making dough	standing	making dough	default	
+79_15 eating a sandwich	standing	eating a sandwich	default	
+79_16 buying something	standing	buying something	default	
+79_17 playing violin	standing	playing violin	default	
+79_18 playing drums	standing	playing drums	default	
+79_19 playing piano	standing	playing piano	default	
+79_20 hanging a picture	standing	hanging a picture	default	
+79_21 putting on a pull over	standing	putting on a pull over	default	
+79_22 range of motion	standing	range of motion	default	
+79_23 putting on a jacket	standing	putting on a jacket	default	
+79_24 putting on button up sweater	standing	putting on button up sweater	default	
+79_25 moving heavy box	standing	moving heavy box	default	
+79_26 planting a tree	standing	planting a tree	default	
+79_27 planting a plant	standing	planting a plant	default	
+79_28 putting on a ball cap	standing	putting on a ball cap	default	
+79_29 putting on a dress	standing	putting on a dress	default	
+79_30 pushing a swing	standing	pushing a swing	default	
+79_31 writing on a chalkboard	standing	writing on a chalkboard	default	
+79_32 writing on a chalkboard	standing	writing on a chalkboard	default	
+79_33 chug a beer	standing	chug a beer	default	
+79_34 fishing	standing	fishing	default	
+79_35 fishing	standing	fishing	default	
+79_36 answering the phone	standing	answering the phone	default	
+79_37 dialing phone	standing	dialing phone	default	
+79_38 drinking water	standing	drinking water	default	
+79_39 sipping martinee	standing	sipping martinee	default	
+79_40 drinking a soda	standing	drinking a soda	default	
+79_41 sipping coffee	standing	sipping coffee	default	
+79_42 eating soup	standing	eating soup	default	
+79_43 painting	standing	painting	default	
+79_44 washing a window	standing	washing a window	default	
+79_66 movie and trial dont match	standing	movie and trial dont match	default	
+79_67 no movie	standing	no movie	default	
+79_68 cold	standing	cold	default	
+79_69 very happy	standing	very happy	default	
+79_70 laughing	standing	laughing	default	
+79_71 sad	standing	sad	default	
+79_72 crying	standing	crying	default	
+79_73 scared	standing	scared	default	
+79_74 upset	standing	upset	default	
+79_75 channel surfing	standing	channel surfing	default	
+79_76 driving	standing	driving	default	
+79_77 vacuuming	standing	vacuuming	default	
+79_78 taking a movie	standing	taking a movie	default	
+79_79 putting on headphones	standing	putting on headphones	default	
+79_80 using a palm pilot	standing	using a palm pilot	default	
+79_81 brushing teeth	standing	brushing teeth	default	
+79_82 putting on deoderant	standing	putting on deoderant	default	
+79_83 shaving	standing	shaving	default	
+79_84 combing hair	standing	combing hair	default	
+79_85 typing on a laptop	standing	typing on a laptop	default	
+79_86 shooting bow and arrow	standing	shooting bow and arrow	default	
+79_87 raking	standing	raking	default	
+79_88 swatting at a fly	standing	swatting at a fly	default	
+79_89 holding a baby	standing	holding a baby	default	
+79_90 washing	standing	washing	default	
+79_91 football	standing	football	default	
+79_92 frisbee	standing	frisbee	default	
+79_93 weight lifting	standing	weight lifting	default	
+79_94 flexing	standing	flexing	default	
+79_95 rowing	standing	rowing	default	
+79_96 shooting a gun	standing	shooting a gun	default	
+				
+Subject #80 (assorted motions)				
+80_01 shaking hands	standing	shaking hands	default	
+80_02 chopping onions	standing	chopping onions	default	
+80_03 shooting a gun	standing	shooting a gun	default	
+80_04 sewing	standing	sewing	default	
+80_05 digging a hole	standing	digging a hole	default	
+80_06 paying for something	standing	paying for something	default	
+80_07 hanging picture	standing	hanging picture	default	
+80_08 picking up something	standing	picking up something	default	
+80_09 planting a flower	standing	planting a flower	default	
+80_10 boxing	standing	boxing	default	
+80_11 putting on a sweater	standing	putting on a sweater	default	
+80_12 fishing	standing	fishing	default	
+80_13 drumming	standing	drumming	default	
+80_14 teaching	standing	teaching	default	
+80_15 putting on a coat	standing	putting on a coat	default	
+80_16 mixing batter	standing	mixing batter	default	
+80_17 hand mixing dough	standing	hand mixing dough	default	
+80_18 vacuuming	standing	vacuuming	default	
+80_19 pushing broom	standing	pushing broom	default	
+80_20 planting	standing	planting	default	
+80_21 pushing swing	standing	pushing swing	default	
+80_22 putting on a hat	standing	putting on a hat	default	
+80_23 putting on a skirt	standing	putting on a skirt	default	
+80_24 eating	standing	eating	default	
+80_25 answering a phone	standing	answering a phone	default	
+80_26 dialing phone	standing	dialing phone	default	
+80_27 setting glass of water	standing	setting glass of water	default	
+80_28 drinking and smoking	standing	drinking and smoking	default	
+80_29 chugging	standing	chugging	default	
+80_30 range of motion	standing	range of motion	default	
+80_31 making coffee	standing	making coffee	default	
+80_32 slicing	standing	slicing	default	
+80_33 eating soup	standing	eating soup	default	
+80_34 rake leaves	standing	rake leaves	default	
+80_35 putting on headphones	standing	putting on headphones	default	
+80_36 violin	standing	violin	default	
+80_37 TV	standing	TV	default	
+80_38 driving	standing	driving	default	
+80_40 drinking from bottle	standing	drinking from bottle	default	
+80_41 freezing	standing	freezing	default	
+80_42 freezing	standing	freezing	default	
+80_43 happy	standing	happy	default	
+80_44 laughing	standing	laughing	default	
+80_45 crying	standing	crying	default	
+80_46 crying	standing	crying	default	
+80_47 Unknown	standing	Unknown	default	
+80_48 arguing	standing	arguing	default	
+80_49 gorilla	standing	gorilla	default	
+80_50 cleaning window	standing	cleaning window	default	
+80_69 painting	standing	painting	default	
+80_70 piano	standing	piano	default	
+80_71 chopping wood	standing	chopping wood	default	
+80_72 swimming	standing	swimming	default	
+80_73 shaking hands	standing	shaking hands	default	
+				
+Subject #82 (jumping; pushing; emotional walks)				
+				
+82_16 bang on high object	standing	bang on high object	default	
+82_17 bang on high object	standing	bang on high object	default	
+				
+Subject #111 (Pregnant Woman)				
+				
+111_02 Bow	standing	Bow	default	
+111_04 Curtsey	standing	Curtsey	default	
+111_16 Peekaboo	standing	Peekaboo	default	
+111_17 Pick up	standing	Pick up	default	
+111_18 Pick up	standing	Pick up	default	
+111_20 Ring around the rosie	moving	Ring around the rosie	default	
+111_22 Range of motion	standing	Range of motion	default	
+111_25 Shrug	standing	Shrug	default	
+111_28 Standing still	standing	Standing still	default	
+111_32 Stretch and yawn	standing	Stretch and yawn	default	
+111_33 Throwing	standing	Throwing	default	
+111_37 Wave	standing	Wave	default	
+				
+Subject #113 (Post pregnant woman)				
+				
+113_02 Bow	standing	Bow	default	
+113_03 Curtsey	standing	Curtsey	default	
+113_12 Peekaboo	standing	Peekaboo	default	
+113_14 Ring around the rosie	moving	Ring around the rosie	default	
+113_16 Shrug	standing	Shrug	default	
+113_21 Standing Still	standing	Standing Still	default	
+113_23 Stretch and yawn	standing	Stretch and yawn	default	
+113_24 Throw	standing	Throw	default	
+113_27 Wave	standing	Wave	default	
+				
+Subject #114 (Pregnant Woman)				
+114_03 Range of motion	standing	Range of motion	default	
+114_10 Stretching	standing	Stretching	default	
+114_12 Stretching	standing	Stretching	default	
+				
+Subject #137 (Stylized Motions)				
+137_13 Drunk Coffee Mug	moving	Drunk Coffee Mug	default	
+137_14 Drunk Pick Up	moving	Drunk Pick Up	default	
+137_17 Gangly Teen Coffee Mug	moving	Gangly Teen Coffee Mug	default	
+137_18 Gangly Teen Pick Up	moving	Gangly Teen Pick Up	default	
+137_21 Graceful Lady Coffee Mug	moving	Graceful Lady Coffee Mug	default	
+137_22 Graceful Lady Pick Up	moving	Graceful Lady Pick Up	default	
+137_23 Graceful Lady Wait	moving	Graceful Lady Wait	default	
+137_26 Normal Coffee Mug	moving	Normal Coffee Mug	default	
+137_27 Normal Pick Up	moving	Normal Pick Up	default	
+137_30 Old Man Coffee Mug	moving	Old Man Coffee Mug	default	
+137_31 Old Man Pick Up	moving	Old Man Pick Up	default	
+137_32 Old Man Wait	moving	Old Man Wait	default	
+137_34 Range of Motion	moving	Range of Motion	default	
+137_35 Sexy Lady Coffee Mug	moving	Sexy Lady Coffee Mug	default	
+137_36 Sexy Lady Pick Up	moving	Sexy Lady Pick Up	default	
+137_37 Sexy Lady Wait	moving	Sexy Lady Wait	default	
+137_39 Strong Man Coffee Mug	moving	Strong Man Coffee Mug	default	
+137_40 Strong Man Pick Up	moving	Strong Man Pick Up	default	
+137_41 Strong Man Wait	moving	Strong Man Wait	default	
+				
+Subject #139 (Action Walks, sneaking, wounded, looking around)				
+				
+139_01 Looking Around	squating	Looking Around	default	
+139_02 Shifting Weight	standing	Shifting Weight	default	
+139_03 Looking Around	squating	Looking Around	default	
+139_04 Looking Around	squating	Looking Around	default	
+139_05 Pulling a Gun	squating	Pulling a Gun	default	
+139_06 Poking Around On The Ground	squating	Poking Around On The Ground	default	
+139_07 Poking Around On The Ground	squating	Poking Around On The Ground	default	
+139_08 Poking Around On The Ground	squating	Poking Around On The Ground	default	
+139_09 Ducking	squating	Ducking	default	
+139_25 Giving Directions	squating	Giving Directions	default	
+139_26 Looking Around	squating	Looking Around	default	
+139_27 Looking Around	squating	Looking Around	default	
+				
+Subject #141 (General Subject Capture)			default	
+141_10 Toss and Catch	moving	Toss and Catch	default	
+141_11 Throw and Catch	moving	Throw and Catch	default	
+141_12 Dance, Twist	moving	Dance, Twist	default	
+141_13 Stretch and Yawn	moving	Stretch and Yawn	default	
+141_14 Punch and Kick	moving	Punch and Kick	default	
+141_15 Range of Motion	moving	Range of Motion	default	
+141_16 Wave Hello	standing	Wave Hello	default	
+141_18 Peek a Boo	standing	Peek a Boo	default	
+141_20 Waiting	standing	Waiting	default	
+141_21 Shrug	standing	Shrug	default	
+141_22 High Five	standing	High Five	default	
+141_23 Shake Hands	standing	Shake Hands	default	
+141_26 Curtsey	moving	Curtsey	default	
+141_28 Slap Hands, Throw it Back	standing	Slap Hands, Throw it Back	default	
+				
+				
+Subject #143 (General Subject Capture)			default	
+				
+143_20 Catch And Throw	standing	Catch And Throw	default	
+143_22 Catch And Throw Football	moving	Catch And Throw Football	default	
+143_25 Waving	standing	Waving	default	
+143_26 Washing Window	standing	Washing Window	default	
+143_27 Washing Window	standing	Washing Window	default	
+143_28 Sweeping, Push Broom	moving	Sweeping, Push Broom	default	
+143_30 Stretch And Yawn	standing	Stretch And Yawn	default	
+143_33 Peek A Boo	standing	Peek A Boo	default	
+				
+				
+Subject #77 (careful actions)				
+77_16 laying down, getting up, careful ready pose	getting-up	laying down, getting up, careful ready pose	default	
+77_17 laying down, getting up, careful ready pose	getting-up	laying down, getting up, careful ready pose	default	
+77_18 laying down on back, getting up, careful ready pose	getting-up	laying down on back, getting up, careful ready pose	default	
+				
+Subject #82 (jumping; pushing; emotional walks)				
+82_05 sitting on ground relaxing	getting-up	sitting on ground relaxing	default	
+Subject #111 (Pregnant Woman)				
+111_06 Get up from floor	getting-up	Get up from floor	default	
+111_07 Get up from floor	getting-up	Get up from floor	default	
+111_08 Get up from floor	getting-up	Get up from floor	default	
+				
+Subject #113 (Post pregnant woman)			default	
+113_08 Lay down and get up	getting-up	Lay down and get up	default	
+				
+Subject #114 (Pregnant Woman)			default	
+114_02 Getting up from laying down	getting-up	Getting up from laying down	default	
+114_11 Laying down and getting up	getting-up	Laying down and getting up	default	
+				
+				
+Subject #139 (Action Walks, sneaking, wounded, looking around)				
+				
+139_16 Get Up From Ground	getting-up	Get Up From Ground	default	
+139_17 Get Up From Ground	getting-up	Get Up From Ground	default	
+139_18 Get Up From Ground Laying on Back	getting-up	Get Up From Ground Laying on Back	default	
+				
+				
+Subject #140 (Getting Up From Ground)				
+				
+140_01 Get Up Face Down	getting-up	Get Up Face Down	default	
+140_02 Get Up Face Down	getting-up	Get Up Face Down	default	
+140_03 Get Up Laying on Side	getting-up	Get Up Laying on Side	default	
+140_04 Get Up Laying on Side	getting-up	Get Up Laying on Side	default	
+140_08 Get Up From Ground Laying on Back	getting-up	Get Up From Ground Laying on Back	default	
+140_09 Get Up From Ground Laying on Back	getting-up	Get Up From Ground Laying on Back	default	
+				
+				
+				
+Subject #33 (throw and catch football (2 subjects - subject A))				
+				
+33_01 football - throw, catch (2 subjects - subject A)	standing	football - throw, catch (2 subjects - subject A)	default	
+33_02 football - throw, catch, jump around (2 subjects - subject A)	standing	football - throw, catch, jump around (2 subjects - subject A)	default	
+Subject #34 (throw and catch football (2 subjects - subject B))				
+34_01 football - throw, catch (2 subjects - subject B)	standing	football - throw, catch (2 subjects - subject B)	default	
+34_02 football - throw, catch, jump around (2 subjects - subject B)	standing	football - throw, catch, jump around (2 subjects - subject B)	default	
+Subject #12 (tai chi, walk)			default	
+12_04 tai chi	standing	tai chi	default	
+				
+Subject #6 (dribble, shoot basketball)				
+				
+06_02 basketball - forward dribble	basketball	default	default	
+06_03 basketball - forward dribble	basketball	default	default	
+06_04 basketball - forward dribble	basketball	default	default	
+06_05 basketball - forward dribble	basketball	default	default	
+06_06 basketball - backward dribble	basketball	default	default	
+06_07 basketball - backward dribble	basketball	default	default	
+06_08 basketball - sideways dribble	basketball	default	default	
+06_09 basketball - sideways dribble	basketball	default	default	
+06_10 basketball - forward dribble, 90-degree left turns	basketball	default	default	
+06_11 basketball - forward dribble, 90-degree right turns	basketball	default	default	
+06_12 basketball - forward dribble, 90-degree right turns, crossover dribble	basketball	default	default	
+06_13 basketball - low, fast free style dribble, dribble through legs	basketball	default	default	
+06_14 basketball - crossover dribble, shoot	basketball	default	default	
+06_15 basketball - dribble, shoot	basketball	default	default	
+				
+Subject #10 (kick soccer ball)				
+				
+10_01 soccer - kick ball	soccer	default	default	
+10_02 soccer - kick ball	soccer	default	default	
+10_03 soccer - kick ball	soccer	default	default	
+10_05 soccer - kick ball	soccer	default	default	
+10_06 soccer - kick ball	soccer	default	default	
+				
+Subject #11 (kick soccer ball)				
+11_01 soccer - kick ball	soccer	default	default	
+				
+				
+Subject #13 (various everyday behaviors)				
+13_17 boxing	boxing	default	default	
+13_18 boxing	boxing	default	default	
+				
+Subject #14 (various everyday behaviors)				
+				
+14_01 boxing	boxing	default	default	
+14_02 boxing	boxing	default	default	
+14_03 boxing	boxing	default	default	
+				
+				
+Subject #15 (various everyday behaviors, dance moves)				
+15_13 boxing	boxing	default	default	
+Subject #17 (different walking styles)				
+17_10 boxing	boxing	default	default	
+				
+				
+				
+Subject #63 (golf)				
+				
+63_01 Swing	golf	default	default	
+				
+				
+Subject #64 (golf)				
+				
+64_01 Swing	golf	default	default	
+64_02 Swing	golf	default	default	
+64_03 Swing	golf	default	default	
+64_04 Swing	golf	default	default	
+64_05 Swing	golf	default	default	
+64_06 Swing	golf	default	default	
+64_07 Swing	golf	default	default	
+64_08 Swing	golf	default	default	
+64_09 Swing	golf	default	default	
+64_10 Swing	golf	default	default	
+64_11 Putt	golf	default	default	
+64_12 Putt	golf	default	default	
+64_13 Putt	golf	default	default	
+64_14 Putt	golf	default	default	
+64_15 Putt	golf	default	default	
+64_16 Placing Tee	golf	default	default	
+64_17 Placing Tee	golf	default	default	
+64_18 Placing Tee	golf	default	default	
+64_19 Placing Tee	golf	default	default	
+64_20 Placing Tee	golf	default	default	
+64_21 Placing Ball	golf	default	default	
+64_22 Placing Ball	golf	default	default	
+64_23 Placing Ball	golf	default	default	
+64_24 Placing Ball	golf	default	default	
+64_25 Placing Ball	golf	default	default	
+64_26 Picking up Ball	golf	default	default	
+64_27 Picking up Ball	golf	default	default	
+64_28 Picking up Ball	golf	default	default	
+64_29 Picking up Ball	golf	default	default	
+64_30 Picking up Ball	golf	default	default	
+				
+				
+Subject #76 (avoidance)				
+				
+76_01 walk backwards then attack with a punch	boxing	default	default	
+76_02 walk backwards, feign a few attacks, then attack	boxing	default	default	
+76_03 avoid attacker	boxing	default	default	
+76_04 defensive guard pose	boxing	default	default	
+				
+				
+				
+Subject #5 (modern dance) 20 trajectories, very difficult				
+				
+05_01 walk	dance	default	default	
+05_02 dance - expressive arms, pirouette	dance	default	default	
+05_03 dance - sideways arabesque, turn step, folding arms	dance	default	default	
+05_04 dance - sideways arabesque, folding arms, bending back	dance	default	default	
+05_07 dance - small jetes, attitude/arabesque, shifted-axis pirouette, turn	dance	default	default	
+05_09 dance - glissade devant, glissade derriere, attitude/arabesque	dance	default	default	
+05_11 dance - sideways steps, pirouette	dance	default	default	
+05_12 dance - arms held high, pointe tendue a terre, upper body rotation	dance	default	default	
+05_13 dance - small jetes, pirouette	dance	default	default	
+05_14 dance - retire derriere, attitude/arabesque	dance	default	default	
+05_15 dance - retire derriere, attitude/arabesque	dance	default	default	
+				
+				
+				
+Subject #49 (modern dance, gymnastics)				
+				
+49_02 jump up and down, hop on one foot	gymnastics	default	default	
+49_03 jump up and down, hop on one foot	gymnastics	default	default	
+49_04 run, leap	gymnastics	default	default	
+49_05 run, leap	gymnastics	default	default	
+49_06 cartwheel	gymnastics	default	default	
+49_07 cartwheel	gymnastics	default	default	
+49_08 cartwheels	gymnastics	default	default	
+49_09 dance - arms held high, side arabesque	dance	default	default	
+49_10 dance - fold in from side arabesque, curl inwards	dance	default	default	
+49_11 dance - fold in from side arabesque, curl inwards	dance	default	default	
+49_12 dance - lean forward, bring back leg forward, arching arms	dance	default	default	
+49_13 dance - fold in from side arabesque, curl inwards	dance	default	default	
+49_14 dance - lean forward, bring back leg forward, arching arms	dance	default	default	
+49_15 static dance pose - folded in, head lowered, leg bent	dance	default	default	
+49_16 dance - fold in from side arabesque, curl inwards	dance	default	default	
+49_17 dance - lean forward, bring back leg forward, arching arms	dance	default	default	
+49_18 balance on one leg, outstretched arms	dance	default	default	
+49_19 balance on one leg, outstretched arms	dance	default	default	
+49_20 balance on one leg, outstretched arms	dance	default	default	
+49_22 dance - lean back on bent leg, balance, bend elbow by ear	dance	default	default	
+				
+Subject #55 (animal behaviors (pantomime - human subject))				
+				
+55_01 dance, whirl	dance	default	default	
+55_02 lambada dance	dance	default	default	
+55_03 genie (human subject)	dance	default	default	
+				
+				
+				
+Subject #60 (salsa) (very long, 999 length)				
+				
+60_01 salsa dance	dance	default	default	
+60_02 salsa dance	dance	default	default	
+60_03 salsa dance	dance	default	default	
+60_04 salsa dance	dance	default	default	
+60_05 salsa dance	dance	default	default	
+60_06 salsa dance	dance	default	default	
+60_07 salsa dance	dance	default	default	
+60_08 salsa dance	dance	default	default	
+60_09 salsa dance	dance	default	default	
+60_10 salsa dance	dance	default	default	
+60_11 salsa dance	dance	default	default	
+60_12 salsa dance	dance	default	default	
+60_13 salsa dance	dance	default	default	
+60_14 salsa dance	dance	default	default	
+60_15 salsa dance	dance	default	default	
+				
+Subject #61 (salsa)				
+				
+61_01 salsa dance	dance	default	default	
+61_02 salsa dance	dance	default	default	
+61_03 salsa dance	dance	default	default	
+61_04 salsa dance	dance	default	default	
+61_05 salsa dance	dance	default	default	
+61_06 salsa dance	dance	default	default	
+61_07 salsa dance	dance	default	default	
+61_08 salsa dance	dance	default	default	
+61_09 salsa dance	dance	default	default	
+61_10 salsa dance	dance	default	default	
+61_11 salsa dance	dance	default	default	
+61_12 salsa dance	dance	default	default	
+61_13 salsa dance	dance	default	default	
+61_14 salsa dance	dance	default	default	
+61_15 salsa dance	dance	default	default	
+				
+				
+				
+Subject #85 (jumps; flips; breakdance)				
+				
+85_03 UpRightSequence	breaking	default	default	
+85_04 FancyFootWork	breaking	default	default	
+85_05 HandStandKicks	breaking	default	default	
+85_06 KickFlip	breaking	default	default	
+85_07 KickFlipStumble	breaking	default	default	
+85_08 Helicopter	breaking	default	default	
+85_10 EndofBreakDance	breaking	default	default	
+85_11 UpRightSequence	breaking	default	default	
+85_12 LongSequenceGood	breaking	default	default	
+85_13 BadStartSequnce	breaking	default	default	
+85_14 BreakSequencewithFlips	breaking	default	default	
+85_15 90TwistsFall	breaking	default	default	
+				
+				
+				
+Subject #87 (acrobatics)				
+				
+87_01 Jump with kick and spin	gymnastics	default	default	
+87_03 Backflip	gymnastics	default	default	
+87_04 backflip	gymnastics	default	default	
+				
+				
+Subject #88 (acrobatics)				
+				
+88_01 backflip	gymnastics	default	default	
+88_04 stretches, cartwheels, flips, spin kicks, spins, and fall	gymnastics	default	default	
+88_05 cartwheel into backflip	gymnastics	default	default	
+88_06 jump and spin kick	gymnastics	default	default	
+88_07 cartwheel	gymnastics	default	default	
+88_08 crouch and flip backward on hands	gymnastics	default	default	
+88_09 stretch and cartwheel	gymnastics	default	default	
+88_10 stretch and spin	gymnastics	default	default	
+88_11 stretches and jumps	gymnastics	default	default	
+				
+Subject #89 (acrobatics; dances)				
+				
+89_02	gymnastics	default	default	
+89_04	gymnastics	default	default	
+				
+				
+				
+Subject #90 (cartwheels; acrobatics; dances)				
+				
+90_02 cartwheel	gymnastics	default	default	
+90_03 cartwheel	gymnastics	default	default	
+90_04 cartwheel	gymnastics	default	default	
+90_05 jump kick	gymnastics	default	default	
+90_06 jump kick	gymnastics	default	default	
+90_07 jump kick	gymnastics	default	default	
+90_08 side flip	gymnastics	default	default	
+90_09 Flip forward onto hands and back again	gymnastics	default	default	
+90_11 hand spring	gymnastics	default	default	
+90_12 bck flp twst fall	gymnastics	default	default	
+90_13 bck flp twst fall	gymnastics	default	default	
+90_14 front hand flip	gymnastics	default	default	
+90_15 front hand flip	gymnastics	default	default	
+90_16 fall on face	gymnastics	default	default	
+90_17 BannanaPeelSlip	gymnastics	default	default	
+90_18 RugPullFall	gymnastics	default	default	
+90_22 straight walk	gymnastics	default	default	
+90_23 straight walk	gymnastics	default	default	
+90_28 breakdance	gymnastics	default	default	
+90_29 sequesnce	gymnastics	default	default	
+90_32 moonwalk	gymnastics	default	default	
+90_33 arm up wide leg roll	gymnastics	default	default	
+90_35 wide leg roll	gymnastics	default	default	
+90_36 wide leg roll	gymnastics	default	default	
+				
+				
+Subject #93 (Charleston Dance)				
+				
+93_03 charleston_01	dance	default	default	
+93_04 charleston_side_by_side_female	dance	default	default	
+93_05 charleston_side_by_side_male	dance	default	default	
+93_06 lindyHop2	dance	default	default	
+93_08 xtra fancY charleston	dance	default	default	
+				
+				
+Subject #94 (indian dance)				
+				
+94_01 Unknown	dance	default	default	
+94_02 Unknown	dance	default	default	
+94_03 Unknown	dance	default	default	
+94_04 Unknown	dance	default	default	
+94_05 Unknown	dance	default	default	
+94_06 Unknown	dance	default	default	
+94_07 Unknown	dance	default	default	
+94_08 Unknown	dance	default	default	
+94_09 Unknown	dance	default	default	
+94_10 Unknown	dance	default	default	
+94_11 Unknown	dance	default	default	
+94_12 Unknown	dance	default	default	
+94_13 Unknown	dance	default	default	
+94_14 Unknown	dance	default	default	
+94_15 Unknown	dance	default	default	
+94_16 Unknown	dance	default	default	
+				
+				
+Subject #103 (Charelston Dancing)				
+				
+103_03 charleston_01	dance	default	default	
+103_04 charleston_side_by_side_female	dance	default	default	
+103_05 charleston_side_by_side_male	dance	default	default	
+103_06 lindyHop2	dance	default	default	
+103_08 xtra fancY charleston	dance	default	default	
+				
+Subject #127 (Action Adventure Obstacles, running, jumping, ducking, rolling)				
+127_23 Run Dive Over Roll Run	gymnastics	default	default	
+127_24 Run Dive Over Roll Run	gymnastics	default	default	
+127_29 Run Duck Underneath	gymnastics	default	default	
+127_30 Run Duck Underneath	gymnastics	default	default	
+127_31 Run Duck Underneath	gymnastics	default	default	
+127_32 Run Duck Underneath	gymnastics	default	default	
+127_37 Run Duck Underneath	gymnastics	default	default	
+127_38 Run Duck Underneath	gymnastics	default	default	
+				
+				
+Subject #131 (Michael Jackson Styled Motions)				
+				
+131_01 Start Walk Stop	dance	default	default	
+131_02 Start Walk Stop	dance	default	default	
+131_03 Start Hop Stop	dance	default	default	
+131_04 Start Hop Stop	dance	default	default	
+131_05 Start Duck Underneath Stop	dance	default	default	
+131_06 Start Duck Underneath Stop	dance	default	default	
+131_07 Jump Stop	dance	default	default	
+131_08 Jump Stop	dance	default	default	
+131_09 Start Walk Left	dance	default	default	
+131_10 Start Walk Left	dance	default	default	
+131_11 Start Walk Left	dance	default	default	
+131_12 Start Walk Right	dance	default	default	
+131_13 Start Walk Right	dance	default	default	
+131_14 Start Walk Right	dance	default	default	
+				
+Subject #135 (Martial Arts Walks)				
+				
+135_01 Bassai	boxing	default	default	
+135_02 Empi	boxing	default	default	
+135_03 Empi	boxing	default	default	
+135_04 Front Kick	boxing	default	default	
+135_05 Gedanbarai	boxing	default	default	
+135_06 Heiansyodan	boxing	default	default	
+135_07 Mawashigeri	boxing	default	default	
+135_08 Motorcycle	boxing	default	default	
+135_09 Oiduki	boxing	default	default	
+135_10 Syutouuke	boxing	default	default	
+135_11 Yokogeri	boxing	default	default	
+				
+				
+Subject #102 (Basketball)				
+				
+102_01 RightWideTurn	basketball	default	default	
+102_02 LeftWideTurn	basketball	default	default	
+102_03 SuperTightLeft	basketball	default	default	
+102_04 SuperTightRight	basketball	default	default	
+102_05 RunningStraight	basketball	default	default	
+102_06 RunningWideRight	basketball	default	default	
+102_07 RunningWideLeft	basketball	default	default	
+102_08 RunningTighterRight	basketball	default	default	
+102_10 RunningNoBall	basketball	default	default	
+102_11 OffensiveMoveSpinLeft	basketball	default	default	
+102_12 OffensiveMoveSpinLeft	basketball	default	default	
+102_13 OffensiveMoveGoRight	basketball	default	default	
+102_14 OffensiveMoveGoLeft	basketball	default	default	
+102_15 OffensiveMoveSpinRight	basketball	default	default	
+102_16 WalkEvasiveLeft	basketball	default	default	
+102_17 WalkEvasiveRight	basketball	default	default	
+102_18 FeintLeftMoveRight	basketball	default	default	
+102_19 FeintRightMoveLeft	basketball	default	default	
+102_20 FakeShotBreakRight	basketball	default	default	
+102_21 FakeShotBreakLeft	basketball	default	default	
+102_22 DefensiveStraightNoStop	basketball	default	default	
+102_23 DefensiveStraightWithStop	basketball	default	default	
+102_24 DefensiveRightStopToStop	basketball	default	default	
+102_25 DefensiveLeftStopToStop	basketball	default	default	
+102_26 DefensiveMoveZigZag	basketball	default	default	
+102_27 DefensiveMoveSideToSide	basketball	default	default	
+102_28 DefensiveMoveSideToSide	basketball	default	default	
+102_29 Pivoting	basketball	default	default	
+102_30 SraightDriveFromStop	basketball	default	default	
+102_31 RightDrive (left then right)	basketball	default	default	
+102_32 LeftDrive (right then left)	basketball	default	default	
+102_33 RightTightTurn	basketball	default	default	
+				
+				
+Subject #78 (walking)				
+				
+78_01 LeftTightTurn  CleanedGRS	basketball	default	default	
+78_02 RightWideTurn  CleanedGRS	basketball	default	default	
+78_03 LeftWideTurn  CleanedGRS	basketball	default	default	
+78_04 SuperTightLeft  CleanedGRS	basketball	default	default	
+78_05 SuperTightRight  CleanedGRS	basketball	default	default	
+78_06 RunningStraight  CleanedGRS	basketball	default	default	
+78_07 RunningWideRight  CleanedGRS	basketball	default	default	
+78_08 RunningWideLeft  CleanedGRS	basketball	default	default	
+78_09 RunningTigherLeft  CleanedGRS	basketball	default	default	
+78_10 RunningTighterRight  CleanedGRS	basketball	default	default	
+78_12 RunningNoBall  CleanedGRS	basketball	default	default	
+78_13 OffensiveMoveSpinLeft  CleanedGRS	basketball	default	default	
+78_14 OffensiveMoveSpinLeft  CleanedGRS	basketball	default	default	
+78_15 OffensiveMoveGoRight  CleanedGRS	basketball	default	default	
+78_16 OffensiveMoveGoLeft  CleanedGRs	basketball	default	default	
+78_17 OffensiveMoveSpinRight  CleanedGRS	basketball	default	default	
+78_18 WalkEvasiveLeft  CleanedGRS	basketball	default	default	
+78_19 WalkEvasiveRight  CleanedGRS	basketball	default	default	
+78_20 FeintLeftMoveRight  CleanedGRS	basketball	default	default	
+78_21 FeintRightMoveLeft  CleanedGRS	basketball	default	default	
+78_22 FakeShotBreakRight  CleanedGRs	basketball	default	default	
+78_23 FakeShotBreakLeft  CleanedGRS	basketball	default	default	
+78_24 DefensiveStraightNoStop  CleanedGRS	basketball	default	default	
+78_25 DefensiveStraightWithStop  CleanedGRS	basketball	default	default	
+78_26 DefensiveRightStopToStop  CleanedGRS	basketball	default	default	
+78_27 DefensiveLeftStopToStop  CleanedGRS	basketball	default	default	
+78_28 DefensiveMoveZigZag  CleanedGRS	basketball	default	default	
+78_29 DefensiveMoveSideToSide  CleanedGRS	basketball	default	default	
+78_30 DefensiveMoveSideToSide  CleanedGRS	basketball	default	default	
+78_31 Pivoting  CleanedGRS	basketball	default	default	
+78_32 SraightDriveFromStop  Cleaned GRS	basketball	default	default	
+78_33 RightDrive (left then right) Cleaned GRS	basketball	default	default	
+78_34 LeftDrive (right then left) Cleaned GRS	basketball	default	default	
+78_35 RightTightTurn CleanedGRS	basketball	default	default	
+				
+Subject #124 (Sports Related Motions)				
+				
+124_01 Baseball Pitch	basketball	default	default	
+124_02 Baseball Pitch	basketball	default	default	
+124_03 Basketball Shoot	basketball	default	default	
+124_04 Basketball Free Throw	basketball	default	default	
+124_05 Basketball Jump Shot	basketball	default	default	
+124_06 Basketball Lay Up	basketball	default	default	
+124_07 Baseball Swing	basketball	default	default	
+124_08 Baseball Bunt	basketball	default	default	
+124_09 Frisbee	basketball	default	default	
+124_11 2 Foot Jump	basketball	default	default	
+124_12 Underhand Toss	basketball	default	default	
+124_13 Underhand Fast Pitch	basketball	default	default	
+				
+Subject #15 (various everyday behaviors, dance moves)				
+15_13 boxing	boxing	default	default	
+				
+Subject #79 (actor everyday activities)				
+79_08 boxing	boxing	default	default	
+				
+Subject #111 (Pregnant Woman)				
+111_38 Yoga	yoga	default	default	
+111_39 Yoga	yoga	default	default	
+111_40 Yoga	yoga	default	default	
+111_41 Yoga	yoga	default	default	
+				
+Subject #113 (Post pregnant woman)				
+				
+113_28 Yoga	yoga	default	default	
+113_29 Yoga	yoga	default	default	
+				
+				
+Subject #143 (General Subject Capture)				
+				
+143_23 Punching	boxing	default	default	
+143_24 Kicking	boxing	default	default	
+				
+				
+				
+Subject #27 (recreation, nursery rhymes)				
+				
+27_11 prairie dog (human subject)	animal	default	default	
+				
+Subject #28 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+28_09 prairie dog (human subject)	animal	default	default	
+28_10 whale (human subject)	animal	default	default	
+28_11 bear (human subject)	animal	default	default	
+28_12 dog (human subject)	animal	default	default	
+28_13 snake (human subject)	animal	default	default	
+28_14 chicken (human subject)	animal	default	default	
+28_15 monkey (human subject)	animal	default	default	
+28_16 mouse (human subject)	animal	default	default	
+28_17 cat (human subject)	animal	default	default	
+28_18 elephant (human subject)	animal	default	default	
+28_19 dinosaur (human subject)	animal	default	default	
+				
+Subject #29 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+29_14 prairie dog (human subject)	animal	default	default	
+29_15 whale (human subject)	animal	default	default	
+29_16 bear (human subject)	animal	default	default	
+29_17 dog (human subject)	animal	default	default	
+29_18 cat (human subject)	animal	default	default	
+29_19 fish (human subject)	animal	default	default	
+29_20 elephant (human subject)	animal	default	default	
+29_21 mouse (human subject)	animal	default	default	
+29_22 chicken (human subject)	animal	default	default	
+29_23 dinosaur (human subject)	animal	default	default	
+29_24 snake (human subject)	animal	default	default	
+29_25 monkey (human subject)	animal	default	default	
+				
+Subject #30 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+30_13 prairie dog (human subject)	animal	default	default	
+30_14 whale (human subject)	animal	default	default	
+30_15 bear (human subject)	animal	default	default	
+30_16 dog (human subject)	animal	default	default	
+30_17 cat (human subject)	animal	default	default	
+30_18 elephant (human subject)	animal	default	default	
+30_19 mouse (human subject)	animal	default	default	
+30_20 chicken (human subject)	animal	default	default	
+30_21 snake (human subject)	animal	default	default	
+30_22 Tyrannosaurus rex (human subject)	animal	default	default	
+30_23 monkey (human subject)	animal	default	default	
+				
+				
+				
+				
+Subject #31 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+31_11 prairie dog (human subject)	animal	default	default	
+31_12 whale (human subject)	animal	default	default	
+31_13 bear (human subject)	animal	default	default	
+31_14 dog (human subject)	animal	default	default	
+31_15 cat (human subject)	animal	default	default	
+31_16 elephant (human subject)	animal	default	default	
+31_17 Tyrannosaurus rex (human subject)	animal	default	default	
+31_18 mouse (human subject)	animal	default	default	
+31_19 chicken (human subject)	animal	default	default	
+31_20 snake (human subject)	animal	default	default	
+31_21 monkey (human subject)	animal	default	default	
+				
+Subject #32 (recreation, nursery rhymes, animal behaviors (pantomime - human subject))				
+				
+32_13 prairie dog (human subject)	animal	default	default	
+32_14 bear (human subject)	animal	default	default	
+32_15 dog (human subject)	animal	default	default	
+32_16 cat (human subject)	animal	default	default	
+32_17 elephant (human subject)	animal	default	default	
+32_18 mouse (human subject)	animal	default	default	
+32_19 chicken (human subject)	animal	default	default	
+32_20 Tyrannosaurus rex (human subject)	animal	default	default	
+32_21 snake (human subject)	animal	default	default	
+32_22 monkey (human subject)	animal	default	default	
+				
+				
+Subject #54 (animal behaviors (pantomime - human subject))				
+				
+54_01 monkey (human subject)	animal	default	default	
+54_02 bear (human subject)	animal	default	default	
+54_03 penguin (human subject)	animal	default	default	
+54_04 pterosaur (human subject)	animal	default	default	
+54_05 pterosaur (human subject)	animal	default	default	
+54_06 pterosaur (human subject)	animal	default	default	
+54_07 prairie dog (human subject)	animal	default	default	
+54_08 roadrunner (human subject)	animal	default	default	
+54_09 insect/praying mantis (human subject)	animal	default	default	
+54_10 ghost (human subject)	animal	default	default	
+54_11 penguin (human subject)	animal	default	default	
+54_12 dragon (human subject)	animal	default	default	
+54_13 dragon (human subject)	animal	default	default	
+54_14 monkey (human subject)	animal	default	default	
+54_15 prairie dog (human subject)	animal	default	default	
+54_16 superhero	animal	default	default	
+54_17 squirrel (human subject)	animal	default	default	
+54_18 squirrel (human subject)	animal	default	default	
+54_19 squirrel - robotic like motion (human subject)	animal	default	default	
+54_23 monkey (human subject)	animal	default	default	
+54_24 hummingbird (human subject)	animal	default	default	
+54_25 chicken (human subject)	animal	default	default	
+54_26 chicken (human subject)	animal	default	default	
+54_27 chicken (human subject)	animal	default	default	
+				
+Subject #55 (animal behaviors (pantomime - human subject))				
+				
+55_05 hummingbird (human subject)	animal	default	default	
+55_06 chicken (human subject)	animal	default	default	
+55_07 chicken (human subject)	animal	default	default	
+55_08 monkey (human subject)	animal	default	default	
+55_09 monkey (human subject)	animal	default	default	
+55_10 hummingbird (human subject)	animal	default	default	
+55_11 animal (human subject)	animal	default	default	
+55_12 dancing bear (human subject)	animal	default	default	
+55_13 insect/praying mantis (human subject)	animal	default	default	
+55_14 prairie dog (human subject)	animal	default	default	
+55_15 roadrunner (human subject)	animal	default	default	
+55_16 panda (human subject)	animal	default	default	
+55_17 ghost (human subject)	animal	default	default	
+55_18 penguin (human subject)	animal	default	default	
+55_19 dragon (human subject)	animal	default	default	
+55_20 hippo ballerina (human subject)	animal	default	default	
+55_21 pterosaur (human subject)	animal	default	default	
+				
+				
+55_22 superhero	animal	default	default	
+55_23 devil	animal	default	default	
+55_24 various animals (human subject)	animal	default	default	
+55_25 dancing animal (human subject)	animal	default	default	
+55_26 monkey (human subject)	animal	default	default	
+55_27 dancing ant (human subject)	animal	default	default	
+55_28 monkey/bear (human subject)	animal	default	default	
+				
+Subject #79 (actor everyday activities)				
+				
+79_45 bear	animal	default	default	
+79_46 bear	animal	default	default	
+79_47 chicken	animal	default	default	
+79_48 elephant	animal	default	default	
+79_49 monkey	animal	default	default	
+79_50 mouse	animal	default	default	
+79_51 chipmunk	animal	default	default	
+79_52 prairie dog	animal	default	default	
+79_53 dog	animal	default	default	
+79_54 snake	animal	default	default	
+79_55 sweeping	animal	default	default	
+79_56 T-rex	animal	default	default	
+79_57 fish	animal	default	default	
+79_58 bird	animal	default	default	
+79_59 cat	animal	default	default	
+79_60 chicken	animal	default	default	
+79_61 cow	animal	default	default	
+79_62 chicken	animal	default	default	
+79_63 tiger	animal	default	default	
+79_64 penguin	animal	default	default	
+79_65 horse	animal	default	default	
+				
+Subject #80 (assorted motions)				
+				
+80_51 chicken	animal	default	default	
+80_52 dog	animal	default	default	
+80_53 elephant	animal	default	default	
+80_54 monkey	animal	default	default	
+80_55 mouse	animal	default	default	
+80_56 chip monk	animal	default	default	
+80_57 prairie dog	animal	default	default	
+80_58 snake	animal	default	default	
+80_59 panther	animal	default	default	
+80_62 bird	animal	default	default	
+80_63 chicken	animal	default	default	
+80_64 cat	animal	default	default	
+80_65 fish	animal	default	default	
+80_69 painting	animal	default	default	
+80_70 piano	animal	default	default	
+80_71 chopping wood	animal	default	default	
+80_72 swimming	animal	default	default	
+80_73 shaking hands	animal	default	default	
+				
+Subject #137 (Stylized Motions)				
+				
+137_01 Cat Coffee Mug	animal	default	default	
+137_02 Cat Pick Up	animal	default	default	
+137_03 Cat Wait	animal	default	default	
+137_04 Cat Walk	animal	default	default	
+137_05 Chicken Coffee Mug	animal	default	default	
+137_06 Chicken Pick Up	animal	default	default	
+137_07 Chicken Wait	animal	default	default	
+137_08 Chicken Walk	animal	default	default	
+137_09 Dinosaur Coffee Mug	animal	default	default	
+137_10 Dinosaur Pick Up	animal	default	default	
+137_11 Dinosaur Wait	animal	default	default	
+137_12 Dinosaur Walk	animal	default	default	
+				
+				
+				
+Subject #56 (vignettes - locomotion, upper-body motions (focus: motion transitions))				
+				
+56_01 walk around	LongCom	default	default	
+56_02 vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall	LongCom	default	default	
+56_03 vignettes - fists up, wipe window, yawn, stretch, angrily grab, smash against wall, lift open window, throw punches, skip	LongCom	default	default	
+56_04 vignettes - fists up, wipe window, grab, lift open window, throw punches, yawn, stretch, walk, jump	LongCom	default	default	
+56_05 vignettes - walk, drink water, run/jog, jump, wipe window, lift open window, throw punches, yawn, stretch	LongCom	default	default	
+56_06 vignettes - throw punches, grab, skip, yawn, stretch, leap, lift open window, walk, jump/bound	LongCom	default	default	
+56_07 vignettes - yawn, stretch, walk, run/jog, angrily grab, jump, skip, halt	LongCom	default	default	
+56_08 vignettes - lift open window, smash against wall, hop, walk, run/jog, yawn, stretch	LongCom	default	default	
+				
+				
+				
+Subject #15 (various everyday behaviors, dance moves)				
+15_04 wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing	LongCom	default	default	
+15_05 wash windows, paint; hand signals; dance - Egyptian walk, the Dive, the Twist, the Cabbage Patch; boxing	LongCom	default	default	
+15_12 wash windows; basketball - dribble, lay-up shot, pass; throw ball; dance - Egyptian walk, the Dive, the Twist; strew	LongCom	default	default	
+				
+				
+				
+Subject #86 (sports and various activities)				
+				
+86_01 jumps kicks and punches	LongCom	default	default	
+86_02 walk, squats, run, stretch, jumps, punches, and drinking	LongCom	default	default	
+86_03 walking, running, jumping, kicking, and stretching	LongCom	default	default	
+86_04 walking, stretching, punching, chopping, and drinking	LongCom	default	default	
+86_05 walking, jumping, jumping jacks, jumping on one foot, punching, chopping,	LongCom	default	default	
+86_07 walking, swinging arms, stretching, jumping on one leg, and jumping	LongCom	default	default	
+86_08 walking, squats, stretching, kicking, and punching	LongCom	default	default	
+86_11 walking, stretching, walking and turning	LongCom	default	default	
+86_12 walking, dragging, sweeping, dustpan, wipe window, and wipe mirror	LongCom	default	default	
+86_14 bouncing basketball, shooting basketball, dribble basketball, two handed dribble	LongCom	default	default	
+				
+Subject #13 (various everyday behaviors)				
+				
+13_29 jumping jacks, side twists, bend over, squats	LongCom	default	default	
+13_30 jumping jacks, side twists, squats, jog	LongCom	default	default	
+13_31 jumping jacks, side twists, bend over, jog	LongCom	default	default	
+13_10 jump up to grab, reach for, tiptoe	LongCom	default	default	
+13_12 jump up to grab, reach for, tiptoe	LongCom	default	default	
+				
+				
+Subject #14 (various everyday behaviors)				
+				
+14_06 jumping jacks, jog, squats, side twists, stretches	LongCom	default	default	
+14_07 jump up to grab, reach for, tiptoe	LongCom	default	default	
+14_08 jump up to grab, reach for, tiptoe	LongCom	default	default	
+14_09 jump up to grab, reach for, tiptoe	LongCom	default	default	
+14_14 jumping jacks, jog, squats, side twists, stretches	LongCom	default	default	
+14_20 jumping jacks, side twists, reach up, bend over	LongCom	default	default	
+				
+				
+				
+Subject #69 (walking)				
+				
+69_68 walk forward and pick up object, set down object	LongCom	default	default	
+69_69 walk forward and pick up object, carry back object	LongCom	default	default	
+69_70 walk up to object, squat, pick up object, set down in another place.	LongCom	default	default	
+69_71 walk up to object, squat, pick up object, set down in another place	LongCom	default	default	
+69_72 walk up to object, pick up object, set down in another place	LongCom	default	default	
+69_73 walk up to object, lean over, pick up object, set down in another place	LongCom	default	default	
+69_74 walk up to object, lean over, pick up object, set down in another place	LongCom	default	default	
+69_75 walk up to object, squat, pick up object, set down in another place	LongCom	default	default	

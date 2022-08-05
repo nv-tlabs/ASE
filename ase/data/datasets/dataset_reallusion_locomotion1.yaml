@@ -1,0 +1,89 @@
+motions:
+  - file: "RL_Avatar_Dodge_Walk_A_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Dodge_Walk_B_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Dodge_Walk_C_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_WalkFast_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_WalkFastToRun_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_WalkFastToSlow_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_WalkSlow_M_1S_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_WalkSlow_M_2L_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_WalkSlow_M_3E_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_WalkSlowToFast_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_Wander_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_End(0)_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Hurry_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Listening_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Loop(0)_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Normal_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Normal_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_NormalSwayArms_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Prance01_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Prance02_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Refusing_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Start(0)_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Stroll_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Walk_Wander_M_Motion.npy"
+    weight: 0.01388889
+  - file: "RL_Avatar_Move_Run_M_Motion.npy"
+    weight: 0.03030303
+  - file: "RL_Avatar_Move_RunToWalkSlow_M_Motion.npy"
+    weight: 0.03030303
+  - file: "RL_Avatar_Run_Trotting_Loop_Motion.npy"
+    weight: 0.03030303
+  - file: "RL_Avatar_Run_Trotting_Motion.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Run_AC.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Run_AP.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Run_AS.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Run_B.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Run_CCW.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Run_CW.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Run_F.npy"
+    weight: 0.03030303
+  - file: "locomotion/Speed_Jog_AC.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_Jog_AP.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_Jog_AS.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_Jog_B.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_Jog_CCW.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_Jog_CW.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_Jog_E.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_Jog_F.npy"
+    weight: 0.03703704
+  - file: "locomotion/Speed_JogRun_Tran.npy"
+    weight: 0.03703704

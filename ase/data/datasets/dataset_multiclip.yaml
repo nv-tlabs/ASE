@@ -1,0 +1,17 @@
+motions:
+  - file: "amp_humanoid_dance_bollywood.npy"
+    weight: 1.0
+  - file: "amp_humanoid_dance_chinese.npy"
+    weight: 1.0
+  - file: "amp_humanoid_dance_spin.npy"
+    weight: 1.0
+  - file: "amp_humanoid_jog.npy"
+    weight: 1.0
+  - file: "amp_humanoid_run.npy"
+    weight: 1.0
+  - file: "amp_humanoid_spinkick.npy"
+    weight: 1.0
+  - file: "amp_humanoid_walk.npy"
+    weight: 1.0
+  - file: "amp_humanoid_walk_zombie.npy"
+    weight: 1.0

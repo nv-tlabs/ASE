@@ -1,0 +1,8 @@
+*.pyc
+
+.vs/
+runs/
+__pycache__/
+output/
+log/
+nn/

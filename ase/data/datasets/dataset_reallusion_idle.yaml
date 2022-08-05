@@ -1,0 +1,7 @@
+motions:
+  - file: "RL_Avatar_Against_Wall_Stand_Motion.npy"
+    weight: 1.0
+  - file: "RL_Avatar_M_Idle_cautious_Motion.npy"
+    weight: 1.0
+  - file: "RL_Avatar_Stand_Idle_Motion.npy"
+    weight: 1.0

@@ -1,0 +1,55 @@
+motions:
+  - file: "RL_Avatar_Against_Wall_Turn_R_to_SneakWalk_Motion.npy"
+    weight: 0.01851852
+  - file: "RL_Avatar_SneakWalk_Detect_Motion.npy"
+    weight: 0.01851852
+  - file: "RL_Avatar_SneakWalk_Fast_Start_Motion.npy"
+    weight: 0.01851852
+  - file: "RL_Avatar_SneakWalk_Slow_Start_Motion.npy"
+    weight: 0.01851852
+  - file: "RL_Avatar_SneakWalk_to_Against_Wall_Motion.npy"
+    weight: 0.01851852
+  - file: "RL_Avatar_SneakWalk_to_Crouch_Walk_Motion.npy"
+    weight: 0.01851852
+  - file: "RL_Avatar_Sneak_Idle_Motion.npy"
+    weight: 0.03703704
+  - file: "RL_Avatar_Sneak_Idle_to_Stand_Idle_Motion.npy"
+    weight: 0.03703704
+  - file: "RL_Avatar_Stand_Idle_to_Sneak_Idle_Motion.npy"
+    weight: 0.03703704
+  - file: "RL_Avatar_Sneak_Idle_to_Crouch_Idle_Motion.npy"
+    weight: 0.05555556
+  - file: "RL_Avatar_Stand_Idle_to_Crouch_Idle_Motion.npy"
+    weight: 0.05555556
+  - file: "RL_Avatar_Crouch_Idle_Motion.npy"
+    weight: 0.11111111
+  - file: "RL_Avatar_Crouch_Idle_to_Sneak_Idle_Motion.npy"
+    weight: 0.05555556
+  - file: "RL_Avatar_Crouch_Idle_to_Stand_Idle_Motion.npy"
+    weight: 0.05555556
+  - file: "RL_Avatar_Crouch_to_AgainstWall_Motion.npy"
+    weight: 0.02222222
+  - file: "RL_Avatar_Crouch_to_Sneak_Walk_Motion.npy"
+    weight: 0.02222222
+  - file: "RL_Avatar_Crouch_Walk_Fast_Start_Motion.npy"
+    weight: 0.02222222
+  - file: "RL_Avatar_Crouch_Walk_L_AgainstWall_Motion.npy"
+    weight: 0.02222222
+  - file: "RL_Avatar_Crouch_Walk_Slow_Start_Motion.npy"
+    weight: 0.02222222
+  - file: "RL_Avatar_Crouch_Walk_Fast_End_Motion.npy"
+    weight: 0.05555556
+  - file: "RL_Avatar_Crouch_Walk_Slow_End_Motion.npy"
+    weight: 0.05555556
+  - file: "RL_Avatar_Crouch_Walk_Fast_Loop_Motion.npy"
+    weight: 0.02777778
+  - file: "RL_Avatar_Crouch_Walk_Slow_Loop_Motion.npy"
+    weight: 0.02777778
+  - file: "RL_Avatar_SneakWalk_Fast_Loop_Motion.npy"
+    weight: 0.02777778
+  - file: "RL_Avatar_SneakWalk_Slow_Loop_Motion.npy"
+    weight: 0.02777778
+  - file: "RL_Avatar_SneakWalk_Fast_End_Motion.npy"
+    weight: 0.05555556
+  - file: "RL_Avatar_SneakWalk_Slow_End_Motion.npy"
+    weight: 0.05555556
