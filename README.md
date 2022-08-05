@@ -85,7 +85,7 @@ python ase/run.py --test --task HumanoidAMP --num_envs 16 --cfg_env ase/data/cfg
 
 Motion clips are located in `ase/data/motions/`. Individual motion clips are stored as `.npy` files. Motion datasets are specified by `.yaml` files, which contains a list of motion clips to be included in the dataset. Motion clips can be visualized with the following command:
 ```
-python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env amp/data/cfg/humanoid_sword_shield.yaml --cfg_train amp/data/cfg/train/rlg/amp_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Atk_2xCombo01_Motion.npy
+python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env ase/data/cfg/humanoid_sword_shield.yaml --cfg_train ase/data/cfg/train/rlg/amp_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Atk_2xCombo01_Motion.npy
 ```
 `--motion_file` can be used to visualize a single motion clip `.npy` or a motion dataset `.yaml`.
 
