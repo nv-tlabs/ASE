@@ -46,7 +46,7 @@ The following command will use a pre-trained ASE model to perform a target headi
 python ase/run.py --task HumanoidHeading --cfg_env ase/data/cfg/humanoid_sword_shield_heading.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Crouch_Idle_Motion.npy --llc_checkpoint [path_to_llc_checkpoint] --headless
 ```
 `--llc_checkpoint` specifies the checkpoint to use for the low-level controller. A pre-trained ASE low-level
-controller is available in `ase/data/models/ase_llc_reallusion_sword_shield.ckpt`.
+controller is available in `ase/data/models/ase_llc_reallusion_sword_shield.pth`.
 `--task` specifies the task that the character should perform, and `--cfg_env` specifies the environment
 configurations for that task. The built-in tasks and their respective config files are:
 ```
