@@ -67,7 +67,7 @@ python ase/run.py --test --task HumanoidHeading --num_envs 16 --cfg_env ase/data
 
 ### AMP
 
-We also provide an implementation of Adversarial Motion Priors (https://xbpeng.github.io/projects/ase/index.html).
+We also provide an implementation of Adversarial Motion Priors (https://xbpeng.github.io/projects/AMP/index.html).
 A model can be trained to imitate a given reference motion using the following command:
 ```
 python ase/run.py --task HumanoidAMP --cfg_env ase/data/cfg/humanoid_sword_shield.yaml --cfg_train ase/data/cfg/train/rlg/amp_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Atk_2xCombo01_Motion.npy --headless
