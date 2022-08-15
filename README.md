@@ -43,7 +43,7 @@ You can also test the robustness of the model with `--task HumanoidPerturb`, whi
 After the ASE low-level controller has been trained, it can be used to train task-specific high-level controllers.
 The following command will use a pre-trained ASE model to perform a target heading task:
 ```
-python ase/run.py --task HumanoidHeading --cfg_env ase/data/cfg/humanoid_sword_shield_heading.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Crouch_Idle_Motion.npy --llc_checkpoint [path_to_llc_checkpoint] --headless
+python ase/run.py --task HumanoidHeading --cfg_env ase/data/cfg/humanoid_sword_shield_heading.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Idle_Ready_Motion.npy --llc_checkpoint [path_to_llc_checkpoint] --headless
 ```
 `--llc_checkpoint` specifies the checkpoint to use for the low-level controller. A pre-trained ASE low-level
 controller is available in `ase/data/models/ase_llc_reallusion_sword_shield.pth`.
@@ -57,7 +57,7 @@ HumanoidStrike: ase/data/cfg/humanoid_sword_shield_strike.yaml
 ```
 To test a trained model, use the following command:
 ```
-python ase/run.py --test --task HumanoidHeading --num_envs 16 --cfg_env ase/data/cfg/humanoid_sword_shield_heading.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Crouch_Idle_Motion.npy --llc_checkpoint [path_to_llc_checkpoint] --checkpoint [path_to_hlc_checkpoint]
+python ase/run.py --test --task HumanoidHeading --num_envs 16 --cfg_env ase/data/cfg/humanoid_sword_shield_heading.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Idle_Ready_Motion.npy --llc_checkpoint [path_to_llc_checkpoint] --checkpoint [path_to_hlc_checkpoint]
 ```
 
 
