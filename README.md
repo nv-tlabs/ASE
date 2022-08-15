@@ -90,4 +90,9 @@ python ase/run.py --test --task HumanoidViewMotion --num_envs 2 --cfg_env ase/da
 `--motion_file` can be used to visualize a single motion clip `.npy` or a motion dataset `.yaml`.
 
 
+This motion data is provided courtesy of Reallusion, strictly for noncommercial use. The original motion data is available at:
+https://actorcore.reallusion.com/motion/pack/studio-mocap-sword-and-shield-stunts
+https://actorcore.reallusion.com/motion/pack/studio-mocap-sword-and-shield-moves
+
+
 If you want to retarget new motion clips to the character, you can take a look at an example retargeting script in `ase/poselib/retarget_motion.py`.
