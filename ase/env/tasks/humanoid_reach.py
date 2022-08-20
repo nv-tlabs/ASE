@@ -85,7 +85,7 @@ class HumanoidReach(humanoid_amp_task.HumanoidAMPTask):
         return
 
     def _load_marker_asset(self):
-        asset_root = "ase/data/assets/mjcf/"
+        asset_root = "amp/data/assets/mjcf/"
         asset_file = "location_marker.urdf"
 
         asset_options = gymapi.AssetOptions()
@@ -212,7 +212,7 @@ def compute_location_observations(root_states, tar_pos):
 @torch.jit.script
 def compute_reach_reward(reach_body_pos, root_rot, tar_pos, tar_speed, dt):
     # type: (Tensor, Tensor, Tensor, float, float) -> Tensor
-    pos_err_scale = 5.0
+    pos_err_scale = 4.0
     
     pos_diff = tar_pos - reach_body_pos
     pos_err = torch.sum(pos_diff * pos_diff, dim=-1)

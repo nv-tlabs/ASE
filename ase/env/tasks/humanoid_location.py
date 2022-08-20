@@ -88,7 +88,7 @@ class HumanoidLocation(humanoid_amp_task.HumanoidAMPTask):
         return
 
     def _load_marker_asset(self):
-        asset_root = "ase/data/assets/mjcf/"
+        asset_root = "amp/data/assets/mjcf/"
         asset_file = "location_marker.urdf"
 
         asset_options = gymapi.AssetOptions()
@@ -215,9 +215,11 @@ def compute_location_reward(root_pos, prev_root_pos, root_rot, tar_pos, tar_spee
     dist_threshold = 0.5
 
     pos_err_scale = 0.5
+    vel_err_scale = 4.0
 
-    pos_reward_w = 0.85
-    face_reward_w = 0.15
+    pos_reward_w = 0.5
+    vel_reward_w = 0.4
+    face_reward_w = 0.1
     
     pos_diff = tar_pos - root_pos[..., 0:2]
     pos_err = torch.sum(pos_diff * pos_diff, dim=-1)
@@ -226,15 +228,29 @@ def compute_location_reward(root_pos, prev_root_pos, root_rot, tar_pos, tar_spee
     tar_dir = tar_pos - root_pos[..., 0:2]
     tar_dir = torch.nn.functional.normalize(tar_dir, dim=-1)
     
+    
+    delta_root_pos = root_pos - prev_root_pos
+    root_vel = delta_root_pos / dt
+    tar_dir_speed = torch.sum(tar_dir * root_vel[..., :2], dim=-1)
+    tar_vel_err = tar_speed - tar_dir_speed
+    tar_vel_err = torch.clamp_min(tar_vel_err, 0.0)
+    vel_reward = torch.exp(-vel_err_scale * (tar_vel_err * tar_vel_err))
+    speed_mask = tar_dir_speed <= 0
+    vel_reward[speed_mask] = 0
+
+
     heading_rot = torch_utils.calc_heading_quat(root_rot)
     facing_dir = torch.zeros_like(root_pos)
     facing_dir[..., 0] = 1.0
     facing_dir = quat_rotate(heading_rot, facing_dir)
     facing_err = torch.sum(tar_dir * facing_dir[..., 0:2], dim=-1)
     facing_reward = torch.clamp_min(facing_err, 0.0)
-    facing_reward = torch.where(pos_err < dist_threshold, torch.ones_like(facing_reward), facing_reward)
 
 
-    reward = pos_reward_w * pos_reward + face_reward_w * facing_reward
+    dist_mask = pos_err < dist_threshold
+    facing_reward[dist_mask] = 1.0
+    vel_reward[dist_mask] = 1.0
+
+    reward = pos_reward_w * pos_reward + vel_reward_w * vel_reward + face_reward_w * facing_reward
 
     return reward

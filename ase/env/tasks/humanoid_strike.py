@@ -76,7 +76,7 @@ class HumanoidStrike(humanoid_amp_task.HumanoidAMPTask):
         return
 
     def _load_target_asset(self):
-        asset_root = "ase/data/assets/mjcf/"
+        asset_root = "amp/data/assets/mjcf/"
         asset_file = "strike_target.urdf"
 
         asset_options = gymapi.AssetOptions()
@@ -243,12 +243,14 @@ def compute_strike_observations(root_states, tar_states):
     obs = torch.cat([local_tar_pos, local_tar_rot_obs, local_tar_vel, local_tar_ang_vel], dim=-1)
     return obs
 
-@torch.jit.script
+#@torch.jit.script
 def compute_strike_reward(tar_pos, tar_rot, root_state, prev_root_pos, strike_body_vel, dt, near_dist):
     # type: (Tensor, Tensor, Tensor, Tensor, Tensor, float, float) -> Tensor
     tar_speed = 1.0
     vel_err_scale = 4.0
-    tar_rot_w = 1.0
+
+    tar_rot_w = 0.6
+    vel_reward_w = 0.4
 
     up = torch.zeros_like(tar_pos)
     up[..., -1] = 1
@@ -256,7 +258,20 @@ def compute_strike_reward(tar_pos, tar_rot, root_state, prev_root_pos, strike_bo
     tar_rot_err = torch.sum(up * tar_up, dim=-1)
     tar_rot_r = torch.clamp_min(1.0 - tar_rot_err, 0.0)
 
-    reward = tar_rot_r
+    root_pos = root_state[..., 0:3]
+    tar_dir = tar_pos[..., 0:2] - root_pos[..., 0:2]
+    tar_dir = torch.nn.functional.normalize(tar_dir, dim=-1)
+    delta_root_pos = root_pos - prev_root_pos
+    root_vel = delta_root_pos / dt
+    tar_dir_speed = torch.sum(tar_dir * root_vel[..., :2], dim=-1)
+    tar_vel_err = tar_speed - tar_dir_speed
+    tar_vel_err = torch.clamp_min(tar_vel_err, 0.0)
+    vel_reward = torch.exp(-vel_err_scale * (tar_vel_err * tar_vel_err))
+    speed_mask = tar_dir_speed <= 0
+    vel_reward[speed_mask] = 0
+
+
+    reward = tar_rot_w * tar_rot_r + vel_reward_w * vel_reward
     
     succ = tar_rot_err < 0.2
     reward = torch.where(succ, torch.ones_like(reward), reward)
