@@ -65,6 +65,40 @@ python ase/run.py --test --task HumanoidHeading --num_envs 16 --cfg_env ase/data
 
 &nbsp;
 
+#### Pre-Trained Models
+
+Pre-trained models are provided in `ase/data/models/`. To run a pre-trained ASE low-level controller,
+use the following commands:
+```
+python ase/run.py --test --task HumanoidAMPGetup --num_envs 16 --cfg_env ase/data/cfg/humanoid_ase_sword_shield_getup.yaml --cfg_train ase/data/cfg/train/rlg/ase_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/dataset_reallusion_sword_shield.yaml --checkpoint ase/data/models/ase_llc_reallusion_sword_shield.pth
+```
+
+Pre-trained models for the different tasks can be run using the following commands:
+
+Heading:
+```
+python ase/run.py --test --task HumanoidHeading --num_envs 16 --cfg_env ase/data/cfg/humanoid_sword_shield_heading.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Idle_Ready_Motion.npy --llc_checkpoint ase/data/models/ase_llc_reallusion_sword_shield.pth --checkpoint ase/data/models/ase_hlc_heading_reallusion_sword_shield.pth
+```
+
+Reach:
+```
+python ase/run.py --test --task HumanoidReach --num_envs 16 --cfg_env ase/data/cfg/humanoid_sword_shield_reach.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Idle_Ready_Motion.npy --llc_checkpoint ase/data/models/ase_llc_reallusion_sword_shield.pth --checkpoint ase/data/models/ase_hlc_reach_reallusion_sword_shield.pth
+```
+
+Location:
+```
+python ase/run.py --test --task HumanoidLocation --num_envs 16 --cfg_env ase/data/cfg/humanoid_sword_shield_location.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Idle_Ready_Motion.npy --llc_checkpoint ase/data/models/ase_llc_reallusion_sword_shield.pth --checkpoint ase/data/models/ase_hlc_location_reallusion_sword_shield.pth
+```
+
+Strike:
+```
+python ase/run.py --test --task HumanoidStrike --num_envs 16 --cfg_env ase/data/cfg/humanoid_sword_shield_strike.yaml --cfg_train ase/data/cfg/train/rlg/hrl_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/RL_Avatar_Idle_Ready_Motion.npy --llc_checkpoint ase/data/models/ase_llc_reallusion_sword_shield.pth --checkpoint ase/data/models/ase_hlc_strike_reallusion_sword_shield.pth
+```
+
+&nbsp;
+
+&nbsp;
+
 ### AMP
 
 We also provide an implementation of Adversarial Motion Priors (https://xbpeng.github.io/projects/AMP/index.html).
