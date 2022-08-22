@@ -68,7 +68,7 @@ python ase/run.py --test --task HumanoidHeading --num_envs 16 --cfg_env ase/data
 #### Pre-Trained Models
 
 Pre-trained models are provided in `ase/data/models/`. To run a pre-trained ASE low-level controller,
-use the following commands:
+use the following command:
 ```
 python ase/run.py --test --task HumanoidAMPGetup --num_envs 16 --cfg_env ase/data/cfg/humanoid_ase_sword_shield_getup.yaml --cfg_train ase/data/cfg/train/rlg/ase_humanoid.yaml --motion_file ase/data/motions/reallusion_sword_shield/dataset_reallusion_sword_shield.yaml --checkpoint ase/data/models/ase_llc_reallusion_sword_shield.pth
 ```
