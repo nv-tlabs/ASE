@@ -243,7 +243,7 @@ def compute_strike_observations(root_states, tar_states):
     obs = torch.cat([local_tar_pos, local_tar_rot_obs, local_tar_vel, local_tar_ang_vel], dim=-1)
     return obs
 
-#@torch.jit.script
+@torch.jit.script
 def compute_strike_reward(tar_pos, tar_rot, root_state, prev_root_pos, strike_body_vel, dt, near_dist):
     # type: (Tensor, Tensor, Tensor, Tensor, Tensor, float, float) -> Tensor
     tar_speed = 1.0
