@@ -241,7 +241,7 @@ class HumanoidAMP(Humanoid):
 
     def _init_amp_obs_ref(self, env_ids, motion_ids, motion_times):
         dt = self.dt
-        motion_ids = torch.tile(motion_ids, [1, self._num_amp_obs_steps - 1])
+        motion_ids = torch.tile(motion_ids.unsqueeze(-1), [1, self._num_amp_obs_steps - 1])
         motion_times = motion_times.unsqueeze(-1)
         time_steps = -dt * (torch.arange(0, self._num_amp_obs_steps - 1, device=self.device) + 1)
         motion_times = motion_times + time_steps
