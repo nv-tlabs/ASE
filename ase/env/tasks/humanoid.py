@@ -171,7 +171,7 @@ class Humanoid(BaseTask):
         if (len(env_ids) > 0):
             self._reset_actors(env_ids)
             self._reset_env_tensors(env_ids)
-            self.gym.simulte(self.sim)
+            self.gym.simulate(self.sim)
             self.gym.fetch_results(self.sim, True)
             self._refresh_sim_tensors()
             self._compute_observations(env_ids)
