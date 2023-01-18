@@ -69,14 +69,14 @@ class Humanoid(BaseTask):
          
         super().__init__(cfg=self.cfg)
         
-        self.dt = self.control_freq_inv * sim_params.dt
+        self.dt = self.control_freq_inv * sim_params.dt #! (2 * 1 / 60)
         
         # get gym GPU state tensors
-        actor_root_state = self.gym.acquire_actor_root_state_tensor(self.sim)
-        dof_state_tensor = self.gym.acquire_dof_state_tensor(self.sim)
-        sensor_tensor = self.gym.acquire_force_sensor_tensor(self.sim)
-        rigid_body_state = self.gym.acquire_rigid_body_state_tensor(self.sim)
-        contact_force_tensor = self.gym.acquire_net_contact_force_tensor(self.sim)
+        actor_root_state = self.gym.acquire_actor_root_state_tensor(self.sim)   #! shape: (16, 13)   (self.num_envs * num_actors, actor_root_state (pos, rot, lin vel, ang vel)) 
+        dof_state_tensor = self.gym.acquire_dof_state_tensor(self.sim)          #! shape: (496, 2) (num_env * dof, 2) -> position, velocity
+        sensor_tensor = self.gym.acquire_force_sensor_tensor(self.sim)          #! shape: (32, 6) 6:  forces (3) and torques (3) 
+        rigid_body_state = self.gym.acquire_rigid_body_state_tensor(self.sim)   #! global rotation / shape: (272, 13):  position([0:3]), rotation([3:7]), linear velocity([7:10]), and angular velocity([10:13]
+        contact_force_tensor = self.gym.acquire_net_contact_force_tensor(self.sim)  # shape: (272, 3)
 
         sensors_per_env = 2
         self.vec_sensor_tensor = gymtorch.wrap_tensor(sensor_tensor).view(self.num_envs, sensors_per_env * 6)
@@ -89,32 +89,32 @@ class Humanoid(BaseTask):
         self.gym.refresh_rigid_body_state_tensor(self.sim)
         self.gym.refresh_net_contact_force_tensor(self.sim)
 
-        self._root_states = gymtorch.wrap_tensor(actor_root_state)
+        self._root_states = gymtorch.wrap_tensor(actor_root_state)  
         num_actors = self.get_num_actors_per_env()
         
-        self._humanoid_root_states = self._root_states.view(self.num_envs, num_actors, actor_root_state.shape[-1])[..., 0, :]
+        self._humanoid_root_states = self._root_states.view(self.num_envs, num_actors, actor_root_state.shape[-1])[..., 0, :]   # idx: 0 humanoid 
         self._initial_humanoid_root_states = self._humanoid_root_states.clone()
-        self._initial_humanoid_root_states[:, 7:13] = 0
+        self._initial_humanoid_root_states[:, 7:13] = 0 #! why?
 
         self._humanoid_actor_ids = num_actors * torch.arange(self.num_envs, device=self.device, dtype=torch.int32)
 
         # create some wrapper tensors for different slices
-        self._dof_state = gymtorch.wrap_tensor(dof_state_tensor)
-        dofs_per_env = self._dof_state.shape[0] // self.num_envs
-        self._dof_pos = self._dof_state.view(self.num_envs, dofs_per_env, 2)[..., :self.num_dof, 0]
-        self._dof_vel = self._dof_state.view(self.num_envs, dofs_per_env, 2)[..., :self.num_dof, 1]
+        self._dof_state = gymtorch.wrap_tensor(dof_state_tensor)    #! <- from sim (496, 2)
+        dofs_per_env = self._dof_state.shape[0] // self.num_envs    #! <- 496 / num_envs
+        self._dof_pos = self._dof_state.view(self.num_envs, dofs_per_env, 2)[..., :self.num_dof, 0] #! <- shape (1, 496, 2)  -extract-> (1, 0 : 16, 0)
+        self._dof_vel = self._dof_state.view(self.num_envs, dofs_per_env, 2)[..., :self.num_dof, 1] #! <- shape (1, 496, 2)  -extract-> (1, 0 : 16, 0)
         
-        self._initial_dof_pos = torch.zeros_like(self._dof_pos, device=self.device, dtype=torch.float)
-        self._initial_dof_vel = torch.zeros_like(self._dof_vel, device=self.device, dtype=torch.float)
+        self._initial_dof_pos = torch.zeros_like(self._dof_pos, device=self.device, dtype=torch.float)  #! <- initial dof pos 0으로 저장
+        self._initial_dof_vel = torch.zeros_like(self._dof_vel, device=self.device, dtype=torch.float)  #! <- initial dof vel 0으로 저장
         
-        self._rigid_body_state = gymtorch.wrap_tensor(rigid_body_state)
+        self._rigid_body_state = gymtorch.wrap_tensor(rigid_body_state) #!<- shape: (272, 13)
         bodies_per_env = self._rigid_body_state.shape[0] // self.num_envs
-        rigid_body_state_reshaped = self._rigid_body_state.view(self.num_envs, bodies_per_env, 13)
+        rigid_body_state_reshaped = self._rigid_body_state.view(self.num_envs, bodies_per_env, 13)  #! <- (1, 272, 13)
 
-        self._rigid_body_pos = rigid_body_state_reshaped[..., :self.num_bodies, 0:3]
-        self._rigid_body_rot = rigid_body_state_reshaped[..., :self.num_bodies, 3:7]
-        self._rigid_body_vel = rigid_body_state_reshaped[..., :self.num_bodies, 7:10]
-        self._rigid_body_ang_vel = rigid_body_state_reshaped[..., :self.num_bodies, 10:13]
+        self._rigid_body_pos = rigid_body_state_reshaped[..., :self.num_bodies, 0:3]        # torch.Size([1, 15, 3])    # 15: humanoid, 17: with sword
+        self._rigid_body_rot = rigid_body_state_reshaped[..., :self.num_bodies, 3:7]        # torch.Size([1, 15, 3])
+        self._rigid_body_vel = rigid_body_state_reshaped[..., :self.num_bodies, 7:10]       # torch.Size([1, 15, 3])
+        self._rigid_body_ang_vel = rigid_body_state_reshaped[..., :self.num_bodies, 10:13]  # torch.Size([1, 15, 3])
 
         contact_force_tensor = gymtorch.wrap_tensor(contact_force_tensor)
         self._contact_forces = contact_force_tensor.view(self.num_envs, bodies_per_env, 3)[..., :self.num_bodies, :]
@@ -123,7 +123,7 @@ class Humanoid(BaseTask):
         
         self._build_termination_heights()
         
-        contact_bodies = self.cfg["env"]["contactBodies"]
+        contact_bodies = self.cfg["env"]["contactBodies"]   #! humanoid: ["right_foot", "left_foot"]
         self._key_body_ids = self._build_key_body_ids_tensor(key_bodies)
         self._contact_body_ids = self._build_contact_body_ids_tensor(contact_bodies)
         
@@ -143,7 +143,7 @@ class Humanoid(BaseTask):
         return num_actors
 
     def create_sim(self):
-        self.up_axis_idx = self.set_sim_params_up_axis(self.sim_params, 'z')
+        self.up_axis_idx = self.set_sim_params_up_axis(self.sim_params, 'z')    #! set to z
         self.sim = super().create_sim(self.device_id, self.graphics_device_id, self.physics_engine, self.sim_params)
 
         self._create_ground_plane()
@@ -192,21 +192,22 @@ class Humanoid(BaseTask):
     def _create_ground_plane(self):
         plane_params = gymapi.PlaneParams()
         plane_params.normal = gymapi.Vec3(0.0, 0.0, 1.0)
-        plane_params.static_friction = self.plane_static_friction
-        plane_params.dynamic_friction = self.plane_dynamic_friction
-        plane_params.restitution = self.plane_restitution
+        plane_params.static_friction = self.plane_static_friction   #! from config
+        plane_params.dynamic_friction = self.plane_dynamic_friction #! from config
+        plane_params.restitution = self.plane_restitution           #! from config
         self.gym.add_ground(self.sim, plane_params)
         return
 
     def _setup_character_props(self, key_bodies):
         asset_file = self.cfg["env"]["asset"]["assetFileName"]
-        num_key_bodies = len(key_bodies)
+        num_key_bodies = len(key_bodies)    # data/cfg/train
 
         if (asset_file == "mjcf/amp_humanoid.xml"):
-            self._dof_body_ids = [1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14]
+            self._dof_body_ids = [1, 2, 3, 4, 6, 7, 9, 10, 11, 12, 13, 14] #! body that has joints attached!
             self._dof_offsets = [0, 3, 6, 9, 10, 13, 14, 17, 18, 21, 24, 25, 28]
-            self._dof_obs_size = 72
+            self._dof_obs_size = 72     #! 6 (joint_obs_size) * 12 (num_joints)
             self._num_actions = 28
+                            #! root_h + num_body * (pos, rot, ?, ?) - ?
             self._num_obs = 1 + 15 * (3 + 6 + 3 + 3) - 3
             
         elif (asset_file == "mjcf/amp_humanoid_sword_shield.xml"):
@@ -240,8 +241,9 @@ class Humanoid(BaseTask):
         self._termination_heights = to_torch(self._termination_heights, device=self.device)
         return
 
-    def _create_envs(self, num_envs, spacing, num_per_row):
-        lower = gymapi.Vec3(-spacing, -spacing, 0.0)
+    def _create_envs(self, num_envs, spacing, num_per_row):  
+        #! spacing: cfg: 5 / num_per_row: sqrt(num_env)
+        lower = gymapi.Vec3(-spacing, -spacing, 0.0)    #! for each env's local coordinate
         upper = gymapi.Vec3(spacing, spacing, spacing)
 
         asset_root = self.cfg["env"]["asset"]["assetRoot"]
@@ -254,18 +256,21 @@ class Humanoid(BaseTask):
         asset_options = gymapi.AssetOptions()
         asset_options.angular_damping = 0.01
         asset_options.max_angular_velocity = 100.0
-        asset_options.default_dof_drive_mode = gymapi.DOF_MODE_NONE
+        #! Default mode used to actuate Asset joints ->  lets the joints move freely within their range of motion
+        asset_options.default_dof_drive_mode = gymapi.DOF_MODE_NONE 
         #asset_options.fix_base_link = True
         humanoid_asset = self.gym.load_asset(self.sim, asset_root, asset_file, asset_options)
 
-        actuator_props = self.gym.get_asset_actuator_properties(humanoid_asset)
+        actuator_props = self.gym.get_asset_actuator_properties(humanoid_asset) #! Gets an array of actuator properties for the given asset
+ 
         motor_efforts = [prop.motor_effort for prop in actuator_props]
         
         # create force sensors at the feet
+        #! why?
         right_foot_idx = self.gym.find_asset_rigid_body_index(humanoid_asset, "right_foot")
         left_foot_idx = self.gym.find_asset_rigid_body_index(humanoid_asset, "left_foot")
-        sensor_pose = gymapi.Transform()
 
+        sensor_pose = gymapi.Transform()
         self.gym.create_asset_force_sensor(humanoid_asset, right_foot_idx, sensor_pose)
         self.gym.create_asset_force_sensor(humanoid_asset, left_foot_idx, sensor_pose)
 
@@ -273,9 +278,9 @@ class Humanoid(BaseTask):
         self.motor_efforts = to_torch(motor_efforts, device=self.device)
 
         self.torso_index = 0
-        self.num_bodies = self.gym.get_asset_rigid_body_count(humanoid_asset)
-        self.num_dof = self.gym.get_asset_dof_count(humanoid_asset)
-        self.num_joints = self.gym.get_asset_joint_count(humanoid_asset)
+        self.num_bodies = self.gym.get_asset_rigid_body_count(humanoid_asset)   #! <- 17
+        self.num_dof = self.gym.get_asset_dof_count(humanoid_asset)             #! <- 31
+        self.num_joints = self.gym.get_asset_joint_count(humanoid_asset)        #! <- 34
 
         self.humanoid_handles = []
         self.envs = []
@@ -285,10 +290,11 @@ class Humanoid(BaseTask):
         for i in range(self.num_envs):
             # create env instance
             env_ptr = self.gym.create_env(self.sim, lower, upper, num_per_row)
-            self._build_env(i, env_ptr, humanoid_asset)
+            self._build_env(i, env_ptr, humanoid_asset) #! env에 actor 넣어주기
             self.envs.append(env_ptr)
 
         dof_prop = self.gym.get_actor_dof_properties(self.envs[0], self.humanoid_handles[0])
+        #! dof angle limit을 xml에 맞게 저장
         for j in range(self.num_dof):
             if dof_prop['lower'][j] > dof_prop['upper'][j]:
                 self.dof_limits_lower.append(dof_prop['upper'][j])
@@ -301,13 +307,14 @@ class Humanoid(BaseTask):
         self.dof_limits_upper = to_torch(self.dof_limits_upper, device=self.device)
 
         if (self._pd_control):
+            #! todo 잘 안봄 다시보기!
             self._build_pd_action_offset_scale()
 
         return
     
     def _build_env(self, env_id, env_ptr, humanoid_asset):
-        col_group = env_id
-        col_filter = self._get_humanoid_collision_filter()
+        col_group = env_id  #! The actor will not collide with anything outside of the same collisionGroup
+        col_filter = self._get_humanoid_collision_filter()  #! return 0
         segmentation_id = 0
 
         start_pose = gymapi.Transform()
@@ -319,14 +326,15 @@ class Humanoid(BaseTask):
 
         humanoid_handle = self.gym.create_actor(env_ptr, humanoid_asset, start_pose, "humanoid", col_group, col_filter, segmentation_id)
 
-        self.gym.enable_actor_dof_force_sensors(env_ptr, humanoid_handle)
+        self.gym.enable_actor_dof_force_sensors(env_ptr, humanoid_handle)   #! True if DOF force collection is supported for this actor, False otherwise.
 
         for j in range(self.num_bodies):
             self.gym.set_rigid_body_color(env_ptr, humanoid_handle, j, gymapi.MESH_VISUAL, gymapi.Vec3(0.54, 0.85, 0.2))
 
         if (self._pd_control):
-            dof_prop = self.gym.get_asset_dof_properties(humanoid_asset)
-            dof_prop["driveMode"] = gymapi.DOF_MODE_POS
+            dof_prop = self.gym.get_asset_dof_properties(humanoid_asset)    #! structured dof_prop: 요소들이 어떤건지 보려면 print(dof_prop.dtype)
+
+            dof_prop["driveMode"] = gymapi.DOF_MODE_POS #! The DOF will respond to position target commands.
             self.gym.set_actor_dof_properties(env_ptr, humanoid_handle, dof_prop)
 
         self.humanoid_handles.append(humanoid_handle)
@@ -451,7 +459,6 @@ class Humanoid(BaseTask):
 
     def post_physics_step(self):
         self.progress_buf += 1
-
         self._refresh_sim_tensors()
         self._compute_observations()
         self._compute_reward(self.actions)
@@ -542,6 +549,7 @@ class Humanoid(BaseTask):
 #####################################################################
 
 @torch.jit.script
+#! pose: dof_pos 즉, exp_map for each dof (12개 joint의 exp_map의 각 요소들 -> 3 * 8 + 1 * 4 = 28개)
 def dof_to_obs(pose, dof_obs_size, dof_offsets):
     # type: (Tensor, int, List[int]) -> Tensor
     joint_obs_size = 6
@@ -609,50 +617,58 @@ def compute_humanoid_observations(root_pos, root_rot, root_vel, root_ang_vel, do
 
     obs = torch.cat((root_h_obs, root_rot_obs, local_root_vel, local_root_ang_vel, dof_obs, dof_vel, flat_local_key_pos), dim=-1)
     return obs
-
+'''
+# body_pos = self._rigid_body_pos[env_ids] # torch.Size([1, num_body, 3])
+# body_rot = self._rigid_body_rot[env_ids] # torch.Size([1, num_body, 4])
+# body_vel = self._rigid_body_vel[env_ids]
+# body_ang_vel = self._rigid_body_ang_vel[env_ids]
+'''
 @torch.jit.script
 def compute_humanoid_observations_max(body_pos, body_rot, body_vel, body_ang_vel, local_root_obs, root_height_obs):
     # type: (Tensor, Tensor, Tensor, Tensor, bool, bool) -> Tensor
-    root_pos = body_pos[:, 0, :]
-    root_rot = body_rot[:, 0, :]
-
-    root_h = root_pos[:, 2:3]
-    heading_rot = torch_utils.calc_heading_quat_inv(root_rot)
-    
+    root_pos = body_pos[:, 0, :]    # torch.Size([1, 3])
+    root_rot = body_rot[:, 0, :]    # torch.Size([1, 4])
+    root_h = root_pos[:, 2:3]       # get z-value
+    heading_rot = torch_utils.calc_heading_quat_inv(root_rot)   # quat from heading to ref_dir
     if (not root_height_obs):
         root_h_obs = torch.zeros_like(root_h)
     else:
         root_h_obs = root_h
     
+    #? local_body_pos 이해 안감
     heading_rot_expand = heading_rot.unsqueeze(-2)
-    heading_rot_expand = heading_rot_expand.repeat((1, body_pos.shape[1], 1))
+    heading_rot_expand = heading_rot_expand.repeat((1, body_pos.shape[1], 1))   # shape: [1, 15, 4]
     flat_heading_rot = heading_rot_expand.reshape(heading_rot_expand.shape[0] * heading_rot_expand.shape[1], 
-                                               heading_rot_expand.shape[2])
+                                                    heading_rot_expand.shape[2])        # shrink shape: [1, 15, 4] -> [15, 4]
     
-    root_pos_expand = root_pos.unsqueeze(-2)
-    local_body_pos = body_pos - root_pos_expand
-    flat_local_body_pos = local_body_pos.reshape(local_body_pos.shape[0] * local_body_pos.shape[1], local_body_pos.shape[2])
-    flat_local_body_pos = quat_rotate(flat_heading_rot, flat_local_body_pos)
-    local_body_pos = flat_local_body_pos.reshape(local_body_pos.shape[0], local_body_pos.shape[1] * local_body_pos.shape[2])
+    root_pos_expand = root_pos.unsqueeze(-2)            # shape: [1, 1, 3]
+    local_body_pos = body_pos - root_pos_expand         #! root_relative_position / shape: [1, 15, 3] / 15: num_body
+    flat_local_body_pos = local_body_pos.reshape(local_body_pos.shape[0] * local_body_pos.shape[1], local_body_pos.shape[2])    # shrink shape: [15, 3]/ 15: num_body
+    flat_local_body_pos = quat_rotate(flat_heading_rot, flat_local_body_pos)        #! local에서 바라본 root_relative_position of link / shape: [1, 15, 3]
+    local_body_pos = flat_local_body_pos.reshape(local_body_pos.shape[0], local_body_pos.shape[1] * local_body_pos.shape[2])    # [1, 15 * 3]
     local_body_pos = local_body_pos[..., 3:] # remove root pos
 
-    flat_body_rot = body_rot.reshape(body_rot.shape[0] * body_rot.shape[1], body_rot.shape[2])
-    flat_local_body_rot = quat_mul(flat_heading_rot, flat_body_rot)
-    flat_local_body_rot_obs = torch_utils.quat_to_tan_norm(flat_local_body_rot)
-    local_body_rot_obs = flat_local_body_rot_obs.reshape(body_rot.shape[0], body_rot.shape[1] * flat_local_body_rot_obs.shape[1])
+    flat_body_rot = body_rot.reshape(body_rot.shape[0] * body_rot.shape[1], body_rot.shape[2])  # shape: [15, 4]
+    flat_local_body_rot = quat_mul(flat_heading_rot, flat_body_rot) #! local(root coordinate)에서 바라본 body rot / shape: [15,4]
+    flat_local_body_rot_obs = torch_utils.quat_to_tan_norm(flat_local_body_rot) # shape: [15, 6]
+    local_body_rot_obs = flat_local_body_rot_obs.reshape(body_rot.shape[0], body_rot.shape[1] * flat_local_body_rot_obs.shape[1])   #shape: [1, 15 * 6]
     
+    #? 어 그럼 false면 이 안에 들어가는 값은 뭐지?
     if (local_root_obs):
         root_rot_obs = torch_utils.quat_to_tan_norm(root_rot)
         local_body_rot_obs[..., 0:6] = root_rot_obs
 
-    flat_body_vel = body_vel.reshape(body_vel.shape[0] * body_vel.shape[1], body_vel.shape[2])
-    flat_local_body_vel = quat_rotate(flat_heading_rot, flat_body_vel)
-    local_body_vel = flat_local_body_vel.reshape(body_vel.shape[0], body_vel.shape[1] * body_vel.shape[2])
+    flat_body_vel = body_vel.reshape(body_vel.shape[0] * body_vel.shape[1], body_vel.shape[2])  # torch.Size([15, 3])
+    flat_local_body_vel = quat_rotate(flat_heading_rot, flat_body_vel)                          #! local(root coordinate)에서 바라본 velocity torch.Size([15, 3])
+    local_body_vel = flat_local_body_vel.reshape(body_vel.shape[0], body_vel.shape[1] * body_vel.shape[2])  # torch.Size([1, 15 * 3])
     
-    flat_body_ang_vel = body_ang_vel.reshape(body_ang_vel.shape[0] * body_ang_vel.shape[1], body_ang_vel.shape[2])
-    flat_local_body_ang_vel = quat_rotate(flat_heading_rot, flat_body_ang_vel)
-    local_body_ang_vel = flat_local_body_ang_vel.reshape(body_ang_vel.shape[0], body_ang_vel.shape[1] * body_ang_vel.shape[2])
+    flat_body_ang_vel = body_ang_vel.reshape(body_ang_vel.shape[0] * body_ang_vel.shape[1], body_ang_vel.shape[2])   # torch.Size([15, 3])
+    flat_local_body_ang_vel = quat_rotate(flat_heading_rot, flat_body_ang_vel)                                       #! local(root coordinate)에서 바라본 velocity torch.Size([15, 3])
+    local_body_ang_vel = flat_local_body_ang_vel.reshape(body_ang_vel.shape[0], body_ang_vel.shape[1] * body_ang_vel.shape[2])   # torch.Size([1, 15 * 3])
     
+    #!! should add phase variable to observation
+
+    # shape: [1, 223] = 1 + (3 * 14) + (6 * 15) + (3 * 15) + (3 * 15)
     obs = torch.cat((root_h_obs, local_body_pos, local_body_rot_obs, local_body_vel, local_body_ang_vel), dim=-1)
     return obs
 
