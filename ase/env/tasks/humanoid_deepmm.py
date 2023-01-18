@@ -126,7 +126,9 @@ class HumanoidDeepmm(Humanoid):
         motion_times = motion_times.view(-1)    # flatten all [40]
 
         #!! added phase / shape: 40 [num_samples * amp_obs_steps]
-        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase \
+        phase = self._motion_lib._calc_phase(motion_ids, motion_times)
+
+        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos \
                 = self._motion_lib.get_motion_state(motion_ids, motion_times)
         amp_obs_demo = build_amp_observations(root_pos, root_rot, root_vel, root_ang_vel,
                                                 dof_pos, dof_vel, key_pos,
@@ -206,8 +208,10 @@ class HumanoidDeepmm(Humanoid):
         else:
             assert(False), "Unsupported state initialization strategy: {:s}".format(str(self._state_init))
         
-        #!! added phase shape: 40 [num_samples * amp_obs_steps]
-        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase \
+        #!! added phase / shape: 40 [num_samples * amp_obs_steps]
+        phase = self._motion_lib._calc_phase(motion_ids, motion_times)
+
+        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos \
                = self._motion_lib.get_motion_state(motion_ids, motion_times)
 
         self._set_env_state(env_ids=env_ids, 
@@ -264,8 +268,11 @@ class HumanoidDeepmm(Humanoid):
 
         motion_ids = motion_ids.view(-1)
         motion_times = motion_times.view(-1)
+
         #!! added phase / shape: 40 [num_samples * amp_obs_steps]
-        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase \
+        phase = self._motion_lib._calc_phase(motion_ids, motion_times)
+
+        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos \
                = self._motion_lib.get_motion_state(motion_ids, motion_times)
         amp_obs_demo = build_amp_observations(root_pos, root_rot, root_vel, root_ang_vel, 
                                               dof_pos, dof_vel, key_pos, 

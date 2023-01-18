@@ -201,9 +201,7 @@ class MotionLib():
         #! dof_pos는 local 각도 theta
         dof_pos = self._local_rotation_to_dof(local_rot)
 
-        #!! The one I added
-        phase = self._calc_phase(motion_times, motion_len)
-        return root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase
+        return root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos
     
     def _load_motions(self, motion_file):
         self._motions = []
@@ -295,8 +293,15 @@ class MotionLib():
         return motion_files, motion_weights
     
     ##!! The one I added
-    def _calc_phase(self, time, len):
-        phase = time / len
+    def _calc_phase(self, motion_ids, motion_times):
+        #? 그 전에는 motion ids, motion_times 모두 size= num_sample인 tensor였는데 len = 1??
+        n = len(motion_ids)
+        num_bodies = self._get_num_bodies()
+        num_key_bodies = self._key_body_ids.shape[0]
+
+        motion_len = self._motion_lengths[motion_ids]       # 1.3
+        phase = motion_times / motion_len
+        
         phase = torch.clip(phase, 0.0, 1.0)
 
         return phase
