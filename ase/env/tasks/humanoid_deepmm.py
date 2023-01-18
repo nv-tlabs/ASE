@@ -68,6 +68,9 @@ class HumanoidDeepmm(Humanoid):
 
         motion_file = cfg['env']['motion_file']
         self._load_motion(motion_file)
+
+        ##! added phase
+        self._phase = None
         
         #! shape: torch.Size([1, 10, 125]
         self._amp_obs_buf = torch.zeros((self.num_envs, self._num_amp_obs_steps, self._num_amp_obs_per_step), device=self.device, dtype=torch.float)
@@ -122,7 +125,8 @@ class HumanoidDeepmm(Humanoid):
         motion_ids = motion_ids.view(-1)        # flatten all [40]
         motion_times = motion_times.view(-1)    # flatten all [40]
 
-        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos \
+        #!! added phase / shape: 40 [num_samples * amp_obs_steps]
+        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase \
                 = self._motion_lib.get_motion_state(motion_ids, motion_times)
         amp_obs_demo = build_amp_observations(root_pos, root_rot, root_vel, root_ang_vel,
                                                 dof_pos, dof_vel, key_pos,
@@ -202,7 +206,8 @@ class HumanoidDeepmm(Humanoid):
         else:
             assert(False), "Unsupported state initialization strategy: {:s}".format(str(self._state_init))
         
-        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos \
+        #!! added phase shape: 40 [num_samples * amp_obs_steps]
+        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase \
                = self._motion_lib.get_motion_state(motion_ids, motion_times)
 
         self._set_env_state(env_ids=env_ids, 
@@ -259,7 +264,8 @@ class HumanoidDeepmm(Humanoid):
 
         motion_ids = motion_ids.view(-1)
         motion_times = motion_times.view(-1)
-        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos \
+        #!! added phase / shape: 40 [num_samples * amp_obs_steps]
+        root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase \
                = self._motion_lib.get_motion_state(motion_ids, motion_times)
         amp_obs_demo = build_amp_observations(root_pos, root_rot, root_vel, root_ang_vel, 
                                               dof_pos, dof_vel, key_pos, 

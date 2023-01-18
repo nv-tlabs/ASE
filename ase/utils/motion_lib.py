@@ -201,7 +201,9 @@ class MotionLib():
         #! dof_pos는 local 각도 theta
         dof_pos = self._local_rotation_to_dof(local_rot)
 
-        return root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos
+        #!! The one I added
+        phase = self._calc_phase(motion_times, motion_len)
+        return root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos, phase
     
     def _load_motions(self, motion_file):
         self._motions = []
@@ -291,9 +293,15 @@ class MotionLib():
             motion_weights = [1.0]
 
         return motion_files, motion_weights
+    
+    ##!! The one I added
+    def _calc_phase(self, time, len):
+        phase = time / len
+        phase = torch.clip(phase, 0.0, 1.0)
+
+        return phase
 
     def _calc_frame_blend(self, time, len, num_frames, dt):
-
         phase = time / len
         phase = torch.clip(phase, 0.0, 1.0)
 
