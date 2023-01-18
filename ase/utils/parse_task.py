@@ -26,6 +26,9 @@
 # OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+#!! should be always changed
+from env.tasks.humanoid_deepmm import HumanoidDeepmm
+
 from env.tasks.humanoid import Humanoid
 from env.tasks.humanoid_amp import HumanoidAMP
 from env.tasks.humanoid_amp_getup import HumanoidAMPGetup
@@ -48,16 +51,19 @@ def warn_task_name():
         "Unrecognized task!\nTask should be one of: [BallBalance, Cartpole, CartpoleYUp, Ant, Humanoid, Anymal, FrankaCabinet, Quadcopter, ShadowHand, ShadowHandLSTM, ShadowHandFFOpenAI, ShadowHandFFOpenAITest, ShadowHandOpenAI, ShadowHandOpenAITest, Ingenuity]")
 
 def parse_task(args, cfg, cfg_train, sim_params):
-
+    #! args는 get_args()로부터 얻어올 수 있음. defined in ase>utils.config.py
     # create native task and pass custom config
     device_id = args.device_id
     rl_device = args.rl_device
 
+    #! cfg에 seed 추가
     cfg["seed"] = cfg_train.get("seed", -1)
+    #! cfg에 "env", "sim" 2개의 section 중 "env"만!
     cfg_task = cfg["env"]
     cfg_task["seed"] = cfg["seed"]
 
     try:
+        #! 잘보면, Humanoid의 parameter와 같음. 대박!
         task = eval(args.task)(
             cfg=cfg,
             sim_params=sim_params,
@@ -68,6 +74,8 @@ def parse_task(args, cfg, cfg_train, sim_params):
     except NameError as e:
         print(e)
         warn_task_name()
+    # dict.get(key, value): 해당 키가 dict에 없을 때 value값 할당하고 value값 가져오기        
+    # Task: Humanoid인거지!
     env = VecTaskPythonWrapper(task, rl_device, cfg_train.get("clip_observations", np.inf), cfg_train.get("clip_actions", 1.0))
 
     return task, env
