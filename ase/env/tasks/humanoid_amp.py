@@ -338,7 +338,12 @@ def build_amp_observations(root_pos, root_rot, root_vel, root_ang_vel, dof_pos, 
                                                heading_rot_expand.shape[2])
     local_end_pos = quat_rotate(flat_heading_rot, flat_end_pos)
     flat_local_key_pos = local_end_pos.view(local_key_body_pos.shape[0], local_key_body_pos.shape[1] * local_key_body_pos.shape[2])
-    
+    #! normal-tangent encoding
     dof_obs = dof_to_obs(dof_pos, dof_obs_size, dof_offsets)
+    #! 40 == motion frame number
+    #? 왜 root에 대한 정보가 들어갔을까? [40, 125]
+    #! shape: root_h_obs: [40, 1] root_rot_obs: [40, 6] local_root_vel: [40, 3] 
+    #! local_root_ang_vel: [40, 3] dof_obs: [40, 72] dof_vel: [40, 28] flat_local_key_pos: [40, 12]
     obs = torch.cat((root_h_obs, root_rot_obs, local_root_vel, local_root_ang_vel, dof_obs, dof_vel, flat_local_key_pos), dim=-1)
+
     return obs
