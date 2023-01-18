@@ -52,9 +52,10 @@ class ReplayBuffer():
     def get_total_count(self):
         return self._total_count
 
-    def store(self, data_dict):
+    def store(self, data_dict): # amp의 경우 data_dict['amp_obs'].shape = (4, 1400)
         if (self._data_buf is None):
             self._init_data_buf(data_dict)
+
 
         n = next(iter(data_dict.values())).shape[0]
         buffer_size = self.get_buffer_size()
@@ -106,7 +107,7 @@ class ReplayBuffer():
         buffer_size = self.get_buffer_size()
         self._data_buf = dict()
 
-        for k, v in data_dict.items():
+        for k, v in data_dict.items():  #! k: amp_obs, v: 그에 해당하는 sample값(4, 1400)
             v_shape = v.shape[1:]
             self._data_buf[k] = torch.zeros((buffer_size,) + v_shape, device=self._device)
 
