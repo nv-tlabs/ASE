@@ -149,9 +149,13 @@ def calc_heading(q):
     # the heading is the direction on the xy plane
     # q must be normalized
     ref_dir = torch.zeros_like(q[..., 0:3])
-    ref_dir[..., 0] = 1
-    rot_dir = quat_rotate(q, ref_dir)
+    ref_dir[..., 0] = 1 #! [1, 0, 0]
 
+    #! q만큼 돌아갔을 때(orientation)의 ref_dir(local coordinate)를 global coordinate으로 표현 한 것: rot_dir
+    #! 여기서는 q의 x-axis(ref_dir)을 global coordinate로 표현한 것
+    rot_dir = quat_rotate(q, ref_dir)  #! q * v 한거고 , q는 extrinsic으로 생각하면됌. 
+
+    #! global coordinate의 xy plane에서의 각도!
     heading = torch.atan2(rot_dir[..., 1], rot_dir[..., 0])
     return heading
 
@@ -174,9 +178,10 @@ def calc_heading_quat_inv(q):
     # calculate heading rotation from quaternion
     # the heading is the direction on the xy plane
     # q must be normalized
-    heading = calc_heading(q)
+    heading = calc_heading(q)   #! root의 x_direction의 global coordinate의 x_axis에서부터의 각도
     axis = torch.zeros_like(q[..., 0:3])
-    axis[..., 2] = 1
+    axis[..., 2] = 1            #! to be theta in xy plane
 
+    #! -heading해주었으니, root의 x-axis에서부터 global coordinate의 x-axis까지의 각도
     heading_q = quat_from_angle_axis(-heading, axis)
     return heading_q
