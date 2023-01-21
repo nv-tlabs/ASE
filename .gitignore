@@ -6,3 +6,6 @@ __pycache__/
 output/
 log/
 nn/
+
+.vscode/
+.gitignore
