@@ -67,6 +67,8 @@ cfg_train = None
 
 def create_rlgpu_env(**kwargs):
     use_horovod = cfg_train['params']['config'].get('multi_gpu', False)
+    
+    #! For multi-GPU setting
     if use_horovod:
         import horovod.torch as hvd
 
@@ -187,26 +189,19 @@ class RLGPUEnv(vecenv.IVecEnv):
 
         return info
 
-# lambda function
-# 1. lambda [parameter list]: expression
-# 위 식과 동등
-# 2. def function(parameter list):
-#       return expression
 vecenv.register('RLGPU', lambda config_name, num_actors, **kwargs: RLGPUEnv(config_name, num_actors, **kwargs))
-'''
-env_configurations: env 만들 수 있다!
-env_configurations.configurations 안에 아래 변수 추가됌
-'rlgpu', {
-    'vecenv_type': 'RLGPU'
-    'env_creator': lambda **kwargs: create_rlgpu_env(**kwargs),
-    }
-'''
 env_configurations.register('rlgpu', {
     'env_creator': lambda **kwargs: create_rlgpu_env(**kwargs),
     'vecenv_type': 'RLGPU'})
 
 def build_alg_runner(algo_observer):
-    runner = Runner(algo_observer)
+    runner = Runner(algo_observer)  #! make runner which control all isaacGym work
+
+    """ 
+        Factory is consisted of class of builder(algo : trainer, player : tester, model : )
+        In this fn, runner register the following classes additionally
+        In call runner.load(cfg_train) step, runner makes corresponding class objects written as cfg_train file(builder)
+    """
 
     runner.algo_factory.register_builder('deepmm', lambda **kwargs : deepmm_agent.DeepmmAgent(**kwargs))
     runner.player_factory.register_builder('deepmm', lambda **kwargs : deepmm_players.DeepmmPlayerContinuous(**kwargs))
@@ -235,36 +230,38 @@ def main():
     global cfg
     global cfg_train
 
-    set_np_formatting()
-    args = get_args()
-    cfg, cfg_train, logdir = load_cfg(args)
+    set_np_formatting()                             #! set np print option for debugging
+    args = get_args()                               #! parse args and use it for isaacGym setting
+    cfg, cfg_train, logdir = load_cfg(args)         #! divide args to cfg, cfg_train(dictionary from yml file loading), respectively
 
+                                                    #! set seed, and cuDnn non-deterministic property
     cfg_train['params']['seed'] = set_seed(cfg_train['params'].get("seed", -1), cfg_train['params'].get("torch_deterministic", False))
 
-    if args.horovod:
+
+    if args.horovod:                                #! manipulate Mutli-GPU case
         cfg_train['params']['config']['multi_gpu'] = args.horovod
 
-    if args.horizon_length != -1:
+    if args.horizon_length != -1:                   #! total simulation length regardless of env reset
         cfg_train['params']['config']['horizon_length'] = args.horizon_length
 
-    if args.minibatch_size != -1:
+    if args.minibatch_size != -1:                   #! ppo optimization minibatch epoch update
         cfg_train['params']['config']['minibatch_size'] = args.minibatch_size
         
-    if args.motion_file:
+    if args.motion_file:                            #! set designated motion file
         cfg['env']['motion_file'] = args.motion_file
     
     # Create default directories for weights and statistics
     cfg_train['params']['config']['train_dir'] = args.output_path
     
-    vargs = vars(args)
+ 
+    vargs = vars(args)                              #! convert args to dictionary
 
-    algo_observer = RLGPUAlgoObserver()
+    algo_observer = RLGPUAlgoObserver()             #! make RLGPU env observer
 
-    runner = build_alg_runner(algo_observer)
-    #! train config의 ["params"]를 runner의 config로 저장
-    runner.load(cfg_train)
-    runner.reset()
-    runner.run(vargs)
+    runner = build_alg_runner(algo_observer)        #! make Runner for RLtask with algo observer
+    runner.load(cfg_train)                          #! set config in Runner to cfg_train
+    runner.reset()                                  #! reset Runner, yet implemented nothing in this fn 
+    runner.run(vargs)                               #! start run Runner with vargs file -> train / play w.r.t --train in args
 
     return
 

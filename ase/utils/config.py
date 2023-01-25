@@ -91,33 +91,34 @@ def load_cfg(args):
     if args.episode_length > 0:
         cfg["env"]["episodeLength"] = args.episode_length
 
-    cfg["name"] = args.task
+    cfg["name"] = args.task                             #! augment task name == agent class name (eg, humanoidAMP)
     cfg["headless"] = args.headless
 
     # Set physics domain randomization
-    if "task" in cfg:
+    if "task" in cfg:                                   #! not task key in all cfg file
         if "randomize" not in cfg["task"]:
             cfg["task"]["randomize"] = args.randomize
         else:
             cfg["task"]["randomize"] = args.randomize or cfg["task"]["randomize"]
     else:
-        cfg["task"] = {"randomize": False}
+        cfg["task"] = {"randomize": False}              #! cfg[task][randomize] = False
 
     logdir = args.logdir
+    
     # Set deterministic mode
-    if args.torch_deterministic:
-        cfg_train["params"]["torch_deterministic"] = True
+    if args.torch_deterministic:                            #! Default torch deterministic set as False
+        cfg_train["params"]["torch_deterministic"] = True    
 
-    exp_name = cfg_train["params"]["config"]['name']
+    exp_name = cfg_train["params"]["config"]['name']        #! Humanoid (for all ase, amp train yaml)
 
-    if args.experiment != 'Base':
+    if args.experiment != 'Base':                           #! Default is Base -> experiment name is Humanoid
         if args.metadata:
             exp_name = "{}_{}_{}_{}".format(args.experiment, args.task_type, args.device, str(args.physics_engine).split("_")[-1])
 
             if cfg["task"]["randomize"]:
                 exp_name += "_DR"
         else:
-             exp_name = args.experiment
+             exp_name = args.experiment                     
 
     # Override config name
     cfg_train["params"]["config"]['name'] = exp_name
@@ -135,15 +136,15 @@ def load_cfg(args):
     if args.max_iterations > 0:
         cfg_train["params"]["config"]['max_epochs'] = args.max_iterations
 
-    cfg_train["params"]["config"]["num_actors"] = cfg["env"]["numEnvs"]
+    cfg_train["params"]["config"]["num_actors"] = cfg["env"]["numEnvs"]         #! numEnvs = num_actors(not agents)
 
     seed = cfg_train["params"].get("seed", -1)
     if args.seed is not None:
         seed = args.seed
     cfg["seed"] = seed
-    cfg_train["params"]["seed"] = seed
+    cfg_train["params"]["seed"] = seed                                          #! synchronize seed for cfg and cfg_train
 
-    cfg["args"] = args
+    cfg["args"] = args                                                          #! append args dictornary to cfg
 
     return cfg, cfg_train, logdir
 
@@ -242,11 +243,11 @@ def get_args(benchmark=False):
     # parse arguments
     args = gymutil.parse_arguments(
         description="RL Policy",
-        custom_parameters=custom_parameters)
+        custom_parameters=custom_parameters)                                #! parse args augmented with gym setting, default engine = PHYSX
 
     # allignment with examples
-    args.device_id = args.compute_device_id
-    args.device = args.sim_device_type if args.use_gpu_pipeline else 'cpu'
+    args.device_id = args.compute_device_id                                 #! 0    in cuda:0
+    args.device = args.sim_device_type if args.use_gpu_pipeline else 'cpu'  #! cuda in cuda:0
 
     if args.test:
         args.play = args.test
