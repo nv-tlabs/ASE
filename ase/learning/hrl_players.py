@@ -82,7 +82,8 @@ class HRLPlayer(common_player.CommonPlayer):
             current_action = mu
         else:
             current_action = action
-        current_action = torch.squeeze(current_action.detach())
+        
+        current_action = current_action.detach()
         clamped_actions = torch.clamp(current_action, -1.0, 1.0)
         
         return clamped_actions
