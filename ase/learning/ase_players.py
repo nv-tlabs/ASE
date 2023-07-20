@@ -83,7 +83,7 @@ class ASEPlayer(amp_players.AMPPlayerContinuous):
             current_action = mu
         else:
             current_action = action
-        current_action = torch.squeeze(current_action.detach())
+        current_action = current_action.detach()
         return  players.rescale_actions(self.actions_low, self.actions_high, torch.clamp(current_action, -1.0, 1.0))
 
     def env_reset(self, env_ids=None):
