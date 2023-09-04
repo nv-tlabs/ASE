@@ -33,7 +33,7 @@ import torch
 from isaacgym import gymapi
 from isaacgym import gymtorch
 
-from env.tasks.humanoid import Humanoid, dof_to_obs, compute_humanoid_observations_max
+from env.tasks.humanoid import Humanoid, dof_to_obs
 from utils import gym_util
 from utils.motion_lib import MotionLib
 from isaacgym.torch_utils import *
@@ -72,8 +72,6 @@ class HumanoidAMP(Humanoid):
         self._hist_amp_obs_buf = self._amp_obs_buf[:, 1:]
         
         self._amp_obs_demo_buf = None
-
-        self._kinematic_humanoid_rigid_body_states = torch.zeros((self.num_envs, self.num_bodies, 13), device=self.device, dtype=torch.float)
 
         return
 
@@ -178,15 +176,6 @@ class HumanoidAMP(Humanoid):
             self._reset_hybrid_state_init(env_ids)
         else:
             assert(False), "Unsupported state initialization strategy: {:s}".format(str(self._state_init))
-
-        if (len(self._reset_default_env_ids) > 0):
-            self._kinematic_humanoid_rigid_body_states[self._reset_default_env_ids] = self._initial_humanoid_rigid_body_states[self._reset_default_env_ids]
-
-        if (len(self._reset_ref_env_ids) > 0):
-            body_pos, body_rot, body_vel, body_ang_vel \
-                = self._motion_lib.get_motion_state_max(self._reset_ref_motion_ids, self._reset_ref_motion_times)
-            self._kinematic_humanoid_rigid_body_states[self._reset_ref_env_ids] = torch.cat((body_pos, body_rot, body_vel, body_ang_vel), dim=-1)
-        
         return
     
     def _reset_default(self, env_ids):
@@ -294,8 +283,8 @@ class HumanoidAMP(Humanoid):
         return
     
     def _compute_amp_observations(self, env_ids=None):
+        key_body_pos = self._rigid_body_pos[:, self._key_body_ids, :]
         if (env_ids is None):
-            key_body_pos = self._rigid_body_pos[:, self._key_body_ids, :]
             self._curr_amp_obs_buf[:] = build_amp_observations(self._rigid_body_pos[:, 0, :],
                                                                self._rigid_body_rot[:, 0, :],
                                                                self._rigid_body_vel[:, 0, :],
@@ -304,33 +293,15 @@ class HumanoidAMP(Humanoid):
                                                                self._local_root_obs, self._root_height_obs, 
                                                                self._dof_obs_size, self._dof_offsets)
         else:
-            kinematic_rigid_body_pos = self._kinematic_humanoid_rigid_body_states[:, :, 0:3]
-            key_body_pos = kinematic_rigid_body_pos[:, self._key_body_ids, :]
-            self._curr_amp_obs_buf[env_ids] = build_amp_observations(self._kinematic_humanoid_rigid_body_states[env_ids, 0, 0:3],
-                                                                   self._kinematic_humanoid_rigid_body_states[env_ids, 0, 3:7],
-                                                                   self._kinematic_humanoid_rigid_body_states[env_ids, 0, 7:10],
-                                                                   self._kinematic_humanoid_rigid_body_states[env_ids, 0, 10:13],
+            self._curr_amp_obs_buf[env_ids] = build_amp_observations(self._rigid_body_pos[env_ids][:, 0, :],
+                                                                   self._rigid_body_rot[env_ids][:, 0, :],
+                                                                   self._rigid_body_vel[env_ids][:, 0, :],
+                                                                   self._rigid_body_ang_vel[env_ids][:, 0, :],
                                                                    self._dof_pos[env_ids], self._dof_vel[env_ids], key_body_pos[env_ids],
                                                                    self._local_root_obs, self._root_height_obs, 
                                                                    self._dof_obs_size, self._dof_offsets)
         return
 
-    def _compute_humanoid_obs(self, env_ids=None):
-        if (env_ids is None):
-            body_pos = self._rigid_body_pos
-            body_rot = self._rigid_body_rot
-            body_vel = self._rigid_body_vel
-            body_ang_vel = self._rigid_body_ang_vel
-        else:
-            body_pos = self._kinematic_humanoid_rigid_body_states[env_ids, :, 0:3]
-            body_rot = self._kinematic_humanoid_rigid_body_states[env_ids, :, 3:7]
-            body_vel = self._kinematic_humanoid_rigid_body_states[env_ids, :, 7:10]
-            body_ang_vel = self._kinematic_humanoid_rigid_body_states[env_ids, :, 10:13]
-        
-        obs = compute_humanoid_observations_max(body_pos, body_rot, body_vel, body_ang_vel, self._local_root_obs,
-                                                self._root_height_obs)
-
-        return obs
 
 #####################################################################
 ###=========================jit functions=========================###

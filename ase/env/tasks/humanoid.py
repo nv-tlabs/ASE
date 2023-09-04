@@ -116,9 +116,6 @@ class Humanoid(BaseTask):
         self._rigid_body_vel = rigid_body_state_reshaped[..., :self.num_bodies, 7:10]
         self._rigid_body_ang_vel = rigid_body_state_reshaped[..., :self.num_bodies, 10:13]
 
-        self._initial_humanoid_rigid_body_states = rigid_body_state_reshaped[..., :self.num_bodies].clone()
-        self._initial_humanoid_rigid_body_states[..., 7:13] = 0
-
         contact_force_tensor = gymtorch.wrap_tensor(contact_force_tensor)
         self._contact_forces = contact_force_tensor.view(self.num_envs, bodies_per_env, 3)[..., :self.num_bodies, :]
         

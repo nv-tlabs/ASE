@@ -101,11 +101,6 @@ class HumanoidAMPGetup(HumanoidAMP):
         self._fall_dof_pos = self._dof_pos.clone()
         self._fall_dof_vel = torch.zeros_like(self._dof_vel, device=self.device, dtype=torch.float)
 
-        rigid_body_state = gymtorch.wrap_tensor(self.gym.acquire_rigid_body_state_tensor(self.sim))
-        bodies_per_env = rigid_body_state.shape[0] // self.num_envs
-        rigid_body_state_reshaped = rigid_body_state.view(self.num_envs, bodies_per_env, 13)
-        self._fall_rigid_body_states = rigid_body_state_reshaped[..., :self.num_bodies].clone()
-
         return
 
     def _reset_actors(self, env_ids):
@@ -126,7 +121,6 @@ class HumanoidAMPGetup(HumanoidAMP):
         fall_ids = nonrecovery_ids[fall_mask]
         if (len(fall_ids) > 0):
             self._reset_fall_episode(fall_ids)
-            self._kinematic_humanoid_rigid_body_states[fall_ids] = self._fall_rigid_body_states[fall_ids]
             
 
         nonfall_ids = nonrecovery_ids[torch.logical_not(fall_mask)]

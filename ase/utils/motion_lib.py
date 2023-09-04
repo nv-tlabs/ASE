@@ -107,11 +107,6 @@ class MotionLib():
         self.gravs = torch.cat([m.global_root_angular_velocity for m in motions], dim=0).float()
         self.dvs = torch.cat([m.dof_vels for m in motions], dim=0).float()
 
-        self.gvs = torch.cat([m.global_velocity for m in motions], dim=0).float()
-        self.gavs = torch.cat([m.global_angular_velocity for m in motions], dim=0).float()
-
-        self.skeleton_tree = motions[0].skeleton_tree
-
         lengths = self._motion_num_frames
         lengths_shifted = lengths.roll(1)
         lengths_shifted[0] = 0
@@ -196,61 +191,17 @@ class MotionLib():
 
         root_rot = torch_utils.slerp(root_rot0, root_rot1, blend)
 
-        blend_exp = blend.unsqueeze(-1)
-        key_pos = (1.0 - blend_exp) * key_pos0 + blend_exp * key_pos1
+        # blend_exp = blend.unsqueeze(-1)
+        # key_pos = (1.0 - blend_exp) * key_pos0 + blend_exp * key_pos1
         
         local_rot = torch_utils.slerp(local_rot0, local_rot1, torch.unsqueeze(blend, axis=-1))
         dof_pos = self._local_rotation_to_dof(local_rot)
 
+        # Interpolating in reduced coordinate for calculating correct postions for key rigid bodies at an intermediate timestep
+        sk_state = SkeletonState.from_rotation_and_root_translation(self._motions[0].skeleton_tree, local_rot.cpu(), root_pos.cpu(), is_local=True).global_repr()
+        key_pos = sk_state.global_translation[:, self._key_body_ids, :].to(self._device)
+
         return root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos
-    
-    def get_motion_state_max(self, motion_ids, motion_times):
-        n = len(motion_ids)
-        num_bodies = self._get_num_bodies()
-        num_key_bodies = self._key_body_ids.shape[0]
-
-        motion_len = self._motion_lengths[motion_ids]
-        num_frames = self._motion_num_frames[motion_ids]
-        dt = self._motion_dt[motion_ids]
-
-        frame_idx0, frame_idx1, blend = self._calc_frame_blend(motion_times, motion_len, num_frames, dt)
-
-        f0l = frame_idx0 + self.length_starts[motion_ids]
-        f1l = frame_idx1 + self.length_starts[motion_ids]
-
-        root_pos0 = self.gts[f0l, 0]
-        root_pos1 = self.gts[f1l, 0]
-        local_rot0 = self.lrs[f0l]
-        local_rot1 = self.lrs[f1l]
-
-        # velocities of rigid bodies are still incorrect, 
-        # because the relationship between joint rotations and rigid body vel is nonlinear. 
-        body_vel = self.gvs[f0l]
-
-        body_ang_vel = self.gavs[f0l]
-
-        vals = [root_pos0, root_pos1, local_rot0, local_rot1, body_vel, body_ang_vel]
-        for v in vals:
-            assert v.dtype != torch.float64
-
-        blend = blend.unsqueeze(-1)
-        blend_exp = blend.unsqueeze(-1)
-
-        # interpolate in reduced coordinate
-        root_pos = (1.0 - blend) * root_pos0 + blend * root_pos1
-        local_rot = torch_utils.slerp(local_rot0, local_rot1, blend_exp)
-
-        # transform to maximal coordinate
-        new_sk_state = SkeletonState.from_rotation_and_root_translation(
-            self.skeleton_tree,
-            local_rot,
-            root_pos,
-            is_local=True
-        ).global_repr()
-        body_pos = new_sk_state.global_translation
-        body_rot = new_sk_state.global_rotation
-
-        return body_pos, body_rot, body_vel, body_ang_vel
 
     def _load_motions(self, motion_file):
         self._motions = []
