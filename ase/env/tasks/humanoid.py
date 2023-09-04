@@ -641,7 +641,7 @@ def compute_humanoid_observations_max(body_pos, body_rot, body_vel, body_ang_vel
     flat_local_body_rot_obs = torch_utils.quat_to_tan_norm(flat_local_body_rot)
     local_body_rot_obs = flat_local_body_rot_obs.reshape(body_rot.shape[0], body_rot.shape[1] * flat_local_body_rot_obs.shape[1])
     
-    if (local_root_obs):
+    if (not local_root_obs):
         root_rot_obs = torch_utils.quat_to_tan_norm(root_rot)
         local_body_rot_obs[..., 0:6] = root_rot_obs
 

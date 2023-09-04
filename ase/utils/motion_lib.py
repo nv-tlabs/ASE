@@ -30,7 +30,7 @@ import numpy as np
 import os
 import yaml
 
-from poselib.poselib.skeleton.skeleton3d import SkeletonMotion
+from poselib.poselib.skeleton.skeleton3d import SkeletonMotion, SkeletonState
 from poselib.poselib.core.rotation3d import *
 from isaacgym.torch_utils import *
 
@@ -191,14 +191,18 @@ class MotionLib():
 
         root_rot = torch_utils.slerp(root_rot0, root_rot1, blend)
 
-        blend_exp = blend.unsqueeze(-1)
-        key_pos = (1.0 - blend_exp) * key_pos0 + blend_exp * key_pos1
+        # blend_exp = blend.unsqueeze(-1)
+        # key_pos = (1.0 - blend_exp) * key_pos0 + blend_exp * key_pos1
         
         local_rot = torch_utils.slerp(local_rot0, local_rot1, torch.unsqueeze(blend, axis=-1))
         dof_pos = self._local_rotation_to_dof(local_rot)
 
+        # Interpolating in reduced coordinate for calculating correct postions for key rigid bodies at an intermediate timestep
+        sk_state = SkeletonState.from_rotation_and_root_translation(self._motions[0].skeleton_tree, local_rot.cpu(), root_pos.cpu(), is_local=True).global_repr()
+        key_pos = sk_state.global_translation[:, self._key_body_ids, :].to(self._device)
+
         return root_pos, root_rot, dof_pos, root_vel, root_ang_vel, dof_vel, key_pos
-    
+
     def _load_motions(self, motion_file):
         self._motions = []
         self._motion_lengths = []
