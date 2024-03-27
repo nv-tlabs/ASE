@@ -190,29 +190,9 @@ def quat_from_rotation_matrix(m):
     y = (((-diag0 + diag1 - diag2 + 1.0) / 4.0).clamp(0.0, None)) ** 0.5
     z = (((-diag0 - diag1 + diag2 + 1.0) / 4.0).clamp(0.0, None)) ** 0.5
 
-    # Only modify quaternions where w > x, y, z.
-    c0 = (w >= x) & (w >= y) & (w >= z)
-    x[c0] *= (m[..., 2, 1][c0] - m[..., 1, 2][c0]).sign()
-    y[c0] *= (m[..., 0, 2][c0] - m[..., 2, 0][c0]).sign()
-    z[c0] *= (m[..., 1, 0][c0] - m[..., 0, 1][c0]).sign()
-
-    # Only modify quaternions where x > w, y, z
-    c1 = (x >= w) & (x >= y) & (x >= z)
-    w[c1] *= (m[..., 2, 1][c1] - m[..., 1, 2][c1]).sign()
-    y[c1] *= (m[..., 1, 0][c1] + m[..., 0, 1][c1]).sign()
-    z[c1] *= (m[..., 0, 2][c1] + m[..., 2, 0][c1]).sign()
-
-    # Only modify quaternions where y > w, x, z.
-    c2 = (y >= w) & (y >= x) & (y >= z)
-    w[c2] *= (m[..., 0, 2][c2] - m[..., 2, 0][c2]).sign()
-    x[c2] *= (m[..., 1, 0][c2] + m[..., 0, 1][c2]).sign()
-    z[c2] *= (m[..., 2, 1][c2] + m[..., 1, 2][c2]).sign()
-
-    # Only modify quaternions where z > w, x, y.
-    c3 = (z >= w) & (z >= x) & (z >= y)
-    w[c3] *= (m[..., 1, 0][c3] - m[..., 0, 1][c3]).sign()
-    x[c3] *= (m[..., 2, 0][c3] + m[..., 0, 2][c3]).sign()
-    y[c3] *= (m[..., 2, 1][c3] + m[..., 1, 2][c3]).sign()
+    x *= (m[..., 2, 1] - m[..., 1, 2]).sign()
+    y *= (m[..., 0, 2] - m[..., 2, 0]).sign()
+    z *= (m[..., 1, 0] - m[..., 0, 1]).sign()
 
     return quat_normalize(torch.stack([x, y, z, w], dim=-1)).squeeze(0)
 
