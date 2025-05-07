@@ -1,0 +1,15 @@
+@article{
+	2022-TOG-ASE,
+	author = {Peng, Xue Bin and Guo, Yunrong and Halper, Lina and Levine, Sergey and Fidler, Sanja},
+	title = {ASE: Large-scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters},
+	journal = {ACM Trans. Graph.},
+	issue_date = {August 2022},
+	volume = {41},
+	number = {4},
+	month = jul,
+	year = {2022},
+	articleno = {94},
+	publisher = {ACM},
+	address = {New York, NY, USA},
+	keywords = {motion control, physics-based character animation, reinforcement learning}
+}

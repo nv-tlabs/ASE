@@ -1,0 +1,5 @@
+torch==1.8.1
+numpy==1.21.1
+termcolor==1.1.0
+rl-games==1.1.4
+tensorboard==1.15.0
