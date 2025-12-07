@@ -1,5 +1,7 @@
 # Adversarial Skill Embeddings
 
+**This codebase is now deprecated.** Checkout [MimicKit](https://github.com/xbpeng/MimicKit/) for much faster and easy-to-use implementations of our methods.
+
 Code accompanying the paper:
 "ASE: Large-Scale Reusable Adversarial Skill Embeddings for Physically Simulated Characters" \
 (https://xbpeng.github.io/projects/ASE/index.html) \
